@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-1646 and https://ca-mmisds.atlassian.net/browse/FDR-3137</description>
+   <name>FDR-Add-FundRatioDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>feeef5d8-06ca-42bb-9bb6-395ec669bfeb</testCaseGuid>
+</TestCaseEntity>

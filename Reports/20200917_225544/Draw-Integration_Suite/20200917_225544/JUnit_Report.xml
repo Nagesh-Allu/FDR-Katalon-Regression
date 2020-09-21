@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Draw-Integration_Suite" time="61.818" tests="1" failures="0" errors="0">
+   <testsuite name="Draw-Integration_Suite" tests="1" failures="0" errors="0" time="61.818" timestamp="2020-09-17 22:55:46" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Draw-Integration_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_225544\\Draw-Integration_Suite\\20200917_225544"/>
+         <property name="logFiles" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_225544\\Draw-Integration_Suite\\20200917_225544\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="bb14b50fbc87a2c5f9370777bb3f6efc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Expanding-Collpasing" time="58.619" classname="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Expanding-Collpasing" status="PASSED">
+         <system-out><![CDATA[2020-09-17 22:55:46 - [TEST_CASE][PASSED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Expanding-Collpasing: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Expanding-Collpasing
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - if (account6TestCases.contains(testCaseId)): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 22:55:46 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(drawCashierAcc6, drawCashierAcc6Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 22:55:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 22:55:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 22:55:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 22:55:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 22:55:54 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 22:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-17 22:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 22:55:56 - [MESSAGE][PASSED] - Text 'fdr.test6@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-17 22:55:57 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-17 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-17 22:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-17 22:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-17 22:56:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-17 22:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 22:56:03 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 22:56:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:56:03 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:56:03 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-17 22:56:03 - [TEST_STEP][PASSED] - drawDate = "09/28/2020": null
+
+2020-09-17 22:56:03 - [TEST_STEP][PASSED] - Uifunctions.clickOnReconcileButton(drawDate): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 22:56:05 - [MESSAGE][PASSED] - Object: 'expandButton' is clicked on
+
+2020-09-17 22:56:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:09 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 22:56:10 - [MESSAGE][PASSED] - Text of object 'drawDate' is: '09/28/2020'
+
+2020-09-17 22:56:10 - [MESSAGE][PASSED] - Object: 'expandButton' is clicked on
+
+2020-09-17 22:56:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:12 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-17 22:56:13 - [MESSAGE][PASSED] - Object: 'reconcileButton' is clicked on
+
+2020-09-17 22:56:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:17 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 22:56:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-17 22:56:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-17 22:56:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 22:56:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:27 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 22:56:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("FDR-Draw/VoucherExpenditure/voucherLineAmt"), 3): Scroll to object 'Object Repository/FDR-Draw/VoucherExpenditure/voucherLineAmt' successfully
+
+2020-09-17 22:56:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FDR-Draw/VoucherExpenditure/voucherLineAmt' successfully
+
+2020-09-17 22:56:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/VoucherExpenditure/voucherLineAmt"), 2): Object 'Object Repository/FDR-Draw/VoucherExpenditure/voucherLineAmt' is present
+
+2020-09-17 22:56:28 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/VoucherExpenditure/voucherLineAmt' is present
+
+2020-09-17 22:56:28 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Draw/VoucherExpenditure/receiptExpandButton1")): Object: 'Object Repository/FDR-Draw/VoucherExpenditure/receiptExpandButton1' is clicked on
+
+2020-09-17 22:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Draw/VoucherExpenditure/receiptExpandButton1' is clicked on
+
+2020-09-17 22:56:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/VoucherExpenditure/voucherLineAmt2"), 3): Object 'Object Repository/FDR-Draw/VoucherExpenditure/voucherLineAmt2' is present
+
+2020-09-17 22:56:29 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/VoucherExpenditure/voucherLineAmt2' is present
+
+2020-09-17 22:56:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 22:56:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:35 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 22:56:35 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Draw/VoucherExpenditure/receiptExpandButton1")): Object: 'Object Repository/FDR-Draw/VoucherExpenditure/receiptExpandButton1' is clicked on
+
+2020-09-17 22:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Draw/VoucherExpenditure/receiptExpandButton1' is clicked on
+
+2020-09-17 22:56:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 22:56:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:40 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 22:56:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("FDR-Draw/VoucherExpenditure/receiptLineAmt"), 4): Scroll to object 'Object Repository/FDR-Draw/VoucherExpenditure/receiptLineAmt' successfully
+
+2020-09-17 22:56:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FDR-Draw/VoucherExpenditure/receiptLineAmt' successfully
+
+2020-09-17 22:56:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 22:56:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:56:44 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/VoucherExpenditure/receiptLineAmt"), 4): Object 'Object Repository/FDR-Draw/VoucherExpenditure/receiptLineAmt' is present
+
+2020-09-17 22:56:44 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/VoucherExpenditure/receiptLineAmt' is present
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 22:56:44 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-17 22:56:45 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-17 22:56:45 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 22:56:45 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 22:55:46 - [TEST_SUITE][PASSED] - Draw-Integration_Suite: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Expanding-Collpasing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Voucher-Integration_Suite,Chrome 85.0.4183.102,,,2020-09-19 18:18:37,2020-09-19 18:22:03,3m - 26.541s,FAILED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher,Chrome 85.0.4183.102,,,2020-09-19 18:18:38,2020-09-19 18:22:03,3m - 25.676s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:18:38,2020-09-19 18:18:38,0.009s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:18:38,2020-09-19 18:18:38,0.003s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:18:38,2020-09-19 18:18:56,18.154s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-19 18:18:56,2020-09-19 18:18:56,0.063s,PASSED
+Start setup action : setupTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:18:56,2020-09-19 18:18:56,0.277s,PASSED
+"voucherHeaderData = [""drawDate"":drawDate, ""payDate"":payDate, ""programType"":programType, ""invoiceType"":invoiceType, ""fundCode"":fundCode, ""supplier"":supplier, ... ]",Chrome 85.0.4183.102,,,2020-09-19 18:18:56,2020-09-19 18:18:56,0.002s,PASSED
+Uifunctions.createVoucherHeader(voucherHeaderData),Chrome 85.0.4183.102,,,2020-09-19 18:18:56,2020-09-19 18:19:41,44.920s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-19 18:19:41,2020-09-19 18:19:46,5.192s,PASSED
+Uifunctions.createInvoiceLine(1),Chrome 85.0.4183.102,,,2020-09-19 18:19:46,2020-09-19 18:20:27,40.976s,FAILED
+"waitForElementClickable(findTestObject(""FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton""), 5)",Chrome 85.0.4183.102,,,2020-09-19 18:20:27,2020-09-19 18:20:34,6.152s,PASSED
+"click(findTestObject(""FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton""))",Chrome 85.0.4183.102,,,2020-09-19 18:20:34,2020-09-19 18:20:38,4.517s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-19 18:20:38,2020-09-19 18:20:43,5.289s,PASSED
+"click(findTestObject(""FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton""))",Chrome 85.0.4183.102,,,2020-09-19 18:20:43,2020-09-19 18:20:48,4.467s,FAILED
+"Uifunctions.createDistributionLines(1, ""Voucher/FDR-DL"")",Chrome 85.0.4183.102,,,2020-09-19 18:20:48,2020-09-19 18:22:03,1m - 14.840s,FAILED
+Start tear down : tearDownTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:22:03,2020-09-19 18:22:03,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:22:03,2020-09-19 18:22:03,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:22:03,2020-09-19 18:22:03,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-19 18:22:03,2020-09-19 18:22:03,0.699s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-19 18:22:03,2020-09-19 18:22:03,0.002s,PASSED

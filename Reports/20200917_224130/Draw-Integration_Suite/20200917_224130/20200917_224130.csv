@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Draw-Integration_Suite,Chrome 85.0.4183.102,,,2020-09-17 22:41:31,2020-09-17 22:42:22,50.656s,FAILED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers,Chrome 85.0.4183.102,,,2020-09-17 22:41:32,2020-09-17 22:42:22,50.392s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 22:41:32,2020-09-17 22:41:32,0.004s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 22:41:32,2020-09-17 22:41:32,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 22:41:32,2020-09-17 22:41:49,17.687s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-17 22:41:49,2020-09-17 22:41:49,0.018s,PASSED
+"drawDate = ""09/28/2020""",Chrome 85.0.4183.102,,,2020-09-17 22:41:49,2020-09-17 22:41:49,0.001s,PASSED
+logger = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 85.0.4183.102,,,2020-09-17 22:41:49,2020-09-17 22:41:49,0.001s,PASSED
+delay(10),Chrome 85.0.4183.102,,,2020-09-17 22:41:49,2020-09-17 22:41:59,10.021s,PASSED
+Uifunctions.clickOnReconcileButton(drawDate),Chrome 85.0.4183.102,,,2020-09-17 22:41:59,2020-09-17 22:42:12,12.666s,PASSED
+delay(5),Chrome 85.0.4183.102,,,2020-09-17 22:42:12,2020-09-17 22:42:17,5.002s,PASSED
+"click(findTestObject(""FDR-Draw/ReconciliationPage/expandV1Button""))",Chrome 85.0.4183.102,,,2020-09-17 22:42:17,2020-09-17 22:42:18,0.422s,PASSED
+delay(3),Chrome 85.0.4183.102,,,2020-09-17 22:42:18,2020-09-17 22:42:21,3.002s,PASSED
+"voucherTotal = util.convertToNum(findTestObject(""FDR-Draw/ReconciliationPage/expenditureTotal""))",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.300s,PASSED
+"logger.logInfo(""voucherTotal : "" + voucherTotal)",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.001s,PASSED
+"receiptsTotal = util.convertToNum(findTestObject(""FDR-Draw/ReconciliationPage/receiptsTotal""))",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.298s,PASSED
+"logger.logInfo(""receiptsTotal : "" + receiptsTotal)",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.001s,PASSED
+"grandTotal = util.convertToNum(findTestObject(""FDR-Draw/ReconciliationPage/drawGrandTotal""))",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.288s,PASSED
+"logger.logInfo(""grandTotal : "" + grandTotal)",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.000s,PASSED
+"verifyEqual(voucherTotal + receiptsTotal, grandTotal)",Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.009s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.002s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:21,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 22:42:21,2020-09-17 22:42:22,0.592s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-17 22:42:22,2020-09-17 22:42:22,0.002s,PASSED

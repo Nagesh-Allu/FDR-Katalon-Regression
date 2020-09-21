@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>WaiverTypeTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d46421d6-bfde-4f1d-95ba-8c55560936db</testCaseGuid>
+</TestCaseEntity>

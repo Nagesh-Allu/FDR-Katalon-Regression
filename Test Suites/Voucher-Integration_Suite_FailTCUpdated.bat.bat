@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\fdr-automation-develop_08_25_2020\FederalDrawReporting.prj" -retry=0 -testSuitePath="Test Suites/Voucher-Integration_Suite_20200918_113230" -executionProfile="Voucher" -browserType="Chrome"

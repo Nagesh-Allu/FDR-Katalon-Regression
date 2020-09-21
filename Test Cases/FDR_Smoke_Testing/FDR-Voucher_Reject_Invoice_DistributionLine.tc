@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FDR-Voucher_Reject_Invoice_DistributionLine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d78333a2-4b2e-4a29-baa7-c0da30f4fa26</testCaseGuid>
+</TestCaseEntity>

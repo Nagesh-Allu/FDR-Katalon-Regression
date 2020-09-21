@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Draw-Integration_Suite" time="44.55" tests="1" failures="0" errors="0">
+   <testsuite name="Draw-Integration_Suite" tests="1" failures="0" errors="0" time="44.55" timestamp="2020-09-18 09:10:20" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Draw-Integration_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_091018\\Draw-Integration_Suite\\20200918_091018"/>
+         <property name="logFiles" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_091018\\Draw-Integration_Suite\\20200918_091018\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="578fa0bb58c308fdf8ce5feeb5918fae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs" time="39.086" classname="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs" status="PASSED">
+         <system-out><![CDATA[2020-09-18 09:10:20 - [TEST_CASE][PASSED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - if (account6TestCases.contains(testCaseId)): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-18 09:10:21 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(drawCashierAcc6, drawCashierAcc6Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-18 09:10:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-18 09:10:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-18 09:10:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-18 09:10:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-18 09:10:29 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 09:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-18 09:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-18 09:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-18 09:10:31 - [MESSAGE][PASSED] - Text 'fdr.test6@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-18 09:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-18 09:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-18 09:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-18 09:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-18 09:10:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-18 09:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-18 09:10:41 - [TEST_STEP][PASSED] - break: null
+
+2020-09-18 09:10:41 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 09:10:41 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 09:10:41 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-18 09:10:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 2): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-18 09:10:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 09:10:44 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-18 09:10:44 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Draw/CompletedTabs/completedTab")): Object: 'Object Repository/FDR-Draw/CompletedTabs/completedTab' is clicked on
+
+2020-09-18 09:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Draw/CompletedTabs/completedTab' is clicked on
+
+2020-09-18 09:10:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 09:10:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/drawDate"), 2): Object 'Object Repository/FDR-Draw/CompletedTabs/drawDate' is present
+
+2020-09-18 09:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/CompletedTabs/drawDate' is present
+
+2020-09-18 09:10:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 09:10:51 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/drawDateLabel"), 2): Object 'Object Repository/FDR-Draw/CompletedTabs/drawDateLabel' is present
+
+2020-09-18 09:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/CompletedTabs/drawDateLabel' is present
+
+2020-09-18 09:10:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/depositDate"), 2): Object 'Object Repository/FDR-Draw/CompletedTabs/depositDate' is present
+
+2020-09-18 09:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/CompletedTabs/depositDate' is present
+
+2020-09-18 09:10:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 09:10:55 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/depositDateLabel"), 2): Object 'Object Repository/FDR-Draw/CompletedTabs/depositDateLabel' is present
+
+2020-09-18 09:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/CompletedTabs/depositDateLabel' is present
+
+2020-09-18 09:10:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/transactionRequest1"), 2): Object 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1' is present
+
+2020-09-18 09:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1' is present
+
+2020-09-18 09:10:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 09:10:59 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/transactionRequest1Label1"), 2): Object 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1Label1' is present
+
+2020-09-18 09:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1Label1' is present
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-18 09:10:59 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-18 09:11:00 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-18 09:11:00 - [TEST_STEP][PASSED] - break: null
+
+2020-09-18 09:11:00 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-18 09:10:20 - [TEST_SUITE][PASSED] - Draw-Integration_Suite: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

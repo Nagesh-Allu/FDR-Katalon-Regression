@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FDR-Review Receipt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab9f9cbc-ab28-40ab-b165-76c6aab47782</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a08a75d2-bd50-4eb4-a698-9b9c3dd84955</id>
+      <masked>false</masked>
+      <name>Drawdate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2583df08-048b-4102-b17f-a63842c4f0ff</id>
+      <masked>false</masked>
+      <name>Paydate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e5297d8b-ea21-4a81-be96-d5fff5e65e10</id>
+      <masked>false</masked>
+      <name>Depositid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0a74662-9650-449e-b28b-59a278de4821</id>
+      <masked>false</masked>
+      <name>Receiptnotes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a77ed4c4-467f-4c28-b7c1-2ea91b753e7a</id>
+      <masked>false</masked>
+      <name>Remittance</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9e3a3fd-175d-4304-bf46-ad5e9794aedf</id>
+      <masked>false</masked>
+      <name>Controller</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Draw-Integration_Suite,Chrome 85.0.4183.102,,,2020-09-17 14:54:17,2020-09-17 15:09:12,14m - 55.526s,FAILED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Approve-Modal,Chrome 85.0.4183.102,"
+",,2020-09-17 14:54:17,2020-09-17 15:00:37,6m - 20.269s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 14:54:17,2020-09-17 14:54:17,0.004s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 14:54:17,2020-09-17 14:54:17,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 14:54:17,2020-09-17 14:54:36,18.574s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-17 14:54:36,2020-09-17 14:54:36,0.011s,PASSED
+"callTestCase(findTestCase(""WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher""), [""drawDate"":drawDate, ""payDate"":payDate, ""programType"":programType, ""invoiceType"":invoiceType, ""fundCode"":fundCode, ""supplier"":supplier, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 14:54:36,2020-09-17 15:00:36,6m - 0.805s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:00:36,2020-09-17 15:00:36,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:00:36,2020-09-17 15:00:36,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:00:36,2020-09-17 15:00:37,0.635s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-17 15:00:37,2020-09-17 15:00:37,0.001s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Review-Preview-Forms-Prior-Approval,Chrome 85.0.4183.102,,,2020-09-17 15:00:37,2020-09-17 15:09:12,8m - 34.985s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:00:37,2020-09-17 15:00:37,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:00:37,2020-09-17 15:00:37,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:00:37,2020-09-17 15:00:55,18.211s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-17 15:00:55,2020-09-17 15:00:55,0.000s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-17 15:00:56,2020-09-17 15:00:56,0.000s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-17 15:00:56,2020-09-17 15:00:56,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-17 15:00:56,2020-09-17 15:00:56,0.001s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-17 15:00:56,2020-09-17 15:00:56,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-17 15:00:56,2020-09-17 15:06:08,5m - 12.116s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes, RA, CR)",Chrome 85.0.4183.102,,,2020-09-17 15:06:08,2020-09-17 15:07:50,1m - 42.379s,FAILED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-17 15:07:50,2020-09-17 15:09:07,1m - 16.475s,FAILED
+"editors.createReceiptDistributionLine(servicedatefrom, servicedateto, amount, waiverType, waiverName, fundingSource, fundCode, fundRatio, nonFederalFund, serviceLocation, index, programType, serviceCategory, increaseDecreaseLine, accountId, altAccountId)",Chrome 85.0.4183.102,,,2020-09-17 15:09:07,2020-09-17 15:09:11,4.806s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:09:11,2020-09-17 15:09:11,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:09:11,2020-09-17 15:09:11,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 15:09:11,2020-09-17 15:09:12,0.626s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-17 15:09:12,2020-09-17 15:09:12,0.000s,PASSED

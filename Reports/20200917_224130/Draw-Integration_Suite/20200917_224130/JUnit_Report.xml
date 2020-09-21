@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Draw-Integration_Suite" time="53.662" tests="1" failures="1" errors="0">
+   <testsuite name="Draw-Integration_Suite" tests="1" failures="1" errors="0" time="53.662" timestamp="2020-09-17 22:41:31" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Draw-Integration_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_224130\\Draw-Integration_Suite\\20200917_224130"/>
+         <property name="logFiles" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_224130\\Draw-Integration_Suite\\20200917_224130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="307e0533b259601a69d02e1233a504f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers" time="50.392" classname="Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+"/>
+         <system-out><![CDATA[2020-09-17 22:41:32 - [TEST_CASE][FAILED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers: Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - if (account6TestCases.contains(testCaseId)): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 22:41:32 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(drawCashierAcc6, drawCashierAcc6Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 22:41:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 22:41:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 22:41:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 22:41:38 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 22:41:40 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 22:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-17 22:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 22:41:43 - [MESSAGE][PASSED] - Text 'fdr.test6@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-17 22:41:43 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-17 22:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-17 22:41:47 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-17 22:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-17 22:41:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-17 22:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 22:41:49 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 22:41:49 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:41:49 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 22:41:49 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-17 22:41:49 - [TEST_STEP][PASSED] - drawDate = "09/28/2020": null
+
+2020-09-17 22:41:49 - [TEST_STEP][PASSED] - logger = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-09-17 22:41:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-09-17 22:41:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-09-17 22:41:59 - [TEST_STEP][PASSED] - Uifunctions.clickOnReconcileButton(drawDate): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 22:42:00 - [MESSAGE][PASSED] - Object: 'expandButton' is clicked on
+
+2020-09-17 22:42:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:42:04 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 22:42:05 - [MESSAGE][PASSED] - Text of object 'drawDate' is: '09/28/2020'
+
+2020-09-17 22:42:05 - [MESSAGE][PASSED] - Object: 'expandButton' is clicked on
+
+2020-09-17 22:42:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:42:07 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-17 22:42:08 - [MESSAGE][PASSED] - Object: 'reconcileButton' is clicked on
+
+2020-09-17 22:42:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 22:42:12 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 22:42:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-17 22:42:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-17 22:42:17 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Draw/ReconciliationPage/expandV1Button")): Object: 'Object Repository/FDR-Draw/ReconciliationPage/expandV1Button' is clicked on
+
+2020-09-17 22:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Draw/ReconciliationPage/expandV1Button' is clicked on
+
+2020-09-17 22:42:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-17 22:42:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - voucherTotal = util.convertToNum(findTestObject("FDR-Draw/ReconciliationPage/expenditureTotal")): Text of object 'Object Repository/FDR-Draw/ReconciliationPage/expenditureTotal' is: '$200,000.00'
+
+2020-09-17 22:42:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Draw/ReconciliationPage/expenditureTotal' is: '$200,000.00'
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - logger.logInfo("voucherTotal : " + voucherTotal): voucherTotal : 200000.0
+
+2020-09-17 22:42:21 - [MESSAGE][INFO] - voucherTotal : 200000.0
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - receiptsTotal = util.convertToNum(findTestObject("FDR-Draw/ReconciliationPage/receiptsTotal")): Text of object 'Object Repository/FDR-Draw/ReconciliationPage/receiptsTotal' is: '$200,000.00'
+
+2020-09-17 22:42:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Draw/ReconciliationPage/receiptsTotal' is: '$200,000.00'
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - logger.logInfo("receiptsTotal : " + receiptsTotal): receiptsTotal : 200000.0
+
+2020-09-17 22:42:21 - [MESSAGE][INFO] - receiptsTotal : 200000.0
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - grandTotal = util.convertToNum(findTestObject("FDR-Draw/ReconciliationPage/drawGrandTotal")): Text of object 'Object Repository/FDR-Draw/ReconciliationPage/drawGrandTotal' is: '$90,000.00'
+
+2020-09-17 22:42:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Draw/ReconciliationPage/drawGrandTotal' is: '$90,000.00'
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - logger.logInfo("grandTotal : " + grandTotal): grandTotal : 90000.0
+
+2020-09-17 22:42:21 - [MESSAGE][INFO] - grandTotal : 90000.0
+
+2020-09-17 22:42:21 - [TEST_STEP][FAILED] - verifyEqual(voucherTotal + receiptsTotal, grandTotal): Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+
+2020-09-17 22:42:21 - [MESSAGE][FAILED] - Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 22:42:21 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-17 22:42:22 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-17 22:42:22 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 22:42:22 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[2020-09-17 22:41:32 - [TEST_CASE][FAILED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers: Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 22:41:31 - [TEST_SUITE][FAILED] - Draw-Integration_Suite: Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-out>
+      <system-err><![CDATA[2020-09-17 22:41:31 - [TEST_SUITE][FAILED] - Draw-Integration_Suite: Test Cases/WEB-UI-TESTS/Draw/FDR-Total-Validations-Receipts-Vouchers FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '400,000' and expected object '90,000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at FDR-Total-Validations-Receipts-Vouchers.run(FDR-Total-Validations-Receipts-Vouchers:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600407690115.run(TempTestSuite1600407690115.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '400,000' and expected object '90,000' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+   </testsuite>
+</testsuites>

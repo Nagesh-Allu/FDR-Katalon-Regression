@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Draw-Integration_Suite,Chrome 85.0.4183.102,,,2020-09-16 11:08:20,2020-09-16 11:11:51,3m - 30.317s,FAILED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Reject-Vouchers-Receipts,Chrome 85.0.4183.102,,,2020-09-16 11:08:21,2020-09-16 11:11:51,3m - 30.016s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-16 11:08:21,2020-09-16 11:08:21,0.005s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-16 11:08:21,2020-09-16 11:08:21,0.002s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-16 11:08:21,2020-09-16 11:08:43,22.012s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-16 11:08:43,2020-09-16 11:08:43,0.017s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:08:43,2020-09-16 11:08:46,3.137s,PASSED
+"drawDate = ""10/21/2020""",Chrome 85.0.4183.102,,,2020-09-16 11:08:46,2020-09-16 11:08:46,0.000s,PASSED
+Uifunctions.clickOnReconcileButton(drawDate),Chrome 85.0.4183.102,,,2020-09-16 11:08:46,2020-09-16 11:08:59,12.944s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:08:59,2020-09-16 11:09:02,3.299s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/thumbsUpButtonVoucher""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:02,2020-09-16 11:09:03,0.397s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:03,2020-09-16 11:09:06,3.212s,PASSED
+"rejectVoucherNum = getText(findTestObject(""FDR-Draw/RejectVocuherReceipts/voucherNum1""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:06,2020-09-16 11:09:06,0.280s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/thubmsDownVoucher1""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:06,2020-09-16 11:09:07,0.708s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:09:07,2020-09-16 11:09:12,5.106s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/spanOverdrawnFund(s)""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:12,2020-09-16 11:09:12,0.392s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:12,2020-09-16 11:09:16,3.088s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:16,2020-09-16 11:09:16,0.354s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:16,2020-09-16 11:09:19,3.229s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""), ""Federal"")",Chrome 85.0.4183.102,,,2020-09-16 11:09:19,2020-09-16 11:09:19,0.385s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:19,2020-09-16 11:09:23,3.060s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""), Keys.chord(UP, ENTER))",Chrome 85.0.4183.102,,,2020-09-16 11:09:23,2020-09-16 11:09:23,0.349s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:23,2020-09-16 11:09:26,3.112s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/addFundButton""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:26,2020-09-16 11:09:26,0.376s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:09:26,2020-09-16 11:09:31,5.067s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:31,2020-09-16 11:09:32,0.356s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:09:32,2020-09-16 11:09:37,5.186s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""), ""Non-Federal"")",Chrome 85.0.4183.102,,,2020-09-16 11:09:37,2020-09-16 11:09:37,0.366s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:37,2020-09-16 11:09:41,3.232s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-16 11:09:41,2020-09-16 11:09:41,0.320s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:41,2020-09-16 11:09:44,3.244s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/spanIncorrectAmountEntry""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:44,2020-09-16 11:09:45,0.371s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:45,2020-09-16 11:09:48,3.077s,PASSED
+"rejectionReason1 = getAttribute(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""), ""value"", STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-16 11:09:48,2020-09-16 11:09:48,0.297s,PASSED
+"rejectionReason2 = getAttribute(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""), ""value"", STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-16 11:09:48,2020-09-16 11:09:48,0.297s,PASSED
+"click(findTestObject(""Object Repository/FDR-Draw/RejectVocuherReceipts/rejectVoucherButton""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:48,2020-09-16 11:09:49,0.491s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:09:49,2020-09-16 11:09:54,5.251s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/thumbsUpButtonReceipt""))",Chrome 85.0.4183.102,,,2020-09-16 11:09:54,2020-09-16 11:09:58,4.403s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:09:58,2020-09-16 11:10:02,3.256s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/thubmsDownReceipts1""))",Chrome 85.0.4183.102,,,2020-09-16 11:10:02,2020-09-16 11:10:02,0.332s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:10:02,2020-09-16 11:10:05,3.215s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/spanOverdrawnFund(s)""))",Chrome 85.0.4183.102,,,2020-09-16 11:10:05,2020-09-16 11:10:10,4.575s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:10:10,2020-09-16 11:10:13,3.255s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""))",Chrome 85.0.4183.102,,,2020-09-16 11:10:13,2020-09-16 11:10:17,4.368s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:10:17,2020-09-16 11:10:20,3.084s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""), ""Federal"")",Chrome 85.0.4183.102,,,2020-09-16 11:10:20,2020-09-16 11:10:25,4.471s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:10:25,2020-09-16 11:10:28,3.258s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput1""), Keys.chord(UP, ENTER))",Chrome 85.0.4183.102,,,2020-09-16 11:10:28,2020-09-16 11:10:33,4.563s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:10:33,2020-09-16 11:10:36,3.248s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/addFundButton""))",Chrome 85.0.4183.102,,,2020-09-16 11:10:36,2020-09-16 11:10:41,4.602s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:10:41,2020-09-16 11:10:46,5.245s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""))",Chrome 85.0.4183.102,,,2020-09-16 11:10:46,2020-09-16 11:10:50,4.580s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:10:50,2020-09-16 11:10:56,5.126s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""), ""Non-Federal"")",Chrome 85.0.4183.102,,,2020-09-16 11:10:56,2020-09-16 11:11:00,4.382s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:11:00,2020-09-16 11:11:03,3.371s,PASSED
+"sendKeys(findTestObject(""FDR-Draw/RejectVocuherReceipts/overFundInput2""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-16 11:11:03,2020-09-16 11:11:08,4.397s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:11:08,2020-09-16 11:11:11,3.057s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/spanIncorrectAmountEntry""))",Chrome 85.0.4183.102,,,2020-09-16 11:11:11,2020-09-16 11:11:15,4.565s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:11:15,2020-09-16 11:11:19,3.241s,PASSED
+"click(findTestObject(""FDR-Draw/RejectVocuherReceipts/rejectReceiptButton""))",Chrome 85.0.4183.102,,,2020-09-16 11:11:19,2020-09-16 11:11:23,4.373s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:11:23,2020-09-16 11:11:26,3.101s,PASSED
+Uifunctions.logoutFDR(),Chrome 85.0.4183.102,,,2020-09-16 11:11:26,2020-09-16 11:11:27,0.667s,PASSED
+"Uifunctions.loginFDR(drawCashierAcc6, drawCashierAcc6Pwd)",Chrome 85.0.4183.102,,,2020-09-16 11:11:27,2020-09-16 11:11:42,15.095s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 4)",Chrome 85.0.4183.102,,,2020-09-16 11:11:42,2020-09-16 11:11:44,2.465s,PASSED
+"navigateToUrl(URL + ""/vouchers/"" + Integer.parseInt(rejectVoucherNum.split(""CAP"")[1]) + ""/entry"")",Chrome 85.0.4183.102,,,2020-09-16 11:11:44,2020-09-16 11:11:45,0.646s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Draw/reconcileButton""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:11:45,2020-09-16 11:11:46,1.052s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/RejectVocuherReceipts/vchrjreasonsubtitle""), 2)",Chrome 85.0.4183.102,,,2020-09-16 11:11:46,2020-09-16 11:11:49,3.424s,FAILED
+"verifyTextPresent(rejectionReason1, false)",Chrome 85.0.4183.102,,,2020-09-16 11:11:49,2020-09-16 11:11:50,0.276s,FAILED
+"verifyTextPresent(rejectionReason2, false)",Chrome 85.0.4183.102,,,2020-09-16 11:11:50,2020-09-16 11:11:50,0.262s,FAILED
+"verifyTextPresent(""Incorrect Amount"", false)",Chrome 85.0.4183.102,,,2020-09-16 11:11:50,2020-09-16 11:11:50,0.268s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-16 11:11:50,2020-09-16 11:11:50,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-16 11:11:50,2020-09-16 11:11:50,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-16 11:11:50,2020-09-16 11:11:51,0.595s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-16 11:11:51,2020-09-16 11:11:51,0.002s,PASSED

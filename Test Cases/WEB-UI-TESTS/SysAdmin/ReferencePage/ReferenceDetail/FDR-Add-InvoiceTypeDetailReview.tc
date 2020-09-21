@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-1646 and https://ca-mmisds.atlassian.net/browse/FDR-3137</description>
+   <name>FDR-Add-InvoiceTypeDetailReview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63fcdc40-17bc-438c-a310-35df5cbdad0e</testCaseGuid>
+</TestCaseEntity>

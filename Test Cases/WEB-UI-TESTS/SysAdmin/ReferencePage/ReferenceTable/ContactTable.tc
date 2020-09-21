@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>ContactTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9493dca-3651-4a67-a366-0e9fba828dbe</testCaseGuid>
+</TestCaseEntity>

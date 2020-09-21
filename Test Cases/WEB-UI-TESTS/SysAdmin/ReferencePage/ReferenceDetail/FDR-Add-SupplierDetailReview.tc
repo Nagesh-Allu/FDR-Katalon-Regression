@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-1646 and https://ca-mmisds.atlassian.net/browse/FDR-3137</description>
+   <name>FDR-Add-SupplierDetailReview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f4857e3-849e-4403-96ed-b847e373472c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dec78178-0f15-4a03-b24f-950579d1672e</id>
+      <masked>false</masked>
+      <name>SequenceNum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>517b0d63-48ed-47fd-a58c-0b143e9c93b4</id>
+      <masked>false</masked>
+      <name>AddressLine</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>060eef69-23e1-451d-b35b-21d35fc9d292</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8a59ec28-c1de-4c82-af63-86dc89d390df</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5e2d5ca-c914-4541-8483-238535fd62a1</id>
+      <masked>false</masked>
+      <name>ZipCode</name>
+   </variable>
+</TestCaseEntity>

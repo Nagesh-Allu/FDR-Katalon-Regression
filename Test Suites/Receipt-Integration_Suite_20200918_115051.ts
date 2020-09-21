@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Receipt-Integration_Suite_20200918_115051</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f69bbc7d-656c-4861-b49a-74639fd81a21</testSuiteGuid>
+   
+<testCaseLink>
+      <guid>9baf8484-a1c3-4d16-b956-c60c66b962c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Receipts-FixStateReasons</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>64a5c0a5-0cb7-4cb8-be30-a1998454090e</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Receipt/FDR-ReceiptHeaderTestData</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cc282bf1-14e2-465c-b352-5ed398842c07</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Receipt/FDR-Receipt-Distribution-Line-Testdata</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dd647dbd-99cf-452e-a09f-ab3b89a660b9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Receipt/FDR-EditCheckLineTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>64a5c0a5-0cb7-4cb8-be30-a1998454090e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Drawdate</value>
+         <variableId>ac003217-e098-4d7e-bce4-96e9fd6333e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64a5c0a5-0cb7-4cb8-be30-a1998454090e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Paydate</value>
+         <variableId>1924dac3-529c-4d64-9a5a-6cc6f1184e75</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd647dbd-99cf-452e-a09f-ab3b89a660b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ReceiptID</value>
+         <variableId>81d28bfb-055a-4131-91bc-47c8e344a1e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd647dbd-99cf-452e-a09f-ab3b89a660b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SupplierID</value>
+         <variableId>b6a2440f-7c6d-4a7c-9740-e630ee72e067</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd647dbd-99cf-452e-a09f-ab3b89a660b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DepositDate</value>
+         <variableId>2aae06e4-1288-480e-8fa5-31537b063409</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64a5c0a5-0cb7-4cb8-be30-a1998454090e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Remittance</value>
+         <variableId>859163ae-af84-43fd-8893-feec469fe684</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64a5c0a5-0cb7-4cb8-be30-a1998454090e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Controller</value>
+         <variableId>19ec469b-e859-4940-ac33-4b8c3b90a1d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64a5c0a5-0cb7-4cb8-be30-a1998454090e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Receiptnotes</value>
+         <variableId>356b786f-2d01-4e1f-897f-023ee031d379</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

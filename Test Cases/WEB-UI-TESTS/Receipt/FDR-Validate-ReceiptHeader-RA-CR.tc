@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FDR-Validate-ReceiptHeader-RA-CR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae3b53f1-defe-4954-9f0f-23ae68c8ffb8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50f70554-41b2-4224-9895-e6027a00a8f5</id>
+      <masked>false</masked>
+      <name>Drawdate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7018a948-c1ed-4cbc-91df-b2cee464d610</id>
+      <masked>false</masked>
+      <name>Paydate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c8a321b-0e41-41d1-b5f1-fcac52a73509</id>
+      <masked>false</masked>
+      <name>Receiptnotes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>289063af-dd48-48c9-b072-8ffe304cc966</id>
+      <masked>false</masked>
+      <name>remmitanceAdvice</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>17f8f1d5-8dd1-4236-a252-4732d1d51ac9</id>
+      <masked>false</masked>
+      <name>controllerReceipt</name>
+   </variable>
+</TestCaseEntity>

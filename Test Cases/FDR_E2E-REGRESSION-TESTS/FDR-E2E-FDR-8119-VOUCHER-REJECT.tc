@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FDR-END_2_END_Voucher_Reject
+
+</description>
+   <name>FDR-E2E-FDR-8119-VOUCHER-REJECT</name>
+   <tag>FDR-END_2_END_Voucher_Reject</tag>
+   <comment></comment>
+   <testCaseGuid>9361d7aa-95b4-45cb-8d20-cd925fd5ae20</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Receipt</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://login.microsoftonline.com/'</initValue>
+      <name>SignURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fdr.test3@dhcs.ca.gov'</initValue>
+      <name>accountsProcessor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5OQa7trZ1/X2w=='</initValue>
+      <name>accountsProcessorPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fdr.test3@dhcs.ca.gov'</initValue>
+      <name>accountsApprover</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5OQa7trZ1/X2w=='</initValue>
+      <name>accountsApproverPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fdr.test4@dhcs.ca.gov'</initValue>
+      <name>accountsAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5OQa7trZ1/X2w=='</initValue>
+      <name>accountsAdminPwd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

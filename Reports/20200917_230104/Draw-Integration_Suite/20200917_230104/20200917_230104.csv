@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Draw-Integration_Suite,Chrome 85.0.4183.102,,,2020-09-17 23:01:05,2020-09-17 23:01:57,51.265s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Draw/FDR-Voucher-Expenditure-Validation,Chrome 85.0.4183.102,,,2020-09-17 23:01:06,2020-09-17 23:01:57,51.035s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 23:01:06,2020-09-17 23:01:06,0.004s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 23:01:06,2020-09-17 23:01:06,0.002s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-17 23:01:06,2020-09-17 23:01:22,16.483s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-17 23:01:22,2020-09-17 23:01:22,0.013s,PASSED
+"drawDate = ""09/28/2020""",Chrome 85.0.4183.102,,,2020-09-17 23:01:22,2020-09-17 23:01:22,0.000s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:22,2020-09-17 23:01:25,3.268s,PASSED
+Uifunctions.clickOnReconcileButton(drawDate),Chrome 85.0.4183.102,,,2020-09-17 23:01:25,2020-09-17 23:01:38,12.699s,PASSED
+delay(5),Chrome 85.0.4183.102,,,2020-09-17 23:01:38,2020-09-17 23:01:43,5.016s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-17 23:01:43,2020-09-17 23:01:48,5.154s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/VoucherExpenditure/voucherNum""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:48,2020-09-17 23:01:49,0.300s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/VoucherExpenditure/amount1""), 100)",Chrome 85.0.4183.102,,,2020-09-17 23:01:49,2020-09-17 23:01:49,0.276s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/federalFund(0890)""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:49,2020-09-17 23:01:49,0.277s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA113""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:49,2020-09-17 23:01:49,0.270s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/title21CHIP""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:49,2020-09-17 23:01:50,0.265s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/113-20-10-030""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:50,2020-09-17 23:01:50,0.286s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/federalFund(0890)Col2""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:50,2020-09-17 23:01:50,0.278s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA101""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:50,2020-09-17 23:01:51,0.285s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/Title19-MAP""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:51,2020-09-17 23:01:51,0.274s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/101-20-10-030""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:51,2020-09-17 23:01:51,0.294s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/genFund(0001)""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:51,2020-09-17 23:01:51,0.278s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA101""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:51,2020-09-17 23:01:52,0.284s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/101-20-10-030 -3rdcol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:52,2020-09-17 23:01:52,0.259s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/stateOnlyRefugee(0001)""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:52,2020-09-17 23:01:52,0.259s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019Refugee""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:52,2020-09-17 23:01:52,0.255s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/non-FedFundHQAF(3158)""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:52,2020-09-17 23:01:53,0.262s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA(611)HQAF""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:53,2020-09-17 23:01:53,0.285s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/611-SB 239(2013)HQAF""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:53,2020-09-17 23:01:53,0.272s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019Refugee""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:53,2020-09-17 23:01:54,0.281s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fedFundHQAF(0890)""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:54,2020-09-17 23:01:54,0.278s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA(611)HQAF-6thcol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:54,2020-09-17 23:01:54,0.273s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/611-SB 239(2013)HQAF-6thCol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:54,2020-09-17 23:01:54,0.278s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fedFundHQAF(0890)-7thCol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:54,2020-09-17 23:01:55,0.268s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA(611)-7thcol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:55,2020-09-17 23:01:55,0.283s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/title21CHIP-7thCol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:55,2020-09-17 23:01:55,0.289s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/611-SB 239(2013)HQAF-7thCol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:55,2020-09-17 23:01:56,0.279s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/fy2019MA(611)-7thcol""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:56,2020-09-17 23:01:56,0.265s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Draw/ColumnHeaderValidation/0942-314""), 2)",Chrome 85.0.4183.102,,,2020-09-17 23:01:56,2020-09-17 23:01:56,0.268s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 23:01:56,2020-09-17 23:01:56,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-17 23:01:56,2020-09-17 23:01:56,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-17 23:01:56,2020-09-17 23:01:57,0.593s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-17 23:01:57,2020-09-17 23:01:57,0.001s,PASSED

@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Voucher-Integration_Suite" time="212.492" tests="1" failures="1" errors="0">
+   <testsuite name="Voucher-Integration_Suite" tests="1" failures="1" errors="0" time="212.492" timestamp="2020-09-18 13:22:32" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Voucher-Integration_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230"/>
+         <property name="logFiles" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\execution0.log"/>
+         <property name="attachments" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460637757.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460642133.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460643733.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460646164.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460656489.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460674177.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460683853.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460698929.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460706499.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460711038.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460718725.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460726430.png"/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="fc86a84e7c71f6db51fe082d1851408b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations" time="205.914" classname="Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	... 23 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+"/>
+         <system-out><![CDATA[2020-09-18 13:22:32 - [TEST_CASE][FAILED] - Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations: Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	... 23 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - case "Voucher":: null
+
+2020-09-18 13:22:32 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(accountsApproverAcc2, accountsApproverAcc2Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-18 13:22:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-18 13:22:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-18 13:22:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-18 13:22:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-18 13:22:40 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 13:22:41 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-18 13:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-18 13:22:42 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-18 13:22:43 - [MESSAGE][PASSED] - Text 'fdr.test2@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-18 13:22:43 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-18 13:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-18 13:22:49 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-18 13:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-18 13:22:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-18 13:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-18 13:22:52 - [TEST_STEP][PASSED] - break: null
+
+2020-09-18 13:22:52 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 13:22:52 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-18 13:22:52 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-18 13:22:52 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2020-09-18 13:22:52 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2020-09-18 13:22:52 - [TEST_STEP][PASSED] - voucherHeaderData = ["drawDate":drawDate, "payDate":payDate, "programType":programType, "invoiceType":invoiceType, "fundCode":fundCode, "supplier":supplier, ... ]: null
+
+2020-09-18 13:22:52 - [TEST_STEP][PASSED] - Uifunctions.createVoucherHeader(voucherHeaderData): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 4 second(s)
+
+2020-09-18 13:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is present
+
+2020-09-18 13:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/createNewVoucherButton' is clicked on
+
+2020-09-18 13:22:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Review')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:22:59 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 3 second(s)
+
+2020-09-18 13:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/drawDate' is clicked on
+
+2020-09-18 13:23:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:01 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-18 13:23:03 - [MESSAGE][PASSED] - Text '09/30/2020' is set on object 'Object Repository/FDR-VoucherEntry/Voucher/drawDate'
+
+2020-09-18 13:23:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:07 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-18 13:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/programType' is clicked on
+
+2020-09-18 13:23:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:10 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-18 13:23:11 - [MESSAGE][PASSED] - Keys 'Medical Assistance (MA)' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/programType'
+
+2020-09-18 13:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/programType' is present
+
+2020-09-18 13:23:11 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/programType'
+
+2020-09-18 13:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType' is clicked on
+
+2020-09-18 13:23:12 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType' is present
+
+2020-09-18 13:23:13 - [MESSAGE][PASSED] - Keys 'CAP' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType'
+
+2020-09-18 13:23:13 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType'
+
+2020-09-18 13:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode' is clicked on
+
+2020-09-18 13:23:14 - [MESSAGE][PASSED] - Keys 'Health Care Deposit Fund (0912)' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode'
+
+2020-09-18 13:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/fundCode' is present
+
+2020-09-18 13:23:15 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode'
+
+2020-09-18 13:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID' is clicked on
+
+2020-09-18 13:23:16 - [MESSAGE][PASSED] - Keys '0000007954' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID'
+
+2020-09-18 13:23:17 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/supplierID' is present
+
+2020-09-18 13:23:17 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID'
+
+2020-09-18 13:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/seqNum' is clicked on
+
+2020-09-18 13:23:18 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/seqNum' is present
+
+2020-09-18 13:23:19 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/seqNum'
+
+2020-09-18 13:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum' is clicked on
+
+2020-09-18 13:23:20 - [MESSAGE][PASSED] - Keys '07-65707' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum'
+
+2020-09-18 13:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/contractNum' is present
+
+2020-09-18 13:23:20 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum'
+
+2020-09-18 13:23:22 - [MESSAGE][PASSED] - Text 'This message will print on the Remittance Advice' is set on object 'Object Repository/FDR-VoucherEntry/Voucher/vendorMessage'
+
+2020-09-18 13:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact' is clicked on
+
+2020-09-18 13:23:24 - [MESSAGE][PASSED] - Keys 'Aung Lin' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact'
+
+2020-09-18 13:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact' is present
+
+2020-09-18 13:23:24 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact'
+
+2020-09-18 13:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is clicked on
+
+2020-09-18 13:23:26 - [MESSAGE][PASSED] - Keys 'Vivian Ly' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact'
+
+2020-09-18 13:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is present
+
+2020-09-18 13:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is present
+
+2020-09-18 13:23:27 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact'
+
+2020-09-18 13:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/buttonNext' is clicked on
+
+2020-09-18 13:23:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-18 13:23:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Review')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:35 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 4 second(s)
+
+2020-09-18 13:23:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-18 13:23:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:40 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-18 13:23:40 - [TEST_STEP][FAILED] - Uifunctions.createInvoiceLine(1): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 6 second(s)
+
+2020-09-18 13:23:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Review')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:45 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 3 second(s)
+
+2020-09-18 13:23:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(text(),'Add voucher')]//parent::button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addVoucherButton' is not present after 2 second(s)
+
+2020-09-18 13:23:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='text-field']//input[@name='description']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:53 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+
+2020-09-18 13:23:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='text-field']//input[@name='description']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:23:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460637757.png]]
+
+2020-09-18 13:24:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='text-field']//input[@name='description']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:02 - [MESSAGE][FAILED] - Unable to set text '7080' of object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '7080' of object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:200)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:200)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460642133.png]]
+
+2020-09-18 13:24:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:202)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-invalid="true" aria-describedby="drawDate-helper-text" id="drawDate" type="text" class="MuiInputBase-input-2803 MuiOutlinedInput-input-2790 MuiInputBase-inputAdornedEnd-2808 MuiOutlinedInput-inputAdornedEnd-2794" value="09/30/2020"> is not clickable at point (737, 12). Other element would receive the click: <div class="MuiToolbar-root-45 MuiToolbar-regular-47 jss43 jss44 MuiToolbar-gutters-46">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9VU7G8T', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NAGESH~1.ALL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc86a84e7c71f6db51fe082d1851408b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:202)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460643733.png]]
+
+2020-09-18 13:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate' is present
+
+2020-09-18 13:24:04 - [MESSAGE][PASSED] - Text '09/18/2020' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate'
+
+2020-09-18 13:24:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:206)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-invalid="false" aria-describedby="payDate-helper-text" id="payDate" type="text" class="MuiInputBase-input-2803 MuiOutlinedInput-input-2790 MuiInputBase-inputAdornedEnd-2808 MuiOutlinedInput-inputAdornedEnd-2794" value="10/02/2020"> is not clickable at point (1087, 23). Other element would receive the click: <div class="MuiToolbar-root-45 MuiToolbar-regular-47 jss43 jss44 MuiToolbar-gutters-46">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9VU7G8T', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NAGESH~1.ALL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fc86a84e7c71f6db51fe082d1851408b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:206)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460646164.png]]
+
+2020-09-18 13:24:07 - [MESSAGE][PASSED] - Text '09/19/2020' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate'
+
+2020-09-18 13:24:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Add')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:12 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButton' is not present after 4 second(s)
+
+2020-09-18 13:24:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Add')][1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButtonIndex2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButtonIndex2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:212)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButtonIndex2' located by '//*[@data-id='action-button']//*[contains(text(),'Add')][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:212)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460656489.png]]
+
+2020-09-18 13:24:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Review')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:23 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 6 second(s)
+
+2020-09-18 13:24:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton"), 5): Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' located by '(//*[contains(@class,'MuiExpansionPanel-root')])[1]//*[contains(@class,'expandIcon')]' not found
+
+2020-09-18 13:24:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[contains(@class,'MuiExpansionPanel-root')])[1]//*[contains(@class,'expandIcon')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' located by '(//*[contains(@class,'MuiExpansionPanel-root')])[1]//*[contains(@class,'expandIcon')]' not found
+
+2020-09-18 13:24:30 - [TEST_STEP][FAILED] - click(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton")): Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' located by '(//*[contains(@class,'MuiExpansionPanel-root')])[1]//*[contains(@class,'expandIcon')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:34)
+	... 13 more
+)
+
+2020-09-18 13:24:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[contains(@class,'MuiExpansionPanel-root')])[1]//*[contains(@class,'expandIcon')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' located by '(//*[contains(@class,'MuiExpansionPanel-root')])[1]//*[contains(@class,'expandIcon')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460674177.png]]
+
+2020-09-18 13:24:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-18 13:24:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:39 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-18 13:24:39 - [TEST_STEP][FAILED] - click(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton")): Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' located by '//*[contains(text(),'Add line')]//parent::button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:38)
+	... 13 more
+)
+
+2020-09-18 13:24:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(text(),'Add line')]//parent::button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' located by '//*[contains(text(),'Add line')]//parent::button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:38)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460683853.png]]
+
+2020-09-18 13:24:44 - [TEST_STEP][FAILED] - Uifunctions.createDistributionLines(6, "Voucher/FDR-DL"): Unable to find the element located by 'By.xpath: //*[text()='Amount']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-18 13:24:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:51 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-18 13:24:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (from)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' located by '//*[text()='Service date (from)']//parent::*//div//input' not found
+
+2020-09-18 13:24:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (from)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:24:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:222)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' located by '//*[text()='Service date (from)']//parent::*//div//input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:222)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460698929.png]]
+
+2020-09-18 13:25:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (from)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:02 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is not present after 2 second(s)
+
+2020-09-18 13:25:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (from)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:06 - [MESSAGE][FAILED] - Unable to set text '08/04/2020' of object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '08/04/2020' of object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:224)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' located by '//*[text()='Service date (from)']//parent::*//div//input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:224)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460706499.png]]
+
+2020-09-18 13:25:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (to)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:225)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' located by '//*[text()='Service date (to)']//parent::*//div//input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:225)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460711038.png]]
+
+2020-09-18 13:25:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (to)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:14 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' is not present after 2 second(s)
+
+2020-09-18 13:25:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Service date (to)']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:19 - [MESSAGE][FAILED] - Unable to set text '08/05/2020' of object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '08/05/2020' of object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:227)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' located by '//*[text()='Service date (to)']//parent::*//div//input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:227)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460718725.png]]
+
+2020-09-18 13:25:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:22 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-18 13:25:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Amount']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/FDR-VoucherEntry/DistributionLine/amount' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/DistributionLine/amount'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:229)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/DistributionLine/amount' located by '//*[text()='Amount']//parent::*//div//input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy:229)
+	at com.functions.Uifunctions.createDistributionLines(Uifunctions.groovy)
+	at com.functions.Uifunctions$createDistributionLines$2.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200918_132230\\Voucher-Integration_Suite\\20200918_132230\\1600460726430.png]]
+
+2020-09-18 13:25:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Amount']//parent::*//div//input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2020-09-18 13:25:58 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - case "Voucher":: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-18 13:25:58 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - break: null
+
+2020-09-18 13:25:58 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[2020-09-18 13:22:32 - [TEST_CASE][FAILED] - Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations: Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	... 23 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-18 13:22:32 - [TEST_SUITE][FAILED] - Voucher-Integration_Suite: Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	... 23 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[2020-09-18 13:22:32 - [TEST_SUITE][FAILED] - Voucher-Integration_Suite: Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at Script1577197303304.run(Script1577197303304.groovy:30)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at com.functions.Uifunctions.createInvoiceLine(Uifunctions.groovy:199)
+	at com.functions.Uifunctions$createInvoiceLine$1.call(Unknown Source)
+	at FDR-Fund-Ratio-Validations.run(FDR-Fund-Ratio-Validations:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600460550618.run(TempTestSuite1600460550618.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+	... 23 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' located by '//*[@data-id='text-field']//input[@name='description']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

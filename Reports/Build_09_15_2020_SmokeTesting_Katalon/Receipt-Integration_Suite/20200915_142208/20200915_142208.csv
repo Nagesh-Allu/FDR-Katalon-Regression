@@ -1,0 +1,960 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Receipt-Integration_Suite,Chrome 85.0.4183.102,,,2020-09-15 14:22:16,2020-09-15 14:40:25,18m - 8.804s,FAILED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Create-Receipt-Header,Chrome 85.0.4183.102,,,2020-09-15 14:22:17,2020-09-15 14:22:55,37.776s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:17,2020-09-15 14:22:35,18.257s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:35,2020-09-15 14:22:35,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:35,2020-09-15 14:22:35,0.002s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:22:35,2020-09-15 14:22:35,0.032s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:22:36,2020-09-15 14:22:41,5.116s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:22:41,2020-09-15 14:22:41,0.260s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""))",Chrome 85.0.4183.102,,,2020-09-15 14:22:41,2020-09-15 14:22:42,0.461s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:22:42,2020-09-15 14:22:42,0.485s,PASSED
+"setText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), Drawdate)",Chrome 85.0.4183.102,,,2020-09-15 14:22:42,2020-09-15 14:22:43,1.069s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:22:43,2020-09-15 14:22:44,0.460s,PASSED
+"setText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), Paydate)",Chrome 85.0.4183.102,,,2020-09-15 14:22:44,2020-09-15 14:22:44,0.584s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:22:44,2020-09-15 14:22:44,0.256s,PASSED
+depositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:22:44,2020-09-15 14:22:44,0.003s,PASSED
+"setText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), depositId)",Chrome 85.0.4183.102,,,2020-09-15 14:22:44,2020-09-15 14:22:45,0.782s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:22:45,2020-09-15 14:22:46,0.476s,PASSED
+"setText(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:22:46,2020-09-15 14:22:46,0.741s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:22:46,2020-09-15 14:22:47,0.464s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""))",Chrome 85.0.4183.102,,,2020-09-15 14:22:47,2020-09-15 14:22:47,0.377s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:22:47,2020-09-15 14:22:52,5.176s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/pDrawDate""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:22:52,2020-09-15 14:22:53,0.255s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/pDrawDate"")) == findTestData(""Receipt/FDR-ReceiptHeaderTestData"").getValue(1, 1))",Chrome 85.0.4183.102,,,2020-09-15 14:22:53,2020-09-15 14:22:53,0.307s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/payDate""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:22:53,2020-09-15 14:22:53,0.265s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/payDate"")) == findTestData(""Receipt/FDR-ReceiptHeaderTestData"").getValue(2, 1))",Chrome 85.0.4183.102,,,2020-09-15 14:22:53,2020-09-15 14:22:54,0.270s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/depositId""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:22:54,2020-09-15 14:22:54,0.263s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/depositId"")) == depositId)",Chrome 85.0.4183.102,,,2020-09-15 14:22:54,2020-09-15 14:22:54,0.277s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 85.0.4183.102,,,2020-09-15 14:22:54,2020-09-15 14:22:55,0.612s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:55,2020-09-15 14:22:55,0.006s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:55,2020-09-15 14:22:55,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:55,2020-09-15 14:22:55,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:22:55,2020-09-15 14:22:55,0.001s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Display-Receipt-Header,Chrome 85.0.4183.102,,,2020-09-15 14:22:55,2020-09-15 14:23:30,35.038s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:22:55,2020-09-15 14:23:12,17.207s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:12,2020-09-15 14:23:12,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:12,2020-09-15 14:23:12,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:23:12,2020-09-15 14:23:12,0.002s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:23:12,2020-09-15 14:23:12,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:23:12,2020-09-15 14:23:27,14.826s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/depositId""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:23:27,2020-09-15 14:23:28,0.848s,PASSED
+"depositId = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/depositId""))",Chrome 85.0.4183.102,,,2020-09-15 14:23:28,2020-09-15 14:23:28,0.270s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/pDrawDate""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:23:28,2020-09-15 14:23:28,0.253s,PASSED
+"drawDate = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/pDrawDate""))",Chrome 85.0.4183.102,,,2020-09-15 14:23:28,2020-09-15 14:23:29,0.266s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/payDate""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:23:29,2020-09-15 14:23:29,0.260s,PASSED
+"payDate = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/payDate""))",Chrome 85.0.4183.102,,,2020-09-15 14:23:29,2020-09-15 14:23:29,0.263s,PASSED
+"println("" DepositId  "" + depositId + ""  DrawDate  "" + drawDate + ""  Paydate  "" + payDate)",Chrome 85.0.4183.102,,,2020-09-15 14:23:29,2020-09-15 14:23:29,0.002s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 85.0.4183.102,,,2020-09-15 14:23:29,2020-09-15 14:23:30,0.594s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:30,2020-09-15 14:23:30,0.004s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:30,2020-09-15 14:23:30,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:30,2020-09-15 14:23:30,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:23:30,2020-09-15 14:23:30,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Edit-Receipt-Header,Chrome 85.0.4183.102,,,2020-09-15 14:23:30,2020-09-15 14:24:13,43.162s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:30,2020-09-15 14:23:46,15.761s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:46,2020-09-15 14:23:46,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:23:46,2020-09-15 14:23:46,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:23:46,2020-09-15 14:23:46,0.002s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:23:46,2020-09-15 14:23:46,0.001s,PASSED
+newDepositId2 = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:23:46,2020-09-15 14:23:46,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:23:46,2020-09-15 14:24:01,15.321s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/Mose_over""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:24:01,2020-09-15 14:24:02,0.916s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/Mose_over""))",Chrome 85.0.4183.102,,,2020-09-15 14:24:02,2020-09-15 14:24:02,0.286s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/3dots_icon""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:24:02,2020-09-15 14:24:03,0.467s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/3dots_icon""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:24:03,2020-09-15 14:24:03,0.621s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/edit-Icon""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:24:03,2020-09-15 14:24:04,0.638s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:24:04,2020-09-15 14:24:05,0.818s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), Keys.chord(TAB, TAB))",Chrome 85.0.4183.102,,,2020-09-15 14:24:05,2020-09-15 14:24:05,0.320s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/deposit_ID""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:24:05,2020-09-15 14:24:06,0.476s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/deposit_ID""), Keys.chord(DELETE))",Chrome 85.0.4183.102,,,2020-09-15 14:24:06,2020-09-15 14:24:06,0.621s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/deposit_ID""), newDepositId2 + Keys.chord(TAB))",Chrome 85.0.4183.102,,,2020-09-15 14:24:06,2020-09-15 14:24:07,0.728s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/receipt_Notes""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:24:07,2020-09-15 14:24:07,0.479s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/receipt_Notes""), Keys.chord(DELETE))",Chrome 85.0.4183.102,,,2020-09-15 14:24:07,2020-09-15 14:24:08,0.300s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/receipt_Notes""), receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:24:08,2020-09-15 14:24:08,0.629s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/receipt_Notes""), Keys.chord(TAB))",Chrome 85.0.4183.102,,,2020-09-15 14:24:08,2020-09-15 14:24:09,0.520s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/next_Button""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:24:09,2020-09-15 14:24:09,0.454s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/next_Button""))",Chrome 85.0.4183.102,,,2020-09-15 14:24:09,2020-09-15 14:24:10,0.520s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/Mose_over""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:24:10,2020-09-15 14:24:10,0.494s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/Mose_over""))",Chrome 85.0.4183.102,,,2020-09-15 14:24:10,2020-09-15 14:24:11,0.371s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/depositId""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:24:11,2020-09-15 14:24:11,0.462s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/depositId"")) == newDepositId2.toString())",Chrome 85.0.4183.102,,,2020-09-15 14:24:11,2020-09-15 14:24:12,0.569s,PASSED
+else,Chrome 85.0.4183.102,,,2020-09-15 14:24:12,2020-09-15 14:24:12,0.000s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/receiptsNotes""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:24:12,2020-09-15 14:24:12,0.250s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/receiptsNotes"")) == receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:24:12,2020-09-15 14:24:12,0.258s,PASSED
+else,Chrome 85.0.4183.102,,,2020-09-15 14:24:12,2020-09-15 14:24:12,0.001s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 85.0.4183.102,,,2020-09-15 14:24:12,2020-09-15 14:24:13,0.600s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:13,2020-09-15 14:24:13,0.004s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:13,2020-09-15 14:24:13,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:13,2020-09-15 14:24:13,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:24:13,2020-09-15 14:24:13,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Create-Receipt-CheckLine,Chrome 85.0.4183.102,,,2020-09-15 14:24:13,2020-09-15 14:24:55,41.389s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:13,2020-09-15 14:24:29,16.263s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:29,2020-09-15 14:24:29,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:29,2020-09-15 14:24:29,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:24:29,2020-09-15 14:24:29,0.003s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:24:30,2020-09-15 14:24:30,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:24:30,2020-09-15 14:24:44,14.424s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:24:44,2020-09-15 14:24:54,9.791s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:54,2020-09-15 14:24:55,0.615s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:55,2020-09-15 14:24:55,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:55,2020-09-15 14:24:55,0.002s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:24:55,2020-09-15 14:24:55,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Edit-Receipt_Line,Chrome 85.0.4183.102,,,2020-09-15 14:24:55,2020-09-15 14:25:49,54.117s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:24:55,2020-09-15 14:25:14,19.196s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:25:14,2020-09-15 14:25:14,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:25:14,2020-09-15 14:25:14,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:25:14,2020-09-15 14:25:14,0.001s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:25:14,2020-09-15 14:25:14,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:25:14,2020-09-15 14:25:29,14.596s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:25:29,2020-09-15 14:25:38,9.831s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:25:38,2020-09-15 14:25:44,5.269s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/3dots_icon""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:25:44,2020-09-15 14:25:44,0.356s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/3dots_Icon""))",Chrome 85.0.4183.102,,,2020-09-15 14:25:44,2020-09-15 14:25:44,0.288s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/li_Edit""))",Chrome 85.0.4183.102,,,2020-09-15 14:25:44,2020-09-15 14:25:45,0.537s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:25:45,2020-09-15 14:25:45,0.461s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""))",Chrome 85.0.4183.102,,,2020-09-15 14:25:45,2020-09-15 14:25:46,0.288s,PASSED
+"Uifunctions.clearElementText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""))",Chrome 85.0.4183.102,,,2020-09-15 14:25:46,2020-09-15 14:25:46,0.294s,PASSED
+"elementri = findWebElement(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:25:46,2020-09-15 14:25:46,0.259s,PASSED
+elementri.clear(),Chrome 85.0.4183.102,,,2020-09-15 14:25:46,2020-09-15 14:25:46,0.025s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""), ReceiptId)",Chrome 85.0.4183.102,,,2020-09-15 14:25:46,2020-09-15 14:25:47,0.396s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/button_Save""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:25:47,2020-09-15 14:25:47,0.470s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/button_Save""))",Chrome 85.0.4183.102,,,2020-09-15 14:25:47,2020-09-15 14:25:47,0.387s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receiptId_Added"")) == findTestData(""Receipt/FDR-EditCheckLineTestData"").getValue(1, 1))",Chrome 85.0.4183.102,,,2020-09-15 14:25:47,2020-09-15 14:25:48,0.591s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:25:48,2020-09-15 14:25:49,0.641s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:25:49,2020-09-15 14:25:49,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:25:49,2020-09-15 14:25:49,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:25:49,2020-09-15 14:25:49,0.001s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Delete-Undo-Receipt-Header,Chrome 85.0.4183.102,,,2020-09-15 14:25:49,2020-09-15 14:26:38,49.319s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:25:49,2020-09-15 14:26:05,15.989s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:05,2020-09-15 14:26:05,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:05,2020-09-15 14:26:05,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:26:05,2020-09-15 14:26:05,0.003s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:26:05,2020-09-15 14:26:05,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:26:05,2020-09-15 14:26:20,14.602s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:26:20,2020-09-15 14:26:29,9.819s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-15 14:26:29,2020-09-15 14:26:31,2.014s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Delete/3dots_icon""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:26:31,2020-09-15 14:26:32,0.263s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Delete/3dots_icon""))",Chrome 85.0.4183.102,,,2020-09-15 14:26:32,2020-09-15 14:26:32,0.336s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Delete/deleteHeader""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:26:32,2020-09-15 14:26:32,0.373s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Delete/deleteHeader""))",Chrome 85.0.4183.102,,,2020-09-15 14:26:32,2020-09-15 14:26:33,0.635s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/undoIcon""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:26:33,2020-09-15 14:26:34,0.885s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/undoIcon""))",Chrome 85.0.4183.102,,,2020-09-15 14:26:34,2020-09-15 14:26:34,0.306s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/lineAttribute""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:26:34,2020-09-15 14:26:37,3.179s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:37,2020-09-15 14:26:38,0.660s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:38,2020-09-15 14:26:38,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:38,2020-09-15 14:26:38,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:26:38,2020-09-15 14:26:38,0.001s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Review Receipt,Chrome 85.0.4183.102,,,2020-09-15 14:26:38,2020-09-15 14:27:15,37.359s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:38,2020-09-15 14:26:54,15.842s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:54,2020-09-15 14:26:54,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:26:54,2020-09-15 14:26:54,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:26:54,2020-09-15 14:26:54,0.004s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:26:54,2020-09-15 14:26:54,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:26:54,2020-09-15 14:26:56,2.015s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""))",Chrome 85.0.4183.102,,,2020-09-15 14:26:56,2020-09-15 14:26:57,0.400s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:26:57,2020-09-15 14:27:02,5.160s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:27:02,2020-09-15 14:27:02,0.246s,PASSED
+"setText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), Drawdate)",Chrome 85.0.4183.102,,,2020-09-15 14:27:02,2020-09-15 14:27:03,0.988s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:27:03,2020-09-15 14:27:03,0.463s,PASSED
+"setText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), Paydate)",Chrome 85.0.4183.102,,,2020-09-15 14:27:03,2020-09-15 14:27:04,0.575s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:27:04,2020-09-15 14:27:04,0.254s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), newDepositId)",Chrome 85.0.4183.102,,,2020-09-15 14:27:04,2020-09-15 14:27:05,0.531s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:27:05,2020-09-15 14:27:05,0.453s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:27:05,2020-09-15 14:27:06,0.449s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/remittanceNo""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:27:06,2020-09-15 14:27:06,0.452s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/remittanceNo""), Remittance)",Chrome 85.0.4183.102,,,2020-09-15 14:27:06,2020-09-15 14:27:07,0.407s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/controllerNo""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:27:07,2020-09-15 14:27:07,0.461s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/controllerNo""), Controller)",Chrome 85.0.4183.102,,,2020-09-15 14:27:07,2020-09-15 14:27:07,0.409s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:27:07,2020-09-15 14:27:08,0.454s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""))",Chrome 85.0.4183.102,,,2020-09-15 14:27:08,2020-09-15 14:27:08,0.365s,PASSED
+delay(5),Chrome 85.0.4183.102,,,2020-09-15 14:27:08,2020-09-15 14:27:13,5.002s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Review""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:27:13,2020-09-15 14:27:13,0.260s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Review""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:27:13,2020-09-15 14:27:14,0.307s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Submitforapproval""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:27:14,2020-09-15 14:27:14,0.460s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Submitforapproval""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:27:14,2020-09-15 14:27:15,0.608s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:27:15,0.600s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:27:15,0.004s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:27:15,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:27:15,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:27:15,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Receipts-FixStateReasons,Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:28:19,1m - 3.983s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:27:15,2020-09-15 14:27:31,15.882s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:27:31,2020-09-15 14:27:31,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:27:31,2020-09-15 14:27:31,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:27:31,2020-09-15 14:27:31,0.002s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:32,0.000s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:32,0.001s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:32,0.000s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:32,0.000s,PASSED
+"originalwarrantdate = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:32,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:32,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, ReceiptNotes, Remittance, Controller)",Chrome 85.0.4183.102,,,2020-09-15 14:27:32,2020-09-15 14:27:46,14.669s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:27:46,2020-09-15 14:27:56,9.786s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:27:56,2020-09-15 14:27:57,0.582s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:27:57,2020-09-15 14:27:57,0.296s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Submitforapproval""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:27:57,2020-09-15 14:27:57,0.455s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Submitforapproval""))",Chrome 85.0.4183.102,,,2020-09-15 14:27:57,2020-09-15 14:27:58,0.639s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/filterValidatebatch""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:27:58,2020-09-15 14:27:59,1.161s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/filterValidatebatch""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:27:59,2020-09-15 14:27:59,0.269s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/filterValidatebatch""))",Chrome 85.0.4183.102,,,2020-09-15 14:27:59,2020-09-15 14:28:00,0.323s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/buttonValidate""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:28:00,2020-09-15 14:28:01,1.010s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/buttonValidate""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:01,2020-09-15 14:28:02,0.790s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Reject""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:02,2020-09-15 14:28:02,0.729s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Reject""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:02,2020-09-15 14:28:03,0.326s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/incorrectDrawDate""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:03,2020-09-15 14:28:03,0.462s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/incorrectDrawDate""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:03,2020-09-15 14:28:04,0.511s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_RejectReceiptBatch""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:28:04,2020-09-15 14:28:04,0.453s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_RejectReceiptBatch""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:04,2020-09-15 14:28:04,0.362s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/clearButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:04,2020-09-15 14:28:06,1.125s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/clearButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:06,2020-09-15 14:28:06,0.313s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/fixBatchButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:06,2020-09-15 14:28:07,0.947s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/fixBatchButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:07,2020-09-15 14:28:07,0.357s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/fixButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:07,2020-09-15 14:28:08,0.934s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/fixButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:08,2020-09-15 14:28:09,0.477s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:28:09,2020-09-15 14:28:14,5.243s,PASSED
+"instructionsLabel = ""INSTRUCTIONS FOR FIXING THIS RECEIPT""",Chrome 85.0.4183.102,,,2020-09-15 14:28:14,2020-09-15 14:28:14,0.000s,PASSED
+"verifyElementText(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/instructionsLabel""), instructionsLabel, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:28:14,2020-09-15 14:28:14,0.277s,PASSED
+"instructionsIncorrectDrawDate = ""Incorrect Draw Date""",Chrome 85.0.4183.102,,,2020-09-15 14:28:14,2020-09-15 14:28:14,0.000s,PASSED
+"verifyElementText(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/instructionsIncorrectDrawDate""), instructionsIncorrectDrawDate, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:28:14,2020-09-15 14:28:19,4.699s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:19,2020-09-15 14:28:19,0.615s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:19,2020-09-15 14:28:19,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:19,2020-09-15 14:28:19,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:28:19,2020-09-15 14:28:19,0.002s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-Receipt-RA-CR-checkMarked,Chrome 85.0.4183.102,,,2020-09-15 14:28:20,2020-09-15 14:28:55,35.264s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:20,2020-09-15 14:28:38,18.788s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:38,2020-09-15 14:28:38,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:38,2020-09-15 14:28:38,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:28:38,2020-09-15 14:28:38,0.002s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:28:38,2020-09-15 14:28:38,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:28:38,2020-09-15 14:28:40,1.885s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:40,2020-09-15 14:28:41,0.414s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:28:41,2020-09-15 14:28:46,5.254s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:28:46,2020-09-15 14:28:46,0.253s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), Drawdate)",Chrome 85.0.4183.102,,,2020-09-15 14:28:46,2020-09-15 14:28:47,0.993s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:28:47,2020-09-15 14:28:48,0.461s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), Paydate)",Chrome 85.0.4183.102,,,2020-09-15 14:28:48,2020-09-15 14:28:48,0.320s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:48,2020-09-15 14:28:48,0.248s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), newDepositId)",Chrome 85.0.4183.102,,,2020-09-15 14:28:48,2020-09-15 14:28:49,0.533s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:49,2020-09-15 14:28:49,0.479s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:28:49,2020-09-15 14:28:50,0.449s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/remittanceNo""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:50,2020-09-15 14:28:50,0.455s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/remittanceNo""), Remittance)",Chrome 85.0.4183.102,,,2020-09-15 14:28:50,2020-09-15 14:28:51,0.422s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/controllerNo""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:51,2020-09-15 14:28:51,0.468s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/controllerNo""), Controller)",Chrome 85.0.4183.102,,,2020-09-15 14:28:51,2020-09-15 14:28:52,0.428s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:52,2020-09-15 14:28:52,0.459s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""))",Chrome 85.0.4183.102,,,2020-09-15 14:28:52,2020-09-15 14:28:52,0.396s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/colorRA""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:28:52,2020-09-15 14:28:53,0.892s,PASSED
+"css_color_RA = getCSSValue(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/colorRA""), ""color"")",Chrome 85.0.4183.102,,,2020-09-15 14:28:53,2020-09-15 14:28:54,0.283s,PASSED
+"css_color_CA = getCSSValue(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/colorCA""), ""color"")",Chrome 85.0.4183.102,,,2020-09-15 14:28:54,2020-09-15 14:28:54,0.274s,PASSED
+"verifyEqual(css_color_RA, ""rgba(71, 185, 112, 1)"")",Chrome 85.0.4183.102,,,2020-09-15 14:28:54,2020-09-15 14:28:54,0.010s,PASSED
+"if (css_color_RA == ""rgba(71, 185, 112, 1)"" && css_color_CA == ""rgba(71, 185, 112, 1)"")",Chrome 85.0.4183.102,,,2020-09-15 14:28:54,2020-09-15 14:28:54,0.273s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:54,2020-09-15 14:28:55,0.630s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:55,2020-09-15 14:28:55,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:55,2020-09-15 14:28:55,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:28:55,2020-09-15 14:28:55,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-Updated-Receipt-DistributionLine,Chrome 85.0.4183.102,,,2020-09-15 14:28:55,2020-09-15 14:30:08,1m - 12.653s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:28:55,2020-09-15 14:29:11,16.001s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.002s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.000s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.001s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.000s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:11,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:29:11,2020-09-15 14:29:25,14.070s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:29:25,2020-09-15 14:29:35,9.735s,PASSED
+"editors.createReceiptDistributionLine(servicedatefrom, servicedateto, amount, waiverType, waiverName, fundingSource, fundCode, fundRatio, nonFederalFund, serviceLocation, index, programType, serviceCategory, increaseDecreaseLine, accountId, altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:29:35,2020-09-15 14:30:01,26.589s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/InvoiceNumberTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:01,2020-09-15 14:30:03,1.561s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/FundCodeTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:03,2020-09-15 14:30:03,0.255s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/FundingSourceTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:03,2020-09-15 14:30:04,0.273s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/FundRatioTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:04,2020-09-15 14:30:04,0.249s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/Non-FederalFundTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:04,2020-09-15 14:30:04,0.261s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/FederalShareTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:04,2020-09-15 14:30:04,0.284s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/Non-FederalShareTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:04,2020-09-15 14:30:05,0.254s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/SubtotalTitle""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:05,2020-09-15 14:30:05,0.249s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/popoverIcon""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:05,2020-09-15 14:30:05,0.257s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/popoverIcon""))",Chrome 85.0.4183.102,,,2020-09-15 14:30:05,2020-09-15 14:30:05,0.287s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/pAccountIdText""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:05,2020-09-15 14:30:06,0.499s,PASSED
+"accountIdTxt = getText(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/pAccountIdText""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:06,2020-09-15 14:30:06,0.493s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/pAltAccountIdText""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:06,2020-09-15 14:30:07,0.254s,PASSED
+"altAccountIdTxt = getText(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-View-DitributionLine/pAltAccountIdText""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:30:07,2020-09-15 14:30:07,0.258s,PASSED
+if (accountIdTxt == accountId && altAccountIdTxt == altAccountId),Chrome 85.0.4183.102,,,2020-09-15 14:30:07,2020-09-15 14:30:07,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:30:07,2020-09-15 14:30:08,0.618s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:30:08,2020-09-15 14:30:08,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:30:08,2020-09-15 14:30:08,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:30:08,2020-09-15 14:30:08,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Review-Preview-Forms-Prior-Approval,Chrome 85.0.4183.102,,,2020-09-15 14:30:08,2020-09-15 14:31:21,1m - 13.144s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:30:08,2020-09-15 14:30:25,17.011s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.001s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.001s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.000s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:25,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes, RA, CR)",Chrome 85.0.4183.102,,,2020-09-15 14:30:25,2020-09-15 14:30:40,14.783s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:30:40,2020-09-15 14:30:50,10.473s,PASSED
+"editors.createReceiptDistributionLine(servicedatefrom, servicedateto, amount, waiverType, waiverName, fundingSource, fundCode, fundRatio, nonFederalFund, serviceLocation, index, programType, serviceCategory, increaseDecreaseLine, accountId, altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:30:50,2020-09-15 14:31:16,26.196s,PASSED
+"buttonColor = getCSSValue(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""), ""color"")",Chrome 85.0.4183.102,,,2020-09-15 14:31:16,2020-09-15 14:31:18,1.384s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:31:18,2020-09-15 14:31:18,0.247s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:31:18,2020-09-15 14:31:18,0.341s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/PrintForms/buttonTransactionRequestPreview""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:31:18,2020-09-15 14:31:19,1.013s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/PrintForms/buttonTransactionRequestPreview""))",Chrome 85.0.4183.102,,,2020-09-15 14:31:19,2020-09-15 14:31:20,0.370s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/PrintForms/titleTransactionRequestPreview""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:31:20,2020-09-15 14:31:20,0.467s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:31:20,2020-09-15 14:31:21,0.617s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:31:21,2020-09-15 14:31:21,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:31:21,2020-09-15 14:31:21,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:31:21,2020-09-15 14:31:21,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Review-Print-Forms,Chrome 85.0.4183.102,,,2020-09-15 14:31:21,2020-09-15 14:32:41,1m - 20.394s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:31:21,2020-09-15 14:31:37,15.930s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.003s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.000s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.000s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.000s,PASSED
+"originalwarrantdate = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:37,0.000s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:31:37,2020-09-15 14:31:39,1.559s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button""))",Chrome 85.0.4183.102,,,2020-09-15 14:31:39,2020-09-15 14:31:39,0.448s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/createNewVoucherButton""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:31:39,2020-09-15 14:31:44,5.066s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:31:44,2020-09-15 14:31:45,0.251s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), Drawdate)",Chrome 85.0.4183.102,,,2020-09-15 14:31:45,2020-09-15 14:31:45,0.856s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:31:45,2020-09-15 14:31:46,0.458s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/payDate""), Paydate)",Chrome 85.0.4183.102,,,2020-09-15 14:31:46,2020-09-15 14:31:46,0.312s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:46,2020-09-15 14:31:47,0.261s,PASSED
+depositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:31:47,2020-09-15 14:31:47,0.000s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/deposit ID""), depositId)",Chrome 85.0.4183.102,,,2020-09-15 14:31:47,2020-09-15 14:31:47,0.519s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:47,2020-09-15 14:31:48,0.467s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/receiptNotes""), Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:31:48,2020-09-15 14:31:48,0.488s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/remittanceNo""), Remittance)",Chrome 85.0.4183.102,,,2020-09-15 14:31:48,2020-09-15 14:31:49,0.707s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/controllerNo""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:49,2020-09-15 14:31:49,0.465s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/controllerNo""), Controller)",Chrome 85.0.4183.102,,,2020-09-15 14:31:49,2020-09-15 14:31:50,0.421s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:50,2020-09-15 14:31:50,0.456s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/buttonNext""))",Chrome 85.0.4183.102,,,2020-09-15 14:31:50,2020-09-15 14:31:50,0.373s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-15 14:31:50,2020-09-15 14:31:52,2.002s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:52,2020-09-15 14:31:53,0.253s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID""), ReceiptID)",Chrome 85.0.4183.102,,,2020-09-15 14:31:53,2020-09-15 14:31:53,0.400s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:53,2020-09-15 14:31:54,0.471s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id""), SupplierID)",Chrome 85.0.4183.102,,,2020-09-15 14:31:54,2020-09-15 14:31:54,0.380s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:31:54,2020-09-15 14:31:54,0.499s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Date""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:54,2020-09-15 14:31:55,0.483s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Date""), DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:31:55,2020-09-15 14:31:55,0.413s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/addReceipt_Button2""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:55,2020-09-15 14:31:56,0.454s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/addReceipt_Button2""))",Chrome 85.0.4183.102,,,2020-09-15 14:31:56,2020-09-15 14:31:56,0.338s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:31:56,2020-09-15 14:31:57,0.573s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:31:57,2020-09-15 14:31:57,0.339s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:57,2020-09-15 14:31:58,0.987s,PASSED
+"scrollToElement(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:31:58,2020-09-15 14:31:58,0.260s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:31:58,2020-09-15 14:31:59,0.254s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:31:59,2020-09-15 14:31:59,0.405s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:31:59,2020-09-15 14:31:59,0.432s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), searchfield)",Chrome 85.0.4183.102,,,2020-09-15 14:31:59,2020-09-15 14:32:00,0.592s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:00,2020-09-15 14:32:02,1.692s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:02,2020-09-15 14:32:02,0.479s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), servicedatefrom)",Chrome 85.0.4183.102,,,2020-09-15 14:32:02,2020-09-15 14:32:03,0.604s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:03,2020-09-15 14:32:03,0.256s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), servicedateto)",Chrome 85.0.4183.102,,,2020-09-15 14:32:03,2020-09-15 14:32:04,0.636s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:04,2020-09-15 14:32:04,0.256s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate""), originalwarrantdate)",Chrome 85.0.4183.102,,,2020-09-15 14:32:04,2020-09-15 14:32:05,0.637s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:05,2020-09-15 14:32:05,0.253s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), Amount)",Chrome 85.0.4183.102,,,2020-09-15 14:32:05,2020-09-15 14:32:05,0.510s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:05,2020-09-15 14:32:06,0.299s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 8)",Chrome 85.0.4183.102,,,2020-09-15 14:32:06,2020-09-15 14:32:06,0.258s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Waivertype)",Chrome 85.0.4183.102,,,2020-09-15 14:32:06,2020-09-15 14:32:06,0.355s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:06,2020-09-15 14:32:07,0.565s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:32:07,2020-09-15 14:32:07,0.484s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Waivername)",Chrome 85.0.4183.102,,,2020-09-15 14:32:07,2020-09-15 14:32:08,0.526s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:08,2020-09-15 14:32:08,0.522s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:32:08,2020-09-15 14:32:09,0.453s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Fundingsource)",Chrome 85.0.4183.102,,,2020-09-15 14:32:09,2020-09-15 14:32:09,0.339s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:09,2020-09-15 14:32:10,0.518s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:32:10,2020-09-15 14:32:10,0.472s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:32:10,2020-09-15 14:32:11,0.455s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:11,2020-09-15 14:32:11,0.432s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:11,2020-09-15 14:32:11,0.478s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Fundratio)",Chrome 85.0.4183.102,,,2020-09-15 14:32:11,2020-09-15 14:32:12,0.355s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:12,2020-09-15 14:32:12,0.573s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:12,2020-09-15 14:32:13,0.484s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Nonfederalfund)",Chrome 85.0.4183.102,,,2020-09-15 14:32:13,2020-09-15 14:32:13,0.326s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:13,2020-09-15 14:32:14,0.534s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:14,2020-09-15 14:32:14,0.453s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Servicelocation)",Chrome 85.0.4183.102,,,2020-09-15 14:32:14,2020-09-15 14:32:15,0.472s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:15,2020-09-15 14:32:15,0.271s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:15,2020-09-15 14:32:15,0.262s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Index)",Chrome 85.0.4183.102,,,2020-09-15 14:32:15,2020-09-15 14:32:16,0.370s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:16,2020-09-15 14:32:16,0.506s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:16,2020-09-15 14:32:17,0.450s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Programtype)",Chrome 85.0.4183.102,,,2020-09-15 14:32:17,2020-09-15 14:32:17,0.457s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:17,2020-09-15 14:32:17,0.407s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:17,2020-09-15 14:32:18,0.453s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Servicecategory)",Chrome 85.0.4183.102,,,2020-09-15 14:32:18,2020-09-15 14:32:18,0.343s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:18,2020-09-15 14:32:19,0.556s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:19,2020-09-15 14:32:19,0.473s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), IncreaseDecreaseLine)",Chrome 85.0.4183.102,,,2020-09-15 14:32:19,2020-09-15 14:32:20,0.446s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:20,2020-09-15 14:32:20,0.425s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:20,2020-09-15 14:32:21,0.455s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), accountId + Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:21,2020-09-15 14:32:21,0.438s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:21,2020-09-15 14:32:21,0.475s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:32:21,2020-09-15 14:32:22,0.456s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:32:22,2020-09-15 14:32:22,0.565s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:22,2020-09-15 14:32:23,0.456s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:23,2020-09-15 14:32:23,0.254s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:23,2020-09-15 14:32:24,0.386s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:32:24,2020-09-15 14:32:25,1.467s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:25,2020-09-15 14:32:25,0.330s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/previewTROthers""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:25,2020-09-15 14:32:26,0.976s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/previewTROthers""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:26,2020-09-15 14:32:27,0.361s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/closePreview""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:27,2020-09-15 14:32:27,0.460s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/closePreview""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:27,2020-09-15 14:32:28,0.511s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/previewTRHQAF""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:28,2020-09-15 14:32:28,0.454s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/previewTRHQAF""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:28,2020-09-15 14:32:28,0.329s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/closePreview""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:28,2020-09-15 14:32:29,0.465s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/closePreview""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:29,2020-09-15 14:32:29,0.513s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/previewTRHHP""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:29,2020-09-15 14:32:30,0.477s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/previewTRHHP""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:30,2020-09-15 14:32:30,0.359s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/closePreview""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:30,2020-09-15 14:32:31,0.466s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/closePreview""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:31,2020-09-15 14:32:31,0.515s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Submitforapproval""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:31,2020-09-15 14:32:32,0.459s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Submitforapproval""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:32,2020-09-15 14:32:32,0.307s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/filterValidatebatch""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:32,2020-09-15 14:32:33,0.977s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/filterValidatebatch""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:32:33,2020-09-15 14:32:33,0.256s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/filterValidatebatch""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:33,2020-09-15 14:32:34,0.319s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/buttonValidate""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:34,2020-09-15 14:32:35,0.966s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/buttonValidate""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:35,2020-09-15 14:32:35,0.425s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Approve""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:32:35,2020-09-15 14:32:35,0.516s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-ReceiptBatch/Review-Receipt/button_Approve""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:35,2020-09-15 14:32:36,0.308s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/reportButton""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:32:36,2020-09-15 14:32:37,0.765s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/reportButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:37,2020-09-15 14:32:37,0.378s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/receiptTransactionRequests""), 5, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:37,2020-09-15 14:32:37,0.475s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/receiptTransactionRequests""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:37,2020-09-15 14:32:38,0.503s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:32:38,2020-09-15 14:32:38,0.457s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), Drawdate)",Chrome 85.0.4183.102,,,2020-09-15 14:32:38,2020-09-15 14:32:39,0.791s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_generateTRs""), 10, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:39,2020-09-15 14:32:40,0.474s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_generateTRs""))",Chrome 85.0.4183.102,,,2020-09-15 14:32:40,2020-09-15 14:32:40,0.321s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/backToDashboardBtn""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:32:40,2020-09-15 14:32:41,0.680s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:32:41,2020-09-15 14:32:41,0.608s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:32:41,2020-09-15 14:32:41,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:32:41,2020-09-15 14:32:41,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:32:41,2020-09-15 14:32:41,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Delete-Undo-Receipt-Line,Chrome 85.0.4183.102,,,2020-09-15 14:32:41,2020-09-15 14:33:35,54.239s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:32:41,2020-09-15 14:32:56,14.913s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:32:56,2020-09-15 14:32:56,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:32:56,2020-09-15 14:32:56,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:32:56,2020-09-15 14:32:56,0.002s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:32:56,2020-09-15 14:32:56,0.001s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:32:56,2020-09-15 14:33:11,14.341s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:33:11,2020-09-15 14:33:20,9.682s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-15 14:33:20,2020-09-15 14:33:22,2.002s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/lineAttribute""))",Chrome 85.0.4183.102,,,2020-09-15 14:33:22,2020-09-15 14:33:23,0.361s,PASSED
+"mouseOver(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/Mose_over""))",Chrome 85.0.4183.102,,,2020-09-15 14:33:23,2020-09-15 14:33:23,0.683s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/3dots_Icon""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:33:23,2020-09-15 14:33:24,0.289s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Edit/3dots_Icon""))",Chrome 85.0.4183.102,,,2020-09-15 14:33:24,2020-09-15 14:33:24,0.281s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/li_Delete""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:33:24,2020-09-15 14:33:24,0.471s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/li_Delete""))",Chrome 85.0.4183.102,,,2020-09-15 14:33:24,2020-09-15 14:33:25,0.694s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/li_Delete""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:33:25,2020-09-15 14:33:31,6.185s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/undoIcon""))",Chrome 85.0.4183.102,,,2020-09-15 14:33:31,2020-09-15 14:33:32,0.333s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/li_Delete""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:33:32,2020-09-15 14:33:35,3.185s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:33:35,2020-09-15 14:33:35,0.597s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:33:35,2020-09-15 14:33:35,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:33:35,2020-09-15 14:33:35,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:33:35,2020-09-15 14:33:35,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-ReceiptHeader-RA-CR,Chrome 85.0.4183.102,,,2020-09-15 14:33:36,2020-09-15 14:34:14,38.750s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:33:36,2020-09-15 14:33:51,15.916s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:33:51,2020-09-15 14:33:51,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:33:51,2020-09-15 14:33:51,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:33:51,2020-09-15 14:33:51,0.003s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:33:52,2020-09-15 14:33:52,0.001s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:33:52,2020-09-15 14:33:52,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:33:52,2020-09-15 14:33:52,0.000s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:33:52,2020-09-15 14:33:52,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:33:52,2020-09-15 14:33:52,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:33:52,2020-09-15 14:34:07,14.971s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/3dots_icon""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:34:07,2020-09-15 14:34:07,0.852s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/3dots_icon""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:07,2020-09-15 14:34:08,0.327s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/edit-Icon""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:08,2020-09-15 14:34:08,0.586s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/remmitanceAdviceInput""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:08,2020-09-15 14:34:09,0.584s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/remmitanceAdviceInput""), remmitanceAdvice)",Chrome 85.0.4183.102,,,2020-09-15 14:34:09,2020-09-15 14:34:09,0.375s,PASSED
+"verifyElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/controllerReceiptInput""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:09,2020-09-15 14:34:10,0.461s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/controllerReceiptInput""), controllerReceipt)",Chrome 85.0.4183.102,,,2020-09-15 14:34:10,2020-09-15 14:34:10,0.386s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/next_Button""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:34:10,2020-09-15 14:34:11,0.468s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/next_Button""))",Chrome 85.0.4183.102,,,2020-09-15 14:34:11,2020-09-15 14:34:11,0.440s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/Mose_over""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:34:11,2020-09-15 14:34:12,0.684s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/Mose_over""))",Chrome 85.0.4183.102,,,2020-09-15 14:34:12,2020-09-15 14:34:12,0.334s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/remmitanceAdviceView""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:34:12,2020-09-15 14:34:13,0.458s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/remmitanceAdviceView"")) == remmitanceAdvice)",Chrome 85.0.4183.102,,,2020-09-15 14:34:13,2020-09-15 14:34:13,0.588s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/controllerReceiptView""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:34:13,2020-09-15 14:34:13,0.256s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-Header/Edit/controllerReceiptView"")) == controllerReceipt)",Chrome 85.0.4183.102,,,2020-09-15 14:34:13,2020-09-15 14:34:14,0.281s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:34:14,2020-09-15 14:34:14,0.597s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:34:14,2020-09-15 14:34:14,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:34:14,2020-09-15 14:34:14,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:34:14,2020-09-15 14:34:14,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Create-Receipt-DistributionLine,Chrome 85.0.4183.102,,,2020-09-15 14:34:14,2020-09-15 14:36:20,2m - 5.577s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:34:14,2020-09-15 14:34:31,16.461s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.002s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.000s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.001s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.000s,PASSED
+"originalwarrantdate = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:31,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:34:31,2020-09-15 14:34:46,15.194s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:34:46,2020-09-15 14:34:56,9.745s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:56,2020-09-15 14:34:57,0.573s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:57,2020-09-15 14:34:57,0.322s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:34:57,2020-09-15 14:34:58,0.970s,PASSED
+"Receipttotalbefaddwith$ = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""))",Chrome 85.0.4183.102,,,2020-09-15 14:34:58,2020-09-15 14:34:58,0.264s,PASSED
+Receipttotalbefaddwithout$ = Receipttotalbefaddwith$.substring(1),Chrome 85.0.4183.102,,,2020-09-15 14:34:58,2020-09-15 14:34:58,0.001s,PASSED
+"ReceipttotalbefaddwithoutComma = Receipttotalbefaddwithout$.replaceAll("","", """")",Chrome 85.0.4183.102,,,2020-09-15 14:34:58,2020-09-15 14:34:58,0.002s,PASSED
+Receipttotalbefreceiptlineadd = Float.parseFloat(ReceipttotalbefaddwithoutComma),Chrome 85.0.4183.102,,,2020-09-15 14:34:58,2020-09-15 14:34:58,0.003s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:34:58,2020-09-15 14:34:59,0.246s,PASSED
+"scrollToElement(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:34:59,2020-09-15 14:34:59,0.267s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:59,2020-09-15 14:34:59,0.266s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:34:59,2020-09-15 14:35:00,0.377s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:00,2020-09-15 14:35:00,0.386s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), searchfield)",Chrome 85.0.4183.102,,,2020-09-15 14:35:00,2020-09-15 14:35:01,1.481s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually""))",Chrome 85.0.4183.102,,,2020-09-15 14:35:01,2020-09-15 14:35:03,1.144s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:03,2020-09-15 14:35:03,0.460s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), servicedatefrom)",Chrome 85.0.4183.102,,,2020-09-15 14:35:03,2020-09-15 14:35:04,0.625s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:04,2020-09-15 14:35:04,0.258s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), servicedateto)",Chrome 85.0.4183.102,,,2020-09-15 14:35:04,2020-09-15 14:35:04,0.602s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:04,2020-09-15 14:35:05,0.249s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate""), originalwarrantdate)",Chrome 85.0.4183.102,,,2020-09-15 14:35:05,2020-09-15 14:35:05,0.573s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:05,2020-09-15 14:35:06,0.265s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), Amount)",Chrome 85.0.4183.102,,,2020-09-15 14:35:06,2020-09-15 14:35:06,0.527s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:06,2020-09-15 14:35:06,0.261s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 8)",Chrome 85.0.4183.102,,,2020-09-15 14:35:06,2020-09-15 14:35:07,0.247s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Waivertype)",Chrome 85.0.4183.102,,,2020-09-15 14:35:07,2020-09-15 14:35:07,0.366s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:07,2020-09-15 14:35:07,0.533s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:35:07,2020-09-15 14:35:08,0.454s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Waivername)",Chrome 85.0.4183.102,,,2020-09-15 14:35:08,2020-09-15 14:35:08,0.510s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:08,2020-09-15 14:35:09,0.454s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:35:09,2020-09-15 14:35:09,0.457s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:35:09,2020-09-15 14:35:10,0.269s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:35:10,2020-09-15 14:35:10,0.476s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:10,2020-09-15 14:35:11,0.482s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Fundingsource)",Chrome 85.0.4183.102,,,2020-09-15 14:35:11,2020-09-15 14:35:11,0.550s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:11,2020-09-15 14:35:12,0.523s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:12,2020-09-15 14:35:12,0.461s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Servicecategory)",Chrome 85.0.4183.102,,,2020-09-15 14:35:12,2020-09-15 14:35:12,0.369s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:12,2020-09-15 14:35:13,0.549s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:13,2020-09-15 14:35:14,0.460s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Fundratio)",Chrome 85.0.4183.102,,,2020-09-15 14:35:14,2020-09-15 14:35:14,0.351s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:14,2020-09-15 14:35:14,0.542s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:14,2020-09-15 14:35:15,0.454s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Nonfederalfund)",Chrome 85.0.4183.102,,,2020-09-15 14:35:15,2020-09-15 14:35:15,0.416s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:15,2020-09-15 14:35:16,0.537s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:16,2020-09-15 14:35:16,0.457s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), accountId + Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:16,2020-09-15 14:35:17,0.402s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:17,2020-09-15 14:35:17,0.484s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:35:17,2020-09-15 14:35:18,0.411s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:18,2020-09-15 14:35:18,0.525s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:18,2020-09-15 14:35:19,0.473s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), IncreaseDecreaseLine)",Chrome 85.0.4183.102,,,2020-09-15 14:35:19,2020-09-15 14:35:19,0.468s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:19,2020-09-15 14:35:19,0.403s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:19,2020-09-15 14:35:20,0.462s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Programtype)",Chrome 85.0.4183.102,,,2020-09-15 14:35:20,2020-09-15 14:35:20,0.388s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:20,2020-09-15 14:35:21,0.490s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:21,2020-09-15 14:35:21,0.465s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Index)",Chrome 85.0.4183.102,,,2020-09-15 14:35:21,2020-09-15 14:35:22,0.327s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:22,2020-09-15 14:35:22,0.506s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:22,2020-09-15 14:35:23,0.466s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Servicelocation)",Chrome 85.0.4183.102,,,2020-09-15 14:35:23,2020-09-15 14:35:23,0.444s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:23,2020-09-15 14:35:23,0.266s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Clear""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:23,2020-09-15 14:35:24,0.649s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Waivertype)",Chrome 85.0.4183.102,,,2020-09-15 14:35:24,2020-09-15 14:35:25,0.711s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:25,2020-09-15 14:35:25,0.518s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:35:25,2020-09-15 14:35:26,0.459s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Waivername)",Chrome 85.0.4183.102,,,2020-09-15 14:35:26,2020-09-15 14:35:26,0.432s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:26,2020-09-15 14:35:27,0.506s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:35:27,2020-09-15 14:35:27,0.454s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Fundingsource)",Chrome 85.0.4183.102,,,2020-09-15 14:35:27,2020-09-15 14:35:27,0.316s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:27,2020-09-15 14:35:28,0.511s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:35:28,2020-09-15 14:35:28,0.456s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:35:28,2020-09-15 14:35:29,0.403s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:29,2020-09-15 14:35:29,0.463s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:29,2020-09-15 14:35:30,0.471s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Fundratio)",Chrome 85.0.4183.102,,,2020-09-15 14:35:30,2020-09-15 14:35:30,0.321s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:30,2020-09-15 14:35:30,0.532s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:30,2020-09-15 14:35:31,0.467s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Nonfederalfund)",Chrome 85.0.4183.102,,,2020-09-15 14:35:31,2020-09-15 14:35:31,0.348s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:31,2020-09-15 14:35:32,0.526s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:32,2020-09-15 14:35:32,0.460s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Programtype)",Chrome 85.0.4183.102,,,2020-09-15 14:35:32,2020-09-15 14:35:33,0.543s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:33,2020-09-15 14:35:33,0.444s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:33,2020-09-15 14:35:34,0.452s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Servicecategory)",Chrome 85.0.4183.102,,,2020-09-15 14:35:34,2020-09-15 14:35:34,0.348s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:34,2020-09-15 14:35:35,0.549s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:35,2020-09-15 14:35:35,0.455s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), accountId + Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:35,2020-09-15 14:35:35,0.409s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:35,2020-09-15 14:35:36,0.455s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:35:36,2020-09-15 14:35:36,0.486s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:36,2020-09-15 14:35:37,0.549s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""))",Chrome 85.0.4183.102,,,2020-09-15 14:35:37,2020-09-15 14:35:38,0.608s,PASSED
+"scrollToElement(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:35:38,2020-09-15 14:35:38,0.465s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:38,2020-09-15 14:35:39,0.972s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:35:39,2020-09-15 14:35:39,0.350s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:39,2020-09-15 14:35:40,0.464s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), searchfield)",Chrome 85.0.4183.102,,,2020-09-15 14:35:40,2020-09-15 14:35:40,0.618s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually""))",Chrome 85.0.4183.102,,,2020-09-15 14:35:40,2020-09-15 14:35:41,0.739s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:41,2020-09-15 14:35:43,1.808s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), servicedatefrom)",Chrome 85.0.4183.102,,,2020-09-15 14:35:43,2020-09-15 14:35:44,0.621s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:44,2020-09-15 14:35:44,0.251s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), servicedateto)",Chrome 85.0.4183.102,,,2020-09-15 14:35:44,2020-09-15 14:35:44,0.616s,PASSED
+delay(4),Chrome 85.0.4183.102,,,2020-09-15 14:35:44,2020-09-15 14:35:48,4.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:48,2020-09-15 14:35:49,0.253s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), NegativeAmount)",Chrome 85.0.4183.102,,,2020-09-15 14:35:49,2020-09-15 14:35:49,0.512s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-15 14:35:49,2020-09-15 14:35:51,2.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:51,2020-09-15 14:35:51,0.265s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 8)",Chrome 85.0.4183.102,,,2020-09-15 14:35:51,2020-09-15 14:35:52,0.252s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Waivertype)",Chrome 85.0.4183.102,,,2020-09-15 14:35:52,2020-09-15 14:35:52,0.352s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:52,2020-09-15 14:35:53,0.537s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:35:53,2020-09-15 14:35:53,0.469s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Waivername)",Chrome 85.0.4183.102,,,2020-09-15 14:35:53,2020-09-15 14:35:54,0.467s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:54,2020-09-15 14:35:54,0.517s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:35:54,2020-09-15 14:35:55,0.463s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Fundingsource)",Chrome 85.0.4183.102,,,2020-09-15 14:35:55,2020-09-15 14:35:55,0.363s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:55,2020-09-15 14:35:55,0.516s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:35:55,2020-09-15 14:35:56,0.457s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:35:56,2020-09-15 14:35:56,0.506s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:56,2020-09-15 14:35:57,0.424s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:57,2020-09-15 14:35:57,0.462s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Fundratio)",Chrome 85.0.4183.102,,,2020-09-15 14:35:57,2020-09-15 14:35:58,0.367s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:58,2020-09-15 14:35:58,0.670s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:35:58,2020-09-15 14:35:59,0.392s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Nonfederalfund)",Chrome 85.0.4183.102,,,2020-09-15 14:35:59,2020-09-15 14:35:59,0.347s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:35:59,2020-09-15 14:36:00,0.536s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:36:00,2020-09-15 14:36:00,0.489s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Servicelocation)",Chrome 85.0.4183.102,,,2020-09-15 14:36:00,2020-09-15 14:36:01,1.047s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:01,2020-09-15 14:36:01,0.268s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:36:01,2020-09-15 14:36:02,0.248s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Index)",Chrome 85.0.4183.102,,,2020-09-15 14:36:02,2020-09-15 14:36:02,0.339s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:02,2020-09-15 14:36:02,0.522s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:36:02,2020-09-15 14:36:03,0.460s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Programtype)",Chrome 85.0.4183.102,,,2020-09-15 14:36:03,2020-09-15 14:36:03,0.499s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:03,2020-09-15 14:36:04,0.326s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:36:04,2020-09-15 14:36:04,0.464s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Servicecategory)",Chrome 85.0.4183.102,,,2020-09-15 14:36:04,2020-09-15 14:36:05,0.384s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:05,2020-09-15 14:36:05,0.539s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:36:05,2020-09-15 14:36:06,0.458s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), IncreaseDecreaseLine)",Chrome 85.0.4183.102,,,2020-09-15 14:36:06,2020-09-15 14:36:06,0.554s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:06,2020-09-15 14:36:07,0.335s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:36:07,2020-09-15 14:36:07,0.458s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), accountId + Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:07,2020-09-15 14:36:07,0.436s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:36:07,2020-09-15 14:36:08,0.466s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:36:08,2020-09-15 14:36:08,0.445s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:36:08,2020-09-15 14:36:09,0.556s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:36:09,2020-09-15 14:36:09,0.454s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""))",Chrome 85.0.4183.102,,,2020-09-15 14:36:09,2020-09-15 14:36:10,0.432s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:36:10,2020-09-15 14:36:10,0.720s,PASSED
+delay(4),Chrome 85.0.4183.102,,,2020-09-15 14:36:10,2020-09-15 14:36:14,4.001s,PASSED
+"Receipttotalaftaddwith$ = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""))",Chrome 85.0.4183.102,,,2020-09-15 14:36:14,2020-09-15 14:36:15,0.299s,PASSED
+Receipttotalaftaddwithout$ = Receipttotalaftaddwith$.substring(1),Chrome 85.0.4183.102,,,2020-09-15 14:36:15,2020-09-15 14:36:15,0.000s,PASSED
+"ReceipttotalaftaddwithoutComma = Receipttotalaftaddwithout$.replaceAll("","", """")",Chrome 85.0.4183.102,,,2020-09-15 14:36:15,2020-09-15 14:36:15,0.000s,PASSED
+Recdeptotalaftreceiptlinseadded = Float.parseFloat(ReceipttotalaftaddwithoutComma),Chrome 85.0.4183.102,,,2020-09-15 14:36:15,2020-09-15 14:36:15,0.000s,PASSED
+println(Recdeptotalaftreceiptlinseadded),Chrome 85.0.4183.102,,,2020-09-15 14:36:15,2020-09-15 14:36:15,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receiptLine_Total""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:36:15,2020-09-15 14:36:15,0.263s,PASSED
+delay(4),Chrome 85.0.4183.102,,,2020-09-15 14:36:15,2020-09-15 14:36:19,4.002s,PASSED
+"Receiptlinetotalaftaddwith$ = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receiptLine_Total""))",Chrome 85.0.4183.102,,,2020-09-15 14:36:19,2020-09-15 14:36:19,0.268s,PASSED
+Receiptlinetotalaftaddwithout$ = Receiptlinetotalaftaddwith$.substring(1),Chrome 85.0.4183.102,,,2020-09-15 14:36:19,2020-09-15 14:36:19,0.000s,PASSED
+"ReceiptlinetotalaftaddwithoutComma = Receiptlinetotalaftaddwithout$.replaceAll("","", """")",Chrome 85.0.4183.102,,,2020-09-15 14:36:19,2020-09-15 14:36:19,0.000s,PASSED
+Receiptlinetotal = Float.parseFloat(ReceiptlinetotalaftaddwithoutComma),Chrome 85.0.4183.102,,,2020-09-15 14:36:19,2020-09-15 14:36:19,0.000s,PASSED
+if (Receiptlinetotal == Recdeptotalaftreceiptlinseadded),Chrome 85.0.4183.102,,,2020-09-15 14:36:19,2020-09-15 14:36:19,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:36:19,2020-09-15 14:36:20,0.603s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:36:20,2020-09-15 14:36:20,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:36:20,2020-09-15 14:36:20,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:36:20,2020-09-15 14:36:20,0.001s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Delete-Receipt-Distribution-Line,Chrome 85.0.4183.102,,,2020-09-15 14:36:20,2020-09-15 14:38:11,1m - 51.281s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:36:20,2020-09-15 14:36:38,17.584s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.003s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.001s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+"originalwarrantdate = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:38,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:36:38,2020-09-15 14:36:53,14.677s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:36:53,2020-09-15 14:37:02,9.646s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:02,2020-09-15 14:37:03,0.547s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:03,2020-09-15 14:37:03,0.324s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:03,2020-09-15 14:37:04,0.979s,PASSED
+"Receipttotalbefaddwith$ = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""))",Chrome 85.0.4183.102,,,2020-09-15 14:37:04,2020-09-15 14:37:05,0.262s,PASSED
+Receipttotalbefaddwithout$ = Receipttotalbefaddwith$.substring(1),Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:05,0.000s,PASSED
+"ReceipttotalbefaddwithoutComma = Receipttotalbefaddwithout$.replaceAll("","", """")",Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:05,0.000s,PASSED
+Receipttotalbefreceiptlineadd = Float.parseFloat(ReceipttotalbefaddwithoutComma),Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:05,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:05,0.256s,PASSED
+"scrollToElement(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:05,0.270s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:05,0.270s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:05,2020-09-15 14:37:06,0.392s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:06,2020-09-15 14:37:06,0.463s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), searchfield)",Chrome 85.0.4183.102,,,2020-09-15 14:37:06,2020-09-15 14:37:07,0.581s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually""))",Chrome 85.0.4183.102,,,2020-09-15 14:37:07,2020-09-15 14:37:08,1.145s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:08,2020-09-15 14:37:08,0.479s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), servicedatefrom)",Chrome 85.0.4183.102,,,2020-09-15 14:37:08,2020-09-15 14:37:09,0.649s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:09,2020-09-15 14:37:09,0.247s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), servicedateto)",Chrome 85.0.4183.102,,,2020-09-15 14:37:09,2020-09-15 14:37:10,0.636s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:10,2020-09-15 14:37:10,0.256s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate""), originalwarrantdate)",Chrome 85.0.4183.102,,,2020-09-15 14:37:10,2020-09-15 14:37:11,0.634s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:11,2020-09-15 14:37:11,0.258s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), Amount)",Chrome 85.0.4183.102,,,2020-09-15 14:37:11,2020-09-15 14:37:12,0.521s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:12,2020-09-15 14:37:12,0.247s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 8)",Chrome 85.0.4183.102,,,2020-09-15 14:37:12,2020-09-15 14:37:12,0.263s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Waivertype)",Chrome 85.0.4183.102,,,2020-09-15 14:37:12,2020-09-15 14:37:13,0.349s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:13,2020-09-15 14:37:13,0.518s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:37:13,2020-09-15 14:37:13,0.458s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Waivername)",Chrome 85.0.4183.102,,,2020-09-15 14:37:13,2020-09-15 14:37:14,0.424s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:14,2020-09-15 14:37:14,0.507s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:37:14,2020-09-15 14:37:15,0.458s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Fundingsource)",Chrome 85.0.4183.102,,,2020-09-15 14:37:15,2020-09-15 14:37:15,0.334s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:15,2020-09-15 14:37:16,0.535s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:37:16,2020-09-15 14:37:16,0.454s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:37:16,2020-09-15 14:37:17,0.427s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:17,2020-09-15 14:37:17,0.446s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:17,2020-09-15 14:37:18,0.449s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Fundratio)",Chrome 85.0.4183.102,,,2020-09-15 14:37:18,2020-09-15 14:37:18,0.361s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:18,2020-09-15 14:37:18,0.568s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:18,2020-09-15 14:37:19,0.457s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Nonfederalfund)",Chrome 85.0.4183.102,,,2020-09-15 14:37:19,2020-09-15 14:37:19,0.347s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:19,2020-09-15 14:37:20,0.508s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:20,2020-09-15 14:37:20,0.469s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Servicelocation)",Chrome 85.0.4183.102,,,2020-09-15 14:37:20,2020-09-15 14:37:21,0.443s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:21,2020-09-15 14:37:21,0.286s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:21,2020-09-15 14:37:21,0.270s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Index)",Chrome 85.0.4183.102,,,2020-09-15 14:37:21,2020-09-15 14:37:22,0.370s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:22,2020-09-15 14:37:22,0.538s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:22,2020-09-15 14:37:23,0.468s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Programtype)",Chrome 85.0.4183.102,,,2020-09-15 14:37:23,2020-09-15 14:37:23,0.476s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:23,2020-09-15 14:37:24,0.439s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:24,2020-09-15 14:37:24,0.476s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Servicecategory)",Chrome 85.0.4183.102,,,2020-09-15 14:37:24,2020-09-15 14:37:24,0.367s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:24,2020-09-15 14:37:25,0.522s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:25,2020-09-15 14:37:25,0.459s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), IncreaseDecreaseLine)",Chrome 85.0.4183.102,,,2020-09-15 14:37:25,2020-09-15 14:37:26,0.439s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:26,2020-09-15 14:37:26,0.458s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:26,2020-09-15 14:37:27,0.475s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), accountId + Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:27,2020-09-15 14:37:27,0.404s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:27,2020-09-15 14:37:28,0.462s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:37:28,2020-09-15 14:37:28,0.414s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:28,2020-09-15 14:37:29,0.551s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:29,2020-09-15 14:37:29,0.452s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:29,2020-09-15 14:37:29,0.252s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose""))",Chrome 85.0.4183.102,,,2020-09-15 14:37:29,2020-09-15 14:37:30,0.391s,PASSED
+"scrollToElement(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:37:30,2020-09-15 14:37:31,1.255s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:31,2020-09-15 14:37:31,0.251s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:31,2020-09-15 14:37:32,0.354s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:32,2020-09-15 14:37:32,0.482s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), searchfield)",Chrome 85.0.4183.102,,,2020-09-15 14:37:32,2020-09-15 14:37:33,0.613s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually""))",Chrome 85.0.4183.102,,,2020-09-15 14:37:33,2020-09-15 14:37:34,1.114s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:34,2020-09-15 14:37:34,0.454s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)""), servicedatefrom)",Chrome 85.0.4183.102,,,2020-09-15 14:37:34,2020-09-15 14:37:35,0.598s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:35,2020-09-15 14:37:35,0.268s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)""), servicedateto)",Chrome 85.0.4183.102,,,2020-09-15 14:37:35,2020-09-15 14:37:36,0.591s,PASSED
+delay(4),Chrome 85.0.4183.102,,,2020-09-15 14:37:36,2020-09-15 14:37:40,4.003s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:40,2020-09-15 14:37:40,0.254s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount""), NegativeAmount)",Chrome 85.0.4183.102,,,2020-09-15 14:37:40,2020-09-15 14:37:40,0.561s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-15 14:37:40,2020-09-15 14:37:42,2.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:42,2020-09-15 14:37:43,0.256s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), 8)",Chrome 85.0.4183.102,,,2020-09-15 14:37:43,2020-09-15 14:37:43,0.270s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Waivertype)",Chrome 85.0.4183.102,,,2020-09-15 14:37:43,2020-09-15 14:37:43,0.358s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:43,2020-09-15 14:37:44,0.526s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:37:44,2020-09-15 14:37:44,0.464s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Waivername)",Chrome 85.0.4183.102,,,2020-09-15 14:37:44,2020-09-15 14:37:45,0.473s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:45,2020-09-15 14:37:45,0.529s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), 6)",Chrome 85.0.4183.102,,,2020-09-15 14:37:45,2020-09-15 14:37:46,0.484s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Fundingsource)",Chrome 85.0.4183.102,,,2020-09-15 14:37:46,2020-09-15 14:37:46,0.378s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:46,2020-09-15 14:37:47,0.519s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:37:47,2020-09-15 14:37:47,0.460s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:37:47,2020-09-15 14:37:48,0.490s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:48,2020-09-15 14:37:48,0.340s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:48,2020-09-15 14:37:48,0.459s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Fundratio)",Chrome 85.0.4183.102,,,2020-09-15 14:37:48,2020-09-15 14:37:49,0.355s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:49,2020-09-15 14:37:49,0.548s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:49,2020-09-15 14:37:50,0.456s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Nonfederalfund)",Chrome 85.0.4183.102,,,2020-09-15 14:37:50,2020-09-15 14:37:50,0.362s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:50,2020-09-15 14:37:51,0.518s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:51,2020-09-15 14:37:51,0.455s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Servicelocation)",Chrome 85.0.4183.102,,,2020-09-15 14:37:51,2020-09-15 14:37:52,0.421s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:52,2020-09-15 14:37:52,0.317s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:52,2020-09-15 14:37:52,0.255s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Index)",Chrome 85.0.4183.102,,,2020-09-15 14:37:52,2020-09-15 14:37:52,0.344s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:52,2020-09-15 14:37:53,0.511s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:53,2020-09-15 14:37:53,0.465s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Programtype)",Chrome 85.0.4183.102,,,2020-09-15 14:37:53,2020-09-15 14:37:54,0.473s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:54,2020-09-15 14:37:54,0.411s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:54,2020-09-15 14:37:55,0.472s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Servicecategory)",Chrome 85.0.4183.102,,,2020-09-15 14:37:55,2020-09-15 14:37:55,0.365s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:55,2020-09-15 14:37:56,0.507s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:37:56,2020-09-15 14:37:56,0.472s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), IncreaseDecreaseLine)",Chrome 85.0.4183.102,,,2020-09-15 14:37:56,2020-09-15 14:37:57,0.479s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:57,2020-09-15 14:37:57,0.437s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:57,2020-09-15 14:37:58,0.473s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), accountId + Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:58,2020-09-15 14:37:58,0.441s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:37:58,2020-09-15 14:37:58,0.465s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:37:58,2020-09-15 14:37:59,0.475s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:37:59,2020-09-15 14:37:59,0.547s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/saveCloseButton""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:37:59,2020-09-15 14:38:00,0.484s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/saveCloseButton""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:00,2020-09-15 14:38:01,0.839s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:38:01,2020-09-15 14:38:02,1.423s,PASSED
+"Receipttotalaftaddwith$ = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:02,2020-09-15 14:38:02,0.252s,PASSED
+Receipttotalaftaddwithout$ = Receipttotalaftaddwith$.substring(1),Chrome 85.0.4183.102,,,2020-09-15 14:38:02,2020-09-15 14:38:02,0.000s,PASSED
+"ReceipttotalaftaddwithoutComma = Receipttotalaftaddwithout$.replaceAll("","", """")",Chrome 85.0.4183.102,,,2020-09-15 14:38:02,2020-09-15 14:38:02,0.000s,PASSED
+Recdeptotalaftreceiptlinseadded = Float.parseFloat(ReceipttotalaftaddwithoutComma),Chrome 85.0.4183.102,,,2020-09-15 14:38:02,2020-09-15 14:38:02,0.000s,PASSED
+println(Recdeptotalaftreceiptlinseadded),Chrome 85.0.4183.102,,,2020-09-15 14:38:02,2020-09-15 14:38:02,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receiptLine_Total""), 5)",Chrome 85.0.4183.102,,,2020-09-15 14:38:02,2020-09-15 14:38:03,0.257s,PASSED
+"Receiptlinetotalaftaddwith$ = getText(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/View/receiptLine_Total""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:03,2020-09-15 14:38:03,0.266s,PASSED
+Receiptlinetotalaftaddwithout$ = Receiptlinetotalaftaddwith$.substring(1),Chrome 85.0.4183.102,,,2020-09-15 14:38:03,2020-09-15 14:38:03,0.000s,PASSED
+"ReceiptlinetotalaftaddwithoutComma = Receiptlinetotalaftaddwithout$.replaceAll("","", """")",Chrome 85.0.4183.102,,,2020-09-15 14:38:03,2020-09-15 14:38:03,0.000s,PASSED
+Receiptlinetotal = Float.parseFloat(ReceiptlinetotalaftaddwithoutComma),Chrome 85.0.4183.102,,,2020-09-15 14:38:03,2020-09-15 14:38:03,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/3dots/distributionLineHover""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:38:03,2020-09-15 14:38:03,0.258s,PASSED
+"mouseOver(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/3dots/distributionLineHover""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:03,2020-09-15 14:38:04,0.374s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/3dots/distributionLineHover""), 1)",Chrome 85.0.4183.102,,,2020-09-15 14:38:04,2020-09-15 14:38:04,0.271s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/3dots/editIconDistributionLine""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:04,2020-09-15 14:38:04,0.293s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:38:04,2020-09-15 14:38:09,5.129s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/Delete/Delete-distributionline""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:09,2020-09-15 14:38:10,0.362s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/undoIcon""), 4)",Chrome 85.0.4183.102,,,2020-09-15 14:38:10,2020-09-15 14:38:10,0.611s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Checkline/Delete/undoIcon""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:10,2020-09-15 14:38:11,0.332s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:11,2020-09-15 14:38:11,0.645s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:11,2020-09-15 14:38:11,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:11,2020-09-15 14:38:11,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:38:11,2020-09-15 14:38:11,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-Account-AltAccount-0555,Chrome 85.0.4183.102,,,2020-09-15 14:38:11,2020-09-15 14:38:59,47.223s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:11,2020-09-15 14:38:26,15.151s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:26,2020-09-15 14:38:26,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:26,2020-09-15 14:38:26,0.000s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:38:26,2020-09-15 14:38:26,0.002s,PASSED
+d = Date().plus(1),Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.001s,PASSED
+dd = Date().plus(2),Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.000s,PASSED
+"servicedatefrom = d.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.000s,PASSED
+"servicedateto = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.000s,PASSED
+"originalwarrantdate = dd.format(""MM/dd/yyyy"")",Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.000s,PASSED
+newDepositId = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.000s,PASSED
+searchfield = RandomStringUtils.randomNumeric(7),Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:27,0.000s,PASSED
+"editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes)",Chrome 85.0.4183.102,,,2020-09-15 14:38:27,2020-09-15 14:38:41,14.345s,PASSED
+"editors.createReceiptline(ReceiptID, SupplierID, DepositDate)",Chrome 85.0.4183.102,,,2020-09-15 14:38:41,2020-09-15 14:38:51,9.514s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:51,2020-09-15 14:38:51,0.768s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:51,2020-09-15 14:38:52,0.317s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:38:52,2020-09-15 14:38:52,0.486s,PASSED
+"scrollToElement(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:38:52,2020-09-15 14:38:53,0.474s,PASSED
+"verifyElementClickable(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:53,2020-09-15 14:38:53,0.260s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:53,2020-09-15 14:38:53,0.349s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), 10)",Chrome 85.0.4183.102,,,2020-09-15 14:38:53,2020-09-15 14:38:54,0.465s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield""), searchfield)",Chrome 85.0.4183.102,,,2020-09-15 14:38:54,2020-09-15 14:38:54,0.565s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually""))",Chrome 85.0.4183.102,,,2020-09-15 14:38:54,2020-09-15 14:38:55,1.061s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), 30)",Chrome 85.0.4183.102,,,2020-09-15 14:38:55,2020-09-15 14:38:56,0.475s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Fundcode)",Chrome 85.0.4183.102,,,2020-09-15 14:38:56,2020-09-15 14:38:56,0.439s,PASSED
+"sendKeys(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code""), Keys.chord(DOWN, ENTER))",Chrome 85.0.4183.102,,,2020-09-15 14:38:56,2020-09-15 14:38:57,0.451s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:57,2020-09-15 14:38:57,0.460s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId"")) == accountId)",Chrome 85.0.4183.102,,,2020-09-15 14:38:57,2020-09-15 14:38:57,0.256s,PASSED
+else,Chrome 85.0.4183.102,,,2020-09-15 14:38:57,2020-09-15 14:38:57,0.001s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:38:57,2020-09-15 14:38:58,0.250s,PASSED
+"if (getText(findTestObject(""FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId"")) == altAccountId)",Chrome 85.0.4183.102,,,2020-09-15 14:38:58,2020-09-15 14:38:58,0.277s,PASSED
+else,Chrome 85.0.4183.102,,,2020-09-15 14:38:58,2020-09-15 14:38:58,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:58,2020-09-15 14:38:59,0.607s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:59,2020-09-15 14:38:59,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:59,2020-09-15 14:38:59,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:38:59,2020-09-15 14:38:59,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Generate-Reports,Chrome 85.0.4183.102,,,2020-09-15 14:38:59,2020-09-15 14:39:28,29.502s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:38:59,2020-09-15 14:39:14,15.387s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:14,2020-09-15 14:39:14,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:14,2020-09-15 14:39:14,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:39:14,2020-09-15 14:39:14,0.000s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/reportButton""), 2)",Chrome 85.0.4183.102,,,2020-09-15 14:39:14,2020-09-15 14:39:16,1.944s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/reportButton""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:16,2020-09-15 14:39:16,0.379s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/receiptTransactionRequests""), 5, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:16,2020-09-15 14:39:17,0.458s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/receiptTransactionRequests""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:17,2020-09-15 14:39:17,0.529s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:17,2020-09-15 14:39:18,0.487s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_Cancel""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:18,2020-09-15 14:39:18,0.488s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_Cancel""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:18,2020-09-15 14:39:19,0.312s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptLabel""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:19,2020-09-15 14:39:19,0.691s,PASSED
+"monthlyReceiptLabel = getText(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptLabel""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:19,2020-09-15 14:39:20,0.264s,PASSED
+"assert monthlyReceiptLabel == ""Monthly Receipt Report for Federal Reporting (Defined by Draw Date)""",Chrome 85.0.4183.102,,,2020-09-15 14:39:20,2020-09-15 14:39:20,0.001s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptBtn""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:20,2020-09-15 14:39:20,0.252s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptBtn""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:20,2020-09-15 14:39:20,0.367s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptSummaryHeader""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:20,2020-09-15 14:39:21,0.457s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthDropdown""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:21,2020-09-15 14:39:21,0.249s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthDropdown""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:21,2020-09-15 14:39:21,0.296s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthOption""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:21,2020-09-15 14:39:22,0.461s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthOption""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:22,2020-09-15 14:39:22,0.276s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_backToDashboard""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:22,2020-09-15 14:39:23,0.468s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_backToDashboard""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:23,2020-09-15 14:39:23,0.390s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Daily-Processing-Receipts/dailyProcessingReceiptsLabel""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:23,2020-09-15 14:39:23,0.466s,PASSED
+"dailyReceiptLabel = getText(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Daily-Processing-Receipts/dailyProcessingReceiptsLabel""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:23,2020-09-15 14:39:24,0.267s,PASSED
+"assert dailyReceiptLabel == ""Daily Receipt Report (Defined by Processing Date)""",Chrome 85.0.4183.102,,,2020-09-15 14:39:24,2020-09-15 14:39:24,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Daily-Processing-Receipts/dailyProcessingReceiptsBtn""), 1)",Chrome 85.0.4183.102,,,2020-09-15 14:39:24,2020-09-15 14:39:24,0.250s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Daily-Processing-Receipts/dailyProcessingReceiptsBtn""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:24,2020-09-15 14:39:24,0.347s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Daily-Processing-Receipts/dailyProcessingReceiptHeader""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:24,2020-09-15 14:39:25,0.473s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_backToDashboard""), 1, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:25,2020-09-15 14:39:25,0.263s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_backToDashboard""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:25,2020-09-15 14:39:25,0.375s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-15 14:39:25,2020-09-15 14:39:27,2.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:27,2020-09-15 14:39:28,0.667s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:28,2020-09-15 14:39:28,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:28,2020-09-15 14:39:28,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:39:28,2020-09-15 14:39:28,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Receipt/FDR-Search-Receipt,Chrome 85.0.4183.102,,,2020-09-15 14:39:28,2020-09-15 14:40:25,57.180s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:28,2020-09-15 14:39:46,18.345s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:46,2020-09-15 14:39:46,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:39:46,2020-09-15 14:39:46,0.001s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-15 14:39:46,2020-09-15 14:39:46,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:47,2020-09-15 14:39:48,1.988s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:48,2020-09-15 14:39:49,0.281s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), depositId)",Chrome 85.0.4183.102,,,2020-09-15 14:39:49,2020-09-15 14:39:49,0.525s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/noMatchingTasks""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:49,2020-09-15 14:39:52,3.088s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), """")",Chrome 85.0.4183.102,,,2020-09-15 14:39:52,2020-09-15 14:39:53,0.525s,PASSED
+refresh(),Chrome 85.0.4183.102,,,2020-09-15 14:39:53,2020-09-15 14:39:53,0.543s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:53,2020-09-15 14:39:54,0.631s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:54,2020-09-15 14:39:54,0.278s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), drawDate)",Chrome 85.0.4183.102,,,2020-09-15 14:39:54,2020-09-15 14:39:55,0.534s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/noMatchingTasks""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:55,2020-09-15 14:39:56,1.034s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), """")",Chrome 85.0.4183.102,,,2020-09-15 14:39:56,2020-09-15 14:39:56,0.540s,PASSED
+refresh(),Chrome 85.0.4183.102,,,2020-09-15 14:39:56,2020-09-15 14:39:57,0.566s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), 3)",Chrome 85.0.4183.102,,,2020-09-15 14:39:57,2020-09-15 14:39:58,0.625s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""))",Chrome 85.0.4183.102,,,2020-09-15 14:39:58,2020-09-15 14:39:58,0.294s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), payDate)",Chrome 85.0.4183.102,,,2020-09-15 14:39:58,2020-09-15 14:39:58,0.533s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/noMatchingTasks""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:39:58,2020-09-15 14:39:59,1.008s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), """")",Chrome 85.0.4183.102,,,2020-09-15 14:39:59,2020-09-15 14:40:00,0.553s,PASSED
+refresh(),Chrome 85.0.4183.102,,,2020-09-15 14:40:00,2020-09-15 14:40:01,1.121s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""))",Chrome 85.0.4183.102,,,2020-09-15 14:40:01,2020-09-15 14:40:02,0.667s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), ""resume"")",Chrome 85.0.4183.102,,,2020-09-15 14:40:02,2020-09-15 14:40:02,0.579s,PASSED
+delay(4),Chrome 85.0.4183.102,,,2020-09-15 14:40:02,2020-09-15 14:40:06,4.001s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/noMatchingTasks""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:40:06,2020-09-15 14:40:07,0.247s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), """")",Chrome 85.0.4183.102,,,2020-09-15 14:40:07,2020-09-15 14:40:07,0.521s,PASSED
+refresh(),Chrome 85.0.4183.102,,,2020-09-15 14:40:07,2020-09-15 14:40:08,0.573s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""))",Chrome 85.0.4183.102,,,2020-09-15 14:40:08,2020-09-15 14:40:08,0.678s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), ""fix"")",Chrome 85.0.4183.102,,,2020-09-15 14:40:08,2020-09-15 14:40:09,0.553s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/noMatchingTasks""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:40:09,2020-09-15 14:40:11,1.656s,PASSED
+"setText(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/searchBar""), """")",Chrome 85.0.4183.102,,,2020-09-15 14:40:11,2020-09-15 14:40:11,0.626s,PASSED
+refresh(),Chrome 85.0.4183.102,,,2020-09-15 14:40:11,2020-09-15 14:40:12,0.594s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/buttonResume""))",Chrome 85.0.4183.102,,,2020-09-15 14:40:12,2020-09-15 14:40:13,0.708s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/resumeBatch""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:40:13,2020-09-15 14:40:14,0.975s,PASSED
+"click(findTestObject(""Object Repository/FDR-Receipt/FDR-Search-Receipt/resumeBatch""))",Chrome 85.0.4183.102,,,2020-09-15 14:40:14,2020-09-15 14:40:14,0.798s,PASSED
+delay(10),Chrome 85.0.4183.102,,,2020-09-15 14:40:14,2020-09-15 14:40:24,10.002s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-ReceiptBatch/Fix/reviewButton""), 2, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-15 14:40:24,2020-09-15 14:40:25,0.270s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:40:25,2020-09-15 14:40:25,0.594s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:40:25,2020-09-15 14:40:25,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-15 14:40:25,2020-09-15 14:40:25,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-15 14:40:25,2020-09-15 14:40:25,0.000s,PASSED

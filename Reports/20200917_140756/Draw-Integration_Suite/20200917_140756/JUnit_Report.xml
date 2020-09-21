@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Draw-Integration_Suite" time="265.888" tests="3" failures="1" errors="0">
+   <testsuite name="Draw-Integration_Suite" tests="3" failures="1" errors="0" time="265.888" timestamp="2020-09-17 14:07:58" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Draw-Integration_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756"/>
+         <property name="logFiles" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\execution0.log"/>
+         <property name="attachments" value="C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377111638.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377118345.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377121764.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377128279.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377131787.png, C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377138480.png"/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="ee2fc2c048fae9003c7dcb804828fe12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Date-Validation" time="128.904" classname="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Date-Validation" status="PASSED">
+         <system-out><![CDATA[2020-09-17 14:07:58 - [TEST_CASE][PASSED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Date-Validation: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Voucher-Date-Validation
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - if (account6TestCases.contains(testCaseId)): null
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - else if (account2TestCases.contains(testCaseId)): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:07:58 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(accountsApproverAcc2, accountsApproverAcc2Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:07:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 14:07:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 14:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 14:08:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 14:08:06 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 14:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-17 14:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 14:08:09 - [MESSAGE][PASSED] - Text 'fdr.test2@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-17 14:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-17 14:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-17 14:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-17 14:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-17 14:08:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-17 14:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:08:16 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 14:08:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:08:16 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:08:16 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-17 14:08:16 - [TEST_STEP][PASSED] - voucherHeaderData = ["drawDate":drawDate, "payDate":payDate, "programType":programType, "invoiceType":invoiceType, "fundCode":fundCode, "supplier":supplier, ... ]: null
+
+2020-09-17 14:08:16 - [TEST_STEP][PASSED] - Uifunctions.createVoucherHeader(voucherHeaderData): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is present
+
+2020-09-17 14:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/createNewVoucherButton' is clicked on
+
+2020-09-17 14:08:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Review')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:08:23 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 3 second(s)
+
+2020-09-17 14:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/drawDate' is clicked on
+
+2020-09-17 14:08:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:08:25 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-17 14:08:27 - [MESSAGE][PASSED] - Text '09/28/2020' is set on object 'Object Repository/FDR-VoucherEntry/Voucher/drawDate'
+
+2020-09-17 14:08:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:08:31 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 14:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/programType' is clicked on
+
+2020-09-17 14:08:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:08:34 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:08:35 - [MESSAGE][PASSED] - Keys 'Medical Assistance (MA)' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/programType'
+
+2020-09-17 14:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/programType' is present
+
+2020-09-17 14:08:35 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/programType'
+
+2020-09-17 14:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType' is clicked on
+
+2020-09-17 14:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType' is present
+
+2020-09-17 14:08:37 - [MESSAGE][PASSED] - Keys 'CAP' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType'
+
+2020-09-17 14:08:37 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType'
+
+2020-09-17 14:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode' is clicked on
+
+2020-09-17 14:08:38 - [MESSAGE][PASSED] - Keys 'lth Care Deposit Fund (0912)' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode'
+
+2020-09-17 14:08:39 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/fundCode' is present
+
+2020-09-17 14:08:39 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode'
+
+2020-09-17 14:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID' is clicked on
+
+2020-09-17 14:08:40 - [MESSAGE][PASSED] - Keys '0000007954' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID'
+
+2020-09-17 14:08:41 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/supplierID' is present
+
+2020-09-17 14:08:41 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID'
+
+2020-09-17 14:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/seqNum' is clicked on
+
+2020-09-17 14:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/seqNum' is present
+
+2020-09-17 14:08:43 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/seqNum'
+
+2020-09-17 14:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum' is clicked on
+
+2020-09-17 14:08:44 - [MESSAGE][PASSED] - Keys '07-65707' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum'
+
+2020-09-17 14:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/contractNum' is present
+
+2020-09-17 14:08:44 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum'
+
+2020-09-17 14:08:47 - [MESSAGE][PASSED] - Text 'This message will print on the Remittance Advice' is set on object 'Object Repository/FDR-VoucherEntry/Voucher/vendorMessage'
+
+2020-09-17 14:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact' is clicked on
+
+2020-09-17 14:08:48 - [MESSAGE][PASSED] - Keys 'Aung Lin' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact'
+
+2020-09-17 14:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact' is present
+
+2020-09-17 14:08:48 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact'
+
+2020-09-17 14:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is clicked on
+
+2020-09-17 14:08:50 - [MESSAGE][PASSED] - Keys 'Vivian Ly' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact'
+
+2020-09-17 14:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is present
+
+2020-09-17 14:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is present
+
+2020-09-17 14:08:51 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact'
+
+2020-09-17 14:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/buttonNext' is clicked on
+
+2020-09-17 14:08:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-17 14:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:08:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/VoucherHeader/reviewButton"), 5): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:08:55 - [TEST_STEP][PASSED] - voucherDrawDate = getText(findTestObject("FDR-VoucherEntry/VoucherHeader/drawDate")): Text of object 'Object Repository/FDR-VoucherEntry/VoucherHeader/drawDate' is: '09/28/2020'
+
+2020-09-17 14:08:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-VoucherEntry/VoucherHeader/drawDate' is: '09/28/2020'
+
+2020-09-17 14:08:55 - [TEST_STEP][PASSED] - Uifunctions.createInvoiceLine(1): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:08:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(text(),'Add voucher')]//parent::button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:08:58 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' is clickable
+
+2020-09-17 14:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' is clicked on
+
+2020-09-17 14:09:00 - [MESSAGE][PASSED] - Text '0030' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+
+2020-09-17 14:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate' is clicked on
+
+2020-09-17 14:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate' is present
+
+2020-09-17 14:09:02 - [MESSAGE][PASSED] - Text '09/17/2020' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate'
+
+2020-09-17 14:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate' is clicked on
+
+2020-09-17 14:09:03 - [MESSAGE][PASSED] - Text '09/18/2020' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate'
+
+2020-09-17 14:09:03 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButton' is present
+
+2020-09-17 14:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButtonIndex2' is clicked on
+
+2020-09-17 14:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-17 14:09:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton"), 5): Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clickable
+
+2020-09-17 14:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clickable
+
+2020-09-17 14:09:04 - [TEST_STEP][PASSED] - click(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton")): Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clicked on
+
+2020-09-17 14:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clicked on
+
+2020-09-17 14:09:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton"), 5): Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' is clickable
+
+2020-09-17 14:09:06 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' is clickable
+
+2020-09-17 14:09:06 - [TEST_STEP][PASSED] - click(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton")): Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' is clicked on
+
+2020-09-17 14:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' is clicked on
+
+2020-09-17 14:09:06 - [TEST_STEP][PASSED] - Uifunctions.createDistributionLines(1, "Voucher/FDR-DL"): Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/addSaveButton' is clicked on
+
+2020-09-17 14:09:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:11 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 14:09:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:14 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is clickable
+
+2020-09-17 14:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is clicked on
+
+2020-09-17 14:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is present
+
+2020-09-17 14:09:15 - [MESSAGE][PASSED] - Text '08/04/2020' is set on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom'
+
+2020-09-17 14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' is clicked on
+
+2020-09-17 14:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' is present
+
+2020-09-17 14:09:17 - [MESSAGE][PASSED] - Text '08/05/2020' is set on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo'
+
+2020-09-17 14:09:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:20 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/amount' is clicked on
+
+2020-09-17 14:09:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='';' successfully
+
+2020-09-17 14:09:21 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/amount'
+
+2020-09-17 14:09:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:23 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-17 14:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverType' is clicked on
+
+2020-09-17 14:09:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:26 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-17 14:09:26 - [MESSAGE][PASSED] - Keys '1115' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverType'
+
+2020-09-17 14:09:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:29 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:30 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverType'
+
+2020-09-17 14:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverName' is clicked on
+
+2020-09-17 14:09:31 - [MESSAGE][PASSED] - Keys 'CBAS' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverName'
+
+2020-09-17 14:09:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:34 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:34 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverName'
+
+2020-09-17 14:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundingSource' is clicked on
+
+2020-09-17 14:09:35 - [MESSAGE][PASSED] - Keys 'Dental' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundingSource'
+
+2020-09-17 14:09:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:39 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:39 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundingSource'
+
+2020-09-17 14:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundRatio' is clicked on
+
+2020-09-17 14:09:40 - [MESSAGE][PASSED] - Keys '90/10' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundRatio'
+
+2020-09-17 14:09:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:43 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:44 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundRatio'
+
+2020-09-17 14:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/nonFederalFund' is clicked on
+
+2020-09-17 14:09:45 - [MESSAGE][PASSED] - Keys '0001' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/nonFederalFund'
+
+2020-09-17 14:09:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:48 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/nonFederalFund'
+
+2020-09-17 14:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/account' is clicked on
+
+2020-09-17 14:09:49 - [MESSAGE][PASSED] - Keys '5442000' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/account'
+
+2020-09-17 14:09:50 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/account'
+
+2020-09-17 14:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount' is clicked on
+
+2020-09-17 14:09:51 - [MESSAGE][PASSED] - Keys '5442000' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount'
+
+2020-09-17 14:09:51 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount' is present
+
+2020-09-17 14:09:51 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount'
+
+2020-09-17 14:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceCategory' is clicked on
+
+2020-09-17 14:09:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:55 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:09:55 - [MESSAGE][PASSED] - Keys '18B1' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceCategory'
+
+2020-09-17 14:09:56 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceCategory'
+
+2020-09-17 14:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/incDecLine' is clicked on
+
+2020-09-17 14:09:57 - [MESSAGE][PASSED] - Keys '8: Adjustments and corrections' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/incDecLine'
+
+2020-09-17 14:09:57 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/incDecLine'
+
+2020-09-17 14:09:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:09:59 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-17 14:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/index' is clicked on
+
+2020-09-17 14:10:00 - [MESSAGE][PASSED] - Keys '1155' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/index'
+
+2020-09-17 14:10:01 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/index'
+
+2020-09-17 14:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/addSaveButton' is clicked on
+
+2020-09-17 14:10:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 14:10:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:10:07 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-17 14:10:07 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 14:10:07 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Receipts-Date-Validation" time="78.407" classname="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Receipts-Date-Validation" status="PASSED">
+         <system-out><![CDATA[2020-09-17 14:10:08 - [TEST_CASE][PASSED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Receipts-Date-Validation: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Receipts-Date-Validation
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - if (account6TestCases.contains(testCaseId)): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - else if (account2TestCases.contains(testCaseId)): null
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - else if (account4TestCases.contains(testCaseId)): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:10:08 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(cashierApprover, cashierPwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:10:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 14:10:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 14:10:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 14:10:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 14:10:17 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:10:18 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 14:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-17 14:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 14:10:19 - [MESSAGE][PASSED] - Text 'fdr.test4@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-17 14:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-17 14:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-17 14:10:23 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-17 14:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-17 14:10:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-17 14:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:10:25 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 14:10:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:10:26 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:10:26 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-17 14:10:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 3): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 14:10:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:10:30 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-17 14:10:30 - [TEST_STEP][PASSED] - newDepositId = RandomStringUtils.randomNumeric(7): null
+
+2020-09-17 14:10:30 - [TEST_STEP][PASSED] - editors.createReceipt(Drawdate, Paydate, newDepositId, Receiptnotes, Remittance, Controller): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/buttonNext' is clicked on
+
+2020-09-17 14:10:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:10:35 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 14:10:36 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button' is present
+
+2020-09-17 14:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-Dashboard/createNew_ReceiptBatch_Button' is clicked on
+
+2020-09-17 14:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate' is present
+
+2020-09-17 14:10:38 - [MESSAGE][PASSED] - Text '10/12/2020' is set on object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate'
+
+2020-09-17 14:10:38 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate'
+
+2020-09-17 14:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/Edit/payDate' is present
+
+2020-09-17 14:10:40 - [MESSAGE][PASSED] - Text '10/14/2020' is set on object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/Edit/payDate'
+
+2020-09-17 14:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/deposit ID' is present
+
+2020-09-17 14:10:41 - [MESSAGE][PASSED] - Text '2396024' is set on object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/deposit ID'
+
+2020-09-17 14:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-ReceiptBatch/receiptNotes' is present
+
+2020-09-17 14:10:42 - [MESSAGE][PASSED] - Text 'rqewrq' is set on object 'Object Repository/FDR-Receipt/FDR-ReceiptBatch/receiptNotes'
+
+2020-09-17 14:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/Edit/remmitanceAdviceInput' is present
+
+2020-09-17 14:10:43 - [MESSAGE][PASSED] - Keys '1234' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Header/Edit/remmitanceAdviceInput'
+
+2020-09-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/Edit/controllerReceiptInput' is present
+
+2020-09-17 14:10:44 - [MESSAGE][PASSED] - Keys '4567' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Header/Edit/controllerReceiptInput'
+
+2020-09-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/buttonNext' is present
+
+2020-09-17 14:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-Header/View/buttonNext' is clicked on
+
+2020-09-17 14:10:45 - [TEST_STEP][PASSED] - editors.createReceiptline(ReceiptID, SupplierID, DepositDate): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/addReceipt_Button2' is clicked on
+
+2020-09-17 14:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID' is present
+
+2020-09-17 14:10:46 - [MESSAGE][PASSED] - Keys 'CHK10322' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/receipt_ID'
+
+2020-09-17 14:10:47 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id' is present
+
+2020-09-17 14:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id' is clicked on
+
+2020-09-17 14:10:48 - [MESSAGE][PASSED] - Keys '0000007954' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id'
+
+2020-09-17 14:10:48 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/supplier_Id'
+
+2020-09-17 14:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Date' is present
+
+2020-09-17 14:10:49 - [MESSAGE][PASSED] - Keys '02/24/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Date'
+
+2020-09-17 14:10:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:10:54 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-17 14:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/addReceipt_Button2' is present
+
+2020-09-17 14:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/addReceipt_Button2' is clicked on
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - d = Date().plus(1): null
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - dd = Date().plus(2): null
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - servicedatefrom = d.format("MM/dd/yyyy"): null
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - servicedateto = dd.format("MM/dd/yyyy"): null
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - originalwarrantdate = dd.format("MM/dd/yyyy"): null
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down_Receipts"), STOP_ON_FAILURE): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down_Receipts' is clickable
+
+2020-09-17 14:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down_Receipts' is clickable
+
+2020-09-17 14:10:55 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down_Receipts"), STOP_ON_FAILURE): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down_Receipts' is clicked on
+
+2020-09-17 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/arrow_Down_Receipts' is clicked on
+
+2020-09-17 14:10:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount' is present
+
+2020-09-17 14:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount' is present
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - Receipttotalbefaddwith$ = getText(findTestObject("FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount")): Text of object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount' is: '$0.00'
+
+2020-09-17 14:10:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Receipt/FDR-Receipt-Checkline/View/deposit_Control_Amount' is: '$0.00'
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - Receipttotalbefaddwithout$ = Receipttotalbefaddwith$.substring(1): null
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - ReceipttotalbefaddwithoutComma = Receipttotalbefaddwithout$.replaceAll(",", ""): null
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - Receipttotalbefreceiptlineadd = Float.parseFloat(ReceipttotalbefaddwithoutComma): null
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' is present
+
+2020-09-17 14:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' is present
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline"), 3): Scroll to object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' successfully
+
+2020-09-17 14:10:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' successfully
+
+2020-09-17 14:10:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline"), STOP_ON_FAILURE): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' is clickable
+
+2020-09-17 14:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' is clickable
+
+2020-09-17 14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline"), STOP_ON_FAILURE): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' is clicked on
+
+2020-09-17 14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add-Invoiceline' is clicked on
+
+2020-09-17 14:10:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield' is present
+
+2020-09-17 14:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield' is present
+
+2020-09-17 14:10:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield"), searchfield): Keys '524342' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield'
+
+2020-09-17 14:10:59 - [MESSAGE][PASSED] - Keys '524342' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/invoice_Searchfield'
+
+2020-09-17 14:10:59 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually")): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually' is clicked on
+
+2020-09-17 14:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_Add_invoicemanually' is clicked on
+
+2020-09-17 14:11:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)' is present
+
+2020-09-17 14:11:01 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)' is present
+
+2020-09-17 14:11:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)"), servicedatefrom): Keys '09/18/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)'
+
+2020-09-17 14:11:01 - [MESSAGE][PASSED] - Keys '09/18/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (from)'
+
+2020-09-17 14:11:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)' is present
+
+2020-09-17 14:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)' is present
+
+2020-09-17 14:11:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)"), servicedateto): Keys '09/19/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)'
+
+2020-09-17 14:11:02 - [MESSAGE][PASSED] - Keys '09/19/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service date (to)'
+
+2020-09-17 14:11:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate' is present
+
+2020-09-17 14:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate' is present
+
+2020-09-17 14:11:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate"), originalwarrantdate): Keys '09/19/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate'
+
+2020-09-17 14:11:03 - [MESSAGE][PASSED] - Keys '09/19/2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_OrginalWarrantDate'
+
+2020-09-17 14:11:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount' is present
+
+2020-09-17 14:11:04 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount' is present
+
+2020-09-17 14:11:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount"), Amount): Keys '3000' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount'
+
+2020-09-17 14:11:04 - [MESSAGE][PASSED] - Keys '3000' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Amount'
+
+2020-09-17 14:11:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type' is present
+
+2020-09-17 14:11:04 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type' is present
+
+2020-09-17 14:11:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type"), 8): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type' is present
+
+2020-09-17 14:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type' is present
+
+2020-09-17 14:11:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type"), Waivertype): Keys '2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type'
+
+2020-09-17 14:11:05 - [MESSAGE][PASSED] - Keys '2020' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type'
+
+2020-09-17 14:11:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type'
+
+2020-09-17 14:11:06 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Type'
+
+2020-09-17 14:11:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name"), 6): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name' is present
+
+2020-09-17 14:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name' is present
+
+2020-09-17 14:11:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name"), Waivername): Keys 'A-FamilyU TPM/GMC' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name'
+
+2020-09-17 14:11:06 - [MESSAGE][PASSED] - Keys 'A-FamilyU TPM/GMC' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name'
+
+2020-09-17 14:11:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name'
+
+2020-09-17 14:11:07 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/waiver_Name'
+
+2020-09-17 14:11:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source"), 6): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source' is present
+
+2020-09-17 14:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source' is present
+
+2020-09-17 14:11:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source"), Fundingsource): Keys 'Dental' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source'
+
+2020-09-17 14:11:08 - [MESSAGE][PASSED] - Keys 'Dental' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source'
+
+2020-09-17 14:11:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source'
+
+2020-09-17 14:11:08 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/funding_Source'
+
+2020-09-17 14:11:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code"), 30): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code' is present
+
+2020-09-17 14:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code' is present
+
+2020-09-17 14:11:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code"), Fundcode): Keys 'Health Care Deposit Fund (0912)' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code'
+
+2020-09-17 14:11:09 - [MESSAGE][PASSED] - Keys 'Health Care Deposit Fund (0912)' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code'
+
+2020-09-17 14:11:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code'
+
+2020-09-17 14:11:10 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Code'
+
+2020-09-17 14:11:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio' is present
+
+2020-09-17 14:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio' is present
+
+2020-09-17 14:11:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio"), Fundratio): Keys '5' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio'
+
+2020-09-17 14:11:10 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio'
+
+2020-09-17 14:11:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio'
+
+2020-09-17 14:11:11 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/fund_Ratio'
+
+2020-09-17 14:11:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund' is present
+
+2020-09-17 14:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund' is present
+
+2020-09-17 14:11:12 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund")): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund' is clicked on
+
+2020-09-17 14:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund' is clicked on
+
+2020-09-17 14:11:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund"), Nonfederalfund): Keys '0001' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund'
+
+2020-09-17 14:11:12 - [MESSAGE][PASSED] - Keys '0001' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund'
+
+2020-09-17 14:11:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund'
+
+2020-09-17 14:11:13 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/non_Federalfund'
+
+2020-09-17 14:11:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation' is present
+
+2020-09-17 14:11:13 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation' is present
+
+2020-09-17 14:11:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation"), Servicelocation): Keys '3445' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation'
+
+2020-09-17 14:11:14 - [MESSAGE][PASSED] - Keys '3445' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation'
+
+2020-09-17 14:11:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation'
+
+2020-09-17 14:11:14 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_Service location_serviceLocation'
+
+2020-09-17 14:11:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index' is present
+
+2020-09-17 14:11:14 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index' is present
+
+2020-09-17 14:11:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index"), Index): Keys '1155' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index'
+
+2020-09-17 14:11:15 - [MESSAGE][PASSED] - Keys '1155' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index'
+
+2020-09-17 14:11:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index'
+
+2020-09-17 14:11:15 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/Index'
+
+2020-09-17 14:11:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type' is present
+
+2020-09-17 14:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type' is present
+
+2020-09-17 14:11:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type"), Programtype): Keys 'Medical Assistance (MA)' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type'
+
+2020-09-17 14:11:16 - [MESSAGE][PASSED] - Keys 'Medical Assistance (MA)' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type'
+
+2020-09-17 14:11:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type'
+
+2020-09-17 14:11:16 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/program_Type'
+
+2020-09-17 14:11:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category' is present
+
+2020-09-17 14:11:17 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category' is present
+
+2020-09-17 14:11:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category"), Servicecategory): Keys '18B1' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category'
+
+2020-09-17 14:11:17 - [MESSAGE][PASSED] - Keys '18B1' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category'
+
+2020-09-17 14:11:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category"), Keys.chord(DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category'
+
+2020-09-17 14:11:18 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/service_Category'
+
+2020-09-17 14:11:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine' is present
+
+2020-09-17 14:11:18 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine' is present
+
+2020-09-17 14:11:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine"), IncreaseDecreaseLine): Keys '10b: Receipts or any decrease' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine'
+
+2020-09-17 14:11:19 - [MESSAGE][PASSED] - Keys '10b: Receipts or any decrease' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine'
+
+2020-09-17 14:11:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine'
+
+2020-09-17 14:11:19 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/increaseDecreaseLine'
+
+2020-09-17 14:11:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId"), 2, STOP_ON_FAILURE): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId' is present
+
+2020-09-17 14:11:20 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId' is present
+
+2020-09-17 14:11:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId"), accountId + Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + 5432000' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId'
+
+2020-09-17 14:11:20 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + 5432000' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_accountId'
+
+2020-09-17 14:11:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-17 14:11:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-17 14:11:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId"), altAccountId + Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + 5432000019' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId'
+
+2020-09-17 14:11:24 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + 5432000019' sent to object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/input_altAccountId'
+
+2020-09-17 14:11:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose"), 10): Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose' is present
+
+2020-09-17 14:11:25 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose' is present
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose")): Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose' is clicked on
+
+2020-09-17 14:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Receipt/FDR-Receipt-DistributionLine/FDR-AddEdit-DistributionLine/button_SaveClose' is clicked on
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 14:11:25 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-17 14:11:26 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs" time="52.922" classname="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	... 23 more
+"/>
+         <system-out><![CDATA[2020-09-17 14:11:26 - [TEST_CASE][FAILED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	... 23 more
+
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - if (account6TestCases.contains(testCaseId)): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:11:26 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(drawCashierAcc6, drawCashierAcc6Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:11:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 14:11:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 14:11:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 14:11:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 14:11:32 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:11:34 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 14:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-17 14:11:34 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-17 14:11:35 - [MESSAGE][PASSED] - Text 'fdr.test6@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-17 14:11:35 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-17 14:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-17 14:11:39 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-17 14:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-17 14:11:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-17 14:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-17 14:11:41 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 14:11:41 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:11:41 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-17 14:11:41 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-17 14:11:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 2): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:11:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:11:45 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-17 14:11:45 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Draw/CompletedTabs/completedTab")): Object: 'Object Repository/FDR-Draw/CompletedTabs/completedTab' is clicked on
+
+2020-09-17 14:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Draw/CompletedTabs/completedTab' is clicked on
+
+2020-09-17 14:11:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:11:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:11:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:11:48 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/drawDate"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+
+2020-09-17 14:11:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Draw Date']//parent::*//*)[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:11:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377111638.png]]
+
+2020-09-17 14:11:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:11:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:11:55 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:11:55 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/drawDateLabel"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDateLabel' located by '(//*[text()='Draw Date']//parent::*//*)[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDateLabel' located by '(//*[text()='Draw Date']//parent::*//*)[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+
+2020-09-17 14:11:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Draw Date']//parent::*//*)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:11:58 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDateLabel' located by '(//*[text()='Draw Date']//parent::*//*)[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDateLabel' located by '(//*[text()='Draw Date']//parent::*//*)[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377118345.png]]
+
+2020-09-17 14:11:58 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/depositDate"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDate' located by '(//*[text()='Deposit Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDate' located by '(//*[text()='Deposit Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+
+2020-09-17 14:12:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Deposit Date']//parent::*//*)[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:12:02 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDate' located by '(//*[text()='Deposit Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDate' located by '(//*[text()='Deposit Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377121764.png]]
+
+2020-09-17 14:12:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:12:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:12:05 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:12:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/depositDateLabel"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDateLabel' located by '(//*[text()='Deposit Date']//parent::*//*)[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDateLabel' located by '(//*[text()='Deposit Date']//parent::*//*)[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+
+2020-09-17 14:12:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Deposit Date']//parent::*//*)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:12:08 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDateLabel' located by '(//*[text()='Deposit Date']//parent::*//*)[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/depositDateLabel' located by '(//*[text()='Deposit Date']//parent::*//*)[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377128279.png]]
+
+2020-09-17 14:12:08 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/transactionRequest1"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1' located by '(//*[text()='Transaction Request(s)']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1' located by '(//*[text()='Transaction Request(s)']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+
+2020-09-17 14:12:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Transaction Request(s)']//parent::*//*)[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:12:12 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1' located by '(//*[text()='Transaction Request(s)']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1' located by '(//*[text()='Transaction Request(s)']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377131787.png]]
+
+2020-09-17 14:12:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Draw/reconcileButton"), 2): Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:12:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@data-id='button-link' ]//*[contains(text(),'Reconcile')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:12:15 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Draw/reconcileButton' is not present after 2 second(s)
+
+2020-09-17 14:12:15 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("FDR-Draw/CompletedTabs/transactionRequest1Label1"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1Label1' located by '(//*[text()='Remittance Advice(s)']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1Label1' located by '(//*[text()='Remittance Advice(s)']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+
+2020-09-17 14:12:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Remittance Advice(s)']//parent::*//*)[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-17 14:12:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1Label1' located by '(//*[text()='Remittance Advice(s)']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/transactionRequest1Label1' located by '(//*[text()='Remittance Advice(s)']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+[[ATTACHMENT|C:\\fdr-automation-develop_08_25_2020\\Reports\\20200917_140756\\Draw-Integration_Suite\\20200917_140756\\1600377138480.png]]
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - case "Draw":: null
+
+2020-09-17 14:12:18 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-17 14:12:19 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-17 14:12:19 - [TEST_STEP][PASSED] - break: null
+
+2020-09-17 14:12:19 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[2020-09-17 14:11:26 - [TEST_CASE][FAILED] - Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 14:07:58 - [TEST_SUITE][FAILED] - Draw-Integration_Suite: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2020-09-17 14:07:58 - [TEST_SUITE][FAILED] - Draw-Integration_Suite: Test Cases/WEB-UI-TESTS/Draw/FDR-Draw-Tabs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$16.call(Unknown Source)
+	at FDR-Draw-Tabs.run(FDR-Draw-Tabs:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600376876361.run(TempTestSuite1600376876361.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/FDR-Draw/CompletedTabs/drawDate' located by '(//*[text()='Draw Date']//parent::*//*)[1]' not found
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

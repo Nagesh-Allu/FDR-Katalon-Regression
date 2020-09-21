@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\fdr-automation-develop_08_25_2020\FederalDrawReporting.prj" -retry=0 -testSuitePath="Test Suites/Draw-Integration_Suite_20200918_123041" -executionProfile="Draw" -browserType="Chrome"

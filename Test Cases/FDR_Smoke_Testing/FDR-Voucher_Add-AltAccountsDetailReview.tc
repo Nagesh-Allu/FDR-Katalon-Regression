@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-1646 and https://ca-mmisds.atlassian.net/browse/FDR-3137</description>
+   <name>FDR-Voucher_Add-AltAccountsDetailReview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5656efd-359f-4dde-93cf-6bb61352a64c</testCaseGuid>
+</TestCaseEntity>

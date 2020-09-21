@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FDR-Voucher_Delete_Invoice_DistributionLine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38a5320b-e527-4296-896e-729789111c6e</testCaseGuid>
+</TestCaseEntity>
