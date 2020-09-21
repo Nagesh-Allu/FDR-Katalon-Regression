@@ -5,7 +5,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 def voucherHeaderData = [('drawDate') : drawDate, ('payDate') : payDate, ('programType') : programType, ('invoiceType') : invoiceType
     , ('fundCode') : fundCode, ('supplier') : supplier, ('contractNum') : contractNum, ('vendorMessage') : vendorMessage
     , ('sequence') : sequence, ('primaryContact') : primaryContact, ('secondaryContact') : secondaryContact]
-
+// Create Voucher Function
 Uifunctions.createVoucherHeader(voucherHeaderData)
 
 WebUI.waitForElementPresent(findTestObject('FDR-Dashboard/createNewVoucherButton'), 4)
