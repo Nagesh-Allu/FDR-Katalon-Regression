@@ -1,1 +1,1 @@
-katalon -noSplash  -runMode=console -projectPath="C:\fdr-automation-develop_08_25_2020\FederalDrawReporting.prj" -retry=0 -testSuitePath="Test Suites/Receipt-Integration_Suite_20200918_115051" -executionProfile="Receipt" -browserType="Chrome"
+katalon -noSplash  -runMode=console -projectPath="C:\GitHub\FDR-Katalon-Regression\FDR-Katalon-Regression.prj" -retry=0 -testSuitePath="Test Suites/Receipt-Integration_Suite_20200921_151915" -executionProfile="Receipt" -browserType="Chrome"

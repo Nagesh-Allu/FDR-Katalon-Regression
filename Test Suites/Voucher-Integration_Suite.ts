@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>3aeb2625-2e6f-4c83-9147-d8b0f2efc476</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Pagination</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d54baa88-273b-452f-a283-281668c24177</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Error-Validation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>7ef55508-9996-4b10-b0a4-17c572260467</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Fund-Ratio-Validations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>14d89373-0702-4220-b98e-77820adf6571</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Delete-Undo-Voucher-Line</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -263,13 +263,13 @@
    <testCaseLink>
       <guid>f1de2182-2f5d-4360-8e9d-56bd4a0638f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Verify-Search-Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>70991e24-e6e7-401f-bede-385613ed8918</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Delete-Voucher-Header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -350,19 +350,19 @@
    <testCaseLink>
       <guid>c84e9cf8-7674-4b3e-ae33-2cfd791a4204</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Dashboard-Filters</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5f3ef7b7-23db-43f4-a2ae-6e668feccd88</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Voucher-High-Priority-Tags</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a41ab0aa-7352-4a47-bfdc-c54718f85923</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Delete-Undo-DistributionLine</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -443,7 +443,7 @@
    <testCaseLink>
       <guid>d7d1394c-844a-4e25-8747-5a1066893aea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Edit-Voucher</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -557,7 +557,7 @@
    <testCaseLink>
       <guid>14188871-770b-47a5-998e-28c153129607</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Complex-Voucher</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -719,7 +719,7 @@
    <testCaseLink>
       <guid>bd2c6cf9-3f19-4061-a795-ba592de770f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Verify-VoucherHeader-Labels</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -800,7 +800,7 @@
    <testCaseLink>
       <guid>037391ef-0485-465e-b5eb-af0661f7610f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Voucher-0555</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -881,7 +881,7 @@
    <testCaseLink>
       <guid>cf6ccf4a-0ce7-405f-888f-7da3d1c1f541</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Reject-Voucher</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -962,7 +962,7 @@
    <testCaseLink>
       <guid>5417e273-5b51-43ee-b757-18d930c3b424</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Approve-Modal</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1043,7 +1043,7 @@
    <testCaseLink>
       <guid>e7aa8ec7-9523-4896-b22c-9bc783b28fc6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-OverRide-Icon</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

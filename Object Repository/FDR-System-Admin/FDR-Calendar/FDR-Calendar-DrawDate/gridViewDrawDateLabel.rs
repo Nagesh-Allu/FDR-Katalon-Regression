@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h6[contains(text(),'Draw Date')]</value>
+         <value>//*[@id=&quot;wrapper&quot;]/main/div/div/div/div/main/div[2]/div[2]/div/div[2]/table/thead/tr/th[1]/h6</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

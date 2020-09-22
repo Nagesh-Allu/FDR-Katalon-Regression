@@ -1,19 +1,29 @@
+/* Project : FDR
+ * Purpose : Creating a Voucher header,Invoice and Distribution line items for Voucher.
+ * Business Module : Voucher
+ * List of All Voucher Functions are here
+ *  	1) createVoucherHeader
+ * 		2) createInvoiceLinesAndDistributionLines
+ * 		3) createDistributionLines
+ ************************************************************************************************************************************/
+//List of all Import packages and libraries
 package com.etoe
-
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.CellType
 import org.openqa.selenium.Keys
-
 import com.functions.Uifunctions
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable
 
+/* Purpose : To create a Voucher header
+ * FunctionName : voucherFunctions
+ * List of Parameters : Draw Date,Program Type,Invoice Type,FundCode,Supplier ID #,seqNum,Contract #,Vendor Message,Primary Contact,Secondary Contact
+ * Excel sheet Data set: Data Files/Voucher/voucherHeader
+ */
 public class voucherFunctions {
 	public static void createVoucherHeader(dataSheet) {
 		WebUI.waitForElementPresent(findTestObject('FDR-VoucherEntry/VoucherHeader/reviewButton'), 1)
@@ -68,7 +78,12 @@ public class voucherFunctions {
 		WebUI.delay(3)
 		WebUI.waitForElementPresent(findTestObject('FDR-VoucherEntry/VoucherHeader/reviewButton'), 2)
 	}
-
+	//***************************************************************************************************************************//
+	/*	Purpose : To create a Invoice Line Items for the Voucher
+	 * 	FunctionName : createInvoiceLinesAndDistributionLines
+	 *  	List of Parameters : invoice,invoiceDate and originalWarrantDate
+	 *   Excel sheet Data set : 
+	 */
 	public static void createInvoiceLinesAndDistributionLines(invoiceLinesData, distributionLinesData) {
 		WebUI.waitForElementPresent(findTestObject('FDR-VoucherEntry/VoucherHeader/reviewButton'), 1)
 		for (def i = 0; i < invoiceLinesData.size(); i++) {
@@ -103,6 +118,14 @@ public class voucherFunctions {
 			currentInvoiceDistributionLines = []
 		}
 	}
+
+	//***************************************************************************************************************************//
+	/* Purpose : To create a Distribution Line items for the Voucher
+	 * Function Name : createDistributionLines
+	 *  List of parameters : serviceDateFrom,serviceDateTo,amount,waiverType,waiverName,fundingSource,fundRatio,nonFederalFund,account,altAccount,
+	 *  serviceCategory,incDecLine,index
+	 * Excel Sheet data set : Data Files/Voucher/DistributionLine.xlsx
+	 */
 	public static void createDistributionLines(dataArray, index){
 		WebUI.waitForElementPresent(findTestObject('FDR-Dashboard/createNewVoucherButton'), 2)
 		WebUI.click(getExpandButton(index +1 ))

@@ -6,11 +6,15 @@
    <elementGuidId>dcf61848-6eb6-438b-b0f5-ef497e7b5aa3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CMIA form' or . = 'CMIA form')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/main/div/div/div/div/div/div/div/div[2]/div/div/div[2]</value>
+         <value>//*[(text() = 'CMIA form' or . = 'CMIA form')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

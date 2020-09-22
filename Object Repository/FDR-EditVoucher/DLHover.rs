@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@data-id='line-grid'] //parent::*//div//div)[1]</value>
+         <value>(//*[@data-id='line-grid'] //parent::*//div//div)[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

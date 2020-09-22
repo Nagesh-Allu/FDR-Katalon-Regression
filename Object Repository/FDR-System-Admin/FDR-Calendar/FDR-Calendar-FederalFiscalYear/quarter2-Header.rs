@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>quarter2-header</name>
+   <name>quarter2-Header</name>
    <tag></tag>
-   <elementGuidId>c0c6dc3b-aa40-45c6-ac9b-de78095df67c</elementGuidId>
+   <elementGuidId>b44f9f30-68a4-49be-b842-3f86b082b6da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

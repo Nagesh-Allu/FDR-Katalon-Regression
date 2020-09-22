@@ -33,7 +33,7 @@ def postDrawBalancesStatus = 0
 
 def drawClosed = 0
 
-def drawDate = '09/30/2020'
+def drawDate = '10/07/2020'
 
 WebUI.waitForElementPresent(findTestObject('FDR-Dashboard/createNewVoucherButton'), 2)
 

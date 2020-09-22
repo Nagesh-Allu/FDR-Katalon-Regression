@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;wrapper&quot;]//h3[contains(text(),'Reference Data')]</value>
+         <value>//*[@id=&quot;wrapper&quot;]/div/div/div/main/div/div/div/div[1]/div/button/div/div[2]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

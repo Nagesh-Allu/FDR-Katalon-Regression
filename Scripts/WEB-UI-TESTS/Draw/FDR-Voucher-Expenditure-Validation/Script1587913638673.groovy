@@ -5,7 +5,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import com.functions.Uifunctions as Uifunctions
 
-def drawDate = '09/30/2020'
+def drawDate = '10/07/2020'
 
 WebUI.waitForElementPresent(findTestObject('FDR-Dashboard/createNewVoucherButton'), 2)
 

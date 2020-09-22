@@ -1,3 +1,12 @@
+/* Project Name : FDR
+ * Test Scenario : Creating a Voucher with header, invoice and Distribution Line items.
+ * 	List of Voucher Functions are used :
+ * 	  --> createVoucherHeader
+ * 	 --> createInvoiceLinesAndDistributionLines
+ * Author :
+ * Revision Date:
+ */
+// List of Import packages and libraries
 import com.etoe.voucherFunctions as VF
 import com.etoe.commonFunctions as CF
 import com.kms.katalon.core.testdata.ExcelData
@@ -6,20 +15,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 
+// Execute Login function,Set role to SuperUser (Path-->Keywords\com\etoe--commonFunctions)
 CF.login(GlobalVariable.superUserAccnt, GlobalVariable.superUserPwd)
 
+// Login Funtion as a "Account Specific Role (Path -->Keywords\com\etoe--commonFunctions)
 CF.selectRole('accountsPayableProcessor')
+
+//Data Source- Extract data from Voucher Excelsheet (Data Files/Regression-Voucher/E2E Regression-Data.xlsx)
 ExcelData vocuhersExcelData = TestDataFactory.findTestData('Regression-Voucher/E2E-Regression-Data')
 
-//declaring data variables for voucher header,voucher invoicelines,distribution lines
+//Declaring data variables for voucher Header Voucher Invoice Lines,Distribution Lines
 def invoicesData = []
 def distributionLinesData = []
 def voucherNums = []
 def supplierIds= []
 def numOfSheets = vocuhersExcelData.getSheetNames().size()
+
 for (int i = 1; i <= numOfSheets-1; i++) {
 	vocuhersExcelData.changeSheet("Voucher" + i)
 	def numOfRows = vocuhersExcelData.getRowNumbers()
+	// calling createVoucherHeader function from VouchersFunctions.groovy
 	VF.createVoucherHeader(vocuhersExcelData)
 	voucherNums.add(WebUI.getText(findTestObject('FDR-VoucherEntry/VoucherHeader/voucherNum')))
 	supplierIds.add(vocuhersExcelData.getValue('Supplier ID #', 1))
@@ -62,6 +77,8 @@ for (int i = 1; i <= numOfSheets-1; i++) {
 		distributionLinesData.add(distributionLineData)
 		distributionLineData = []
 	}
+	
+	// calling a createInvoiceLinesAndDistributionLines line function from VouchersFunctions.groovy
 	VF.createInvoiceLinesAndDistributionLines(invoicesData, distributionLinesData)
 	invoicesData = []
 	distributionLinesData = []
@@ -69,13 +86,16 @@ for (int i = 1; i <= numOfSheets-1; i++) {
 	WebUI.click(findTestObject('FDR-Dashboard/appLogo'))
 	WebUI.waitForElementPresent(findTestObject('FDR-VoucherEntry/VoucherHeader/reviewButton'), 2)
 }
+// Execute login funcitons, set role to Accounts payable Approval to approve and validate a Voucher
 CF.selectRole('accountsPayableApprover')
 for (int i = 0; i < supplierIds.size(); i++) {
 	VF.validateToApprove(supplierIds[i])
 }
 
+//Calling Logout function (Location path -->Keywords\com\etoe--commonFunctions)
 CF.logout()
 
+/* END*/
 
 
 

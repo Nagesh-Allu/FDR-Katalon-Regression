@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Voucher-Integration_Suite" time="133.568" tests="1" failures="0" errors="0">
+   <testsuite name="Voucher-Integration_Suite" tests="1" failures="0" errors="0" time="133.568" timestamp="2020-09-21 14:59:28" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Voucher-Integration_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\GitHub\\FDR-Katalon-Regression\\Reports\\20200921_144555\\Voucher-Integration_Suite\\20200921_144556"/>
+         <property name="logFiles" value="C:\\GitHub\\FDR-Katalon-Regression\\Reports\\20200921_144555\\Voucher-Integration_Suite\\20200921_144556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="724e7943c95c4005784c8ed90c0b9fda"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher" time="130.047" classname="Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher" status="PASSED">
+         <system-out><![CDATA[2020-09-21 14:59:29 - [TEST_CASE][PASSED] - Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher: Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - case "Voucher":: null
+
+2020-09-21 14:59:29 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(accountsApproverAcc2, accountsApproverAcc2Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-21 14:59:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-21 14:59:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-21 14:59:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-21 14:59:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-21 14:59:37 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-21 14:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-21 14:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-21 14:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-21 14:59:39 - [MESSAGE][PASSED] - Text 'fdr.test2@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-21 14:59:40 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-21 14:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-21 14:59:43 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-21 14:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-21 14:59:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-21 14:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-21 14:59:46 - [TEST_STEP][PASSED] - break: null
+
+2020-09-21 14:59:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-21 14:59:46 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully
+
+2020-09-21 14:59:46 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-21 14:59:46 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2020-09-21 14:59:46 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2020-09-21 14:59:46 - [TEST_STEP][PASSED] - voucherHeaderData = ["drawDate":drawDate, "payDate":payDate, "programType":programType, "invoiceType":invoiceType, "fundCode":fundCode, "supplier":supplier, ... ]: null
+
+2020-09-21 14:59:46 - [TEST_STEP][PASSED] - Uifunctions.createVoucherHeader(voucherHeaderData): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-21 14:59:48 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is present
+
+2020-09-21 14:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/createNewVoucherButton' is clicked on
+
+2020-09-21 14:59:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='action-button']//*[contains(text(),'Review')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 14:59:53 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is not present after 3 second(s)
+
+2020-09-21 14:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/drawDate' is clicked on
+
+2020-09-21 14:59:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 14:59:55 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-21 14:59:56 - [MESSAGE][PASSED] - Text '10/07/2020' is set on object 'Object Repository/FDR-VoucherEntry/Voucher/drawDate'
+
+2020-09-21 15:00:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:00 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-21 15:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/programType' is clicked on
+
+2020-09-21 15:00:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:04 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:00:04 - [MESSAGE][PASSED] - Keys 'Medical Assistance (MA)' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/programType'
+
+2020-09-21 15:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/programType' is present
+
+2020-09-21 15:00:05 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/programType'
+
+2020-09-21 15:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType' is clicked on
+
+2020-09-21 15:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType' is present
+
+2020-09-21 15:00:06 - [MESSAGE][PASSED] - Keys 'CAP' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType'
+
+2020-09-21 15:00:07 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/invoiceType'
+
+2020-09-21 15:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode' is clicked on
+
+2020-09-21 15:00:08 - [MESSAGE][PASSED] - Keys 'Health Care Deposit Fund (0912)' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode'
+
+2020-09-21 15:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/fundCode' is present
+
+2020-09-21 15:00:09 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/fundCode'
+
+2020-09-21 15:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID' is clicked on
+
+2020-09-21 15:00:10 - [MESSAGE][PASSED] - Keys '0000007954' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID'
+
+2020-09-21 15:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/supplierID' is present
+
+2020-09-21 15:00:11 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/supplierID'
+
+2020-09-21 15:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/seqNum' is clicked on
+
+2020-09-21 15:00:12 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/seqNum' is present
+
+2020-09-21 15:00:12 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/seqNum'
+
+2020-09-21 15:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum' is clicked on
+
+2020-09-21 15:00:13 - [MESSAGE][PASSED] - Keys '07-65707' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum'
+
+2020-09-21 15:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/contractNum' is present
+
+2020-09-21 15:00:14 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/contractNum'
+
+2020-09-21 15:00:16 - [MESSAGE][PASSED] - Text 'This message will print on the Remittance Advice' is set on object 'Object Repository/FDR-VoucherEntry/Voucher/vendorMessage'
+
+2020-09-21 15:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact' is clicked on
+
+2020-09-21 15:00:17 - [MESSAGE][PASSED] - Keys 'Aung Lin' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact'
+
+2020-09-21 15:00:17 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact' is present
+
+2020-09-21 15:00:18 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/primaryContact'
+
+2020-09-21 15:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is clicked on
+
+2020-09-21 15:00:19 - [MESSAGE][PASSED] - Keys 'Vivian Ly' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact'
+
+2020-09-21 15:00:19 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is present
+
+2020-09-21 15:00:20 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact' is present
+
+2020-09-21 15:00:20 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/Voucher/secondaryContact'
+
+2020-09-21 15:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/Voucher/buttonNext' is clicked on
+
+2020-09-21 15:00:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-21 15:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-21 15:00:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-21 15:00:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:29 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-21 15:00:29 - [TEST_STEP][PASSED] - Uifunctions.createInvoiceLine(1): Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-21 15:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-21 15:00:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(text(),'Add voucher')]//parent::button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:32 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:00:32 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' is clickable
+
+2020-09-21 15:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice' is clicked on
+
+2020-09-21 15:00:33 - [MESSAGE][PASSED] - Text '9490' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoice'
+
+2020-09-21 15:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate' is clicked on
+
+2020-09-21 15:00:34 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate' is present
+
+2020-09-21 15:00:35 - [MESSAGE][PASSED] - Text '09/21/2020' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceDate'
+
+2020-09-21 15:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate' is clicked on
+
+2020-09-21 15:00:36 - [MESSAGE][PASSED] - Text '09/22/2020' is set on object 'Object Repository/FDR-VoucherEntry/InvoiceLine/originalWarrantDate'
+
+2020-09-21 15:00:36 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButton' is present
+
+2020-09-21 15:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/addInvoiceLineButtonIndex2' is clicked on
+
+2020-09-21 15:00:37 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/VoucherHeader/reviewButton' is present
+
+2020-09-21 15:00:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton"), 5): Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clickable
+
+2020-09-21 15:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clickable
+
+2020-09-21 15:00:38 - [TEST_STEP][PASSED] - click(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton")): Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clicked on
+
+2020-09-21 15:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceLineExpandButton' is clicked on
+
+2020-09-21 15:00:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/createNewVoucherButton"), 4): Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-21 15:00:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:43 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 4 second(s)
+
+2020-09-21 15:00:43 - [TEST_STEP][PASSED] - click(findTestObject("FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton")): Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' is clicked on
+
+2020-09-21 15:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/InvoiceLine/invoiceAddlineButton' is clicked on
+
+2020-09-21 15:00:44 - [TEST_STEP][PASSED] - Uifunctions.createDistributionLines(1, "Voucher/FDR-DL"): Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/addSaveButton' is clicked on
+
+2020-09-21 15:00:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 3 second(s)
+
+2020-09-21 15:00:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:51 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is clickable
+
+2020-09-21 15:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is clicked on
+
+2020-09-21 15:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom' is present
+
+2020-09-21 15:00:53 - [MESSAGE][PASSED] - Text '08/04/2020' is set on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateFrom'
+
+2020-09-21 15:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' is clicked on
+
+2020-09-21 15:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo' is present
+
+2020-09-21 15:00:54 - [MESSAGE][PASSED] - Text '08/05/2020' is set on object 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceDateTo'
+
+2020-09-21 15:00:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:00:57 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/amount' is clicked on
+
+2020-09-21 15:00:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='';' successfully
+
+2020-09-21 15:00:58 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/amount'
+
+2020-09-21 15:01:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:00 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-21 15:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverType' is clicked on
+
+2020-09-21 15:01:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:03 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-21 15:01:03 - [MESSAGE][PASSED] - Keys '1115' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverType'
+
+2020-09-21 15:01:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:06 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:01:07 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverType'
+
+2020-09-21 15:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundingSource' is clicked on
+
+2020-09-21 15:01:08 - [MESSAGE][PASSED] - Keys 'Dental' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundingSource'
+
+2020-09-21 15:01:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:11 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:01:11 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundingSource'
+
+2020-09-21 15:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundRatio' is clicked on
+
+2020-09-21 15:01:12 - [MESSAGE][PASSED] - Keys '90/10' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundRatio'
+
+2020-09-21 15:01:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:16 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:01:16 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/fundRatio'
+
+2020-09-21 15:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverName' is clicked on
+
+2020-09-21 15:01:17 - [MESSAGE][PASSED] - Keys 'CBAS' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverName'
+
+2020-09-21 15:01:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:20 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:01:20 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/waiverName'
+
+2020-09-21 15:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/nonFederalFund' is clicked on
+
+2020-09-21 15:01:22 - [MESSAGE][PASSED] - Keys '0001' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/nonFederalFund'
+
+2020-09-21 15:01:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:25 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:01:25 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/nonFederalFund'
+
+2020-09-21 15:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/account' is clicked on
+
+2020-09-21 15:01:26 - [MESSAGE][PASSED] - Keys '5442000' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/account'
+
+2020-09-21 15:01:27 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/account'
+
+2020-09-21 15:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount' is clicked on
+
+2020-09-21 15:01:28 - [MESSAGE][PASSED] - Keys '5442000' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount'
+
+2020-09-21 15:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount' is present
+
+2020-09-21 15:01:28 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/altAccount'
+
+2020-09-21 15:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceCategory' is clicked on
+
+2020-09-21 15:01:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:32 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 2 second(s)
+
+2020-09-21 15:01:32 - [MESSAGE][PASSED] - Keys '18B1' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceCategory'
+
+2020-09-21 15:01:33 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/serviceCategory'
+
+2020-09-21 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/incDecLine' is clicked on
+
+2020-09-21 15:01:34 - [MESSAGE][PASSED] - Keys '8: Adjustments and corrections' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/incDecLine'
+
+2020-09-21 15:01:34 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/incDecLine'
+
+2020-09-21 15:01:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-id='button-link']//*[contains(text(),'Create New Voucher')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-21 15:01:36 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-Dashboard/createNewVoucherButton' is not present after 1 second(s)
+
+2020-09-21 15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/index' is clicked on
+
+2020-09-21 15:01:37 - [MESSAGE][PASSED] - Keys '1155' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/index'
+
+2020-09-21 15:01:37 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/FDR-VoucherEntry/DistributionLine/index'
+
+2020-09-21 15:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-VoucherEntry/DistributionLine/addSaveButton' is clicked on
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2020-09-21 15:01:38 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - case "Voucher":: null
+
+2020-09-21 15:01:38 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed
+
+2020-09-21 15:01:39 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-21 15:01:39 - [TEST_STEP][PASSED] - break: null
+
+2020-09-21 15:01:39 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-21 14:59:28 - [TEST_SUITE][PASSED] - Voucher-Integration_Suite: Test Cases/WEB-UI-TESTS/Voucher/FDR-Create-Simple-Voucher]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

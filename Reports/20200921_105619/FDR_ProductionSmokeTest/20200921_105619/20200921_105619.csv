@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FDR_ProductionSmokeTest,,,,2020-09-21 10:56:21,2020-09-21 10:56:29,7.741s,FAILED
+,,,,,,,
+Test Cases/FDR_Production_SmokeTest/FDR-Draw-Dashboard,,,,2020-09-21 10:56:21,2020-09-21 10:56:29,7.371s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2020-09-21 10:56:21,2020-09-21 10:56:21,0.005s,PASSED
+Start listener action : beforeTestCase,,,,2020-09-21 10:56:21,2020-09-21 10:56:21,0.003s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2020-09-21 10:56:21,2020-09-21 10:56:22,0.008s,PASSED
+Start listener action : executeRows,,,,2020-09-21 10:56:22,2020-09-21 10:56:22,0.017s,PASSED
+"data = [""waiverType"":waiverType, ""waiverName"":waiverName, ""fundingSource"":fundingSource, ""fundRatio"":fundRatio, ""nonFederalFund"":nonFederalFund, ... ]",,,,2020-09-21 10:56:22,2020-09-21 10:56:22,0.001s,PASSED
+"values = callTestCase(findTestCase(""WEB-UI-TESTS/Voucher/FDR-Validate-Approve-Modal""), [""data"":data, ""giveFutureDate"":true, ""plusMonths"":9], STOP_ON_FAILURE)",,,,2020-09-21 10:56:22,2020-09-21 10:56:29,6.892s,FAILED
+Start listener action : sampleAfterTestCase,,,,2020-09-21 10:56:29,2020-09-21 10:56:29,0.001s,PASSED
+Start listener action : afterTestCase,,,,2020-09-21 10:56:29,2020-09-21 10:56:29,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2020-09-21 10:56:29,2020-09-21 10:56:29,0.001s,PASSED
+Start listener action : addFailedTCToList,,,,2020-09-21 10:56:29,2020-09-21 10:56:29,0.001s,PASSED

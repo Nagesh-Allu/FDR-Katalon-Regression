@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FDR_ProductionSmokeTest" time="43.408" tests="2" failures="0" errors="0">
+   <testsuite name="FDR_ProductionSmokeTest" tests="2" failures="0" errors="0" time="43.408" timestamp="2020-09-21 12:55:20" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/FDR_ProductionSmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\GitHub\\FDR-Katalon-Regression\\Reports\\20200921_125518\\FDR_ProductionSmokeTest\\20200921_125518"/>
+         <property name="logFiles" value="C:\\GitHub\\FDR-Katalon-Regression\\Reports\\20200921_125518\\FDR_ProductionSmokeTest\\20200921_125518\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.188"/>
+         <property name="sessionId" value="b66391f152e37b0d4f81ced00035be42"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FDR_Production_SmokeTest/FDR-Calendar-Dashboard" time="21.125" classname="Test Cases/FDR_Production_SmokeTest/FDR-Calendar-Dashboard" status="PASSED">
+         <system-out><![CDATA[2020-09-21 12:55:21 - [TEST_CASE][PASSED] - Test Cases/FDR_Production_SmokeTest/FDR-Calendar-Dashboard: Test Cases/FDR_Production_SmokeTest/FDR-Calendar-Dashboard
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - Default: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-21 12:55:21 - [TEST_STEP][PASSED] - commonFunctions.login(superUserAccnt, superUserPwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-21 12:55:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-21 12:55:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-21 12:55:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov'
+
+2020-09-21 12:55:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-21 12:55:28 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-21 12:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-21 12:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-21 12:55:29 - [MESSAGE][PASSED] - Text 'fdr.test11@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-21 12:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-21 12:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-21 12:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-21 12:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-21 12:55:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-21 12:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-21 12:55:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn"), 3): Object 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn' is present
+
+2020-09-21 12:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn' is present
+
+2020-09-21 12:55:37 - [TEST_STEP][PASSED] - taskName = "Calendar": null
+
+2020-09-21 12:55:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtnText"), taskName): Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtnText' are matched.
+
+2020-09-21 12:55:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtnText' are matched.
+
+2020-09-21 12:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn' is clicked on
+
+2020-09-21 12:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn' is clicked on
+
+2020-09-21 12:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDataTypeDropdown")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDataTypeDropdown' is clicked on
+
+2020-09-21 12:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDataTypeDropdown' is clicked on
+
+2020-09-21 12:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/drawDateOption")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/drawDateOption' is clicked on
+
+2020-09-21 12:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/drawDateOption' is clicked on
+
+2020-09-21 12:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown' is clicked on
+
+2020-09-21 12:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown' is clicked on
+
+2020-09-21 12:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/federalFiscalYearOption")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/federalFiscalYearOption' is clicked on
+
+2020-09-21 12:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/federalFiscalYearOption' is clicked on
+
+2020-09-21 12:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown' is clicked on
+
+2020-09-21 12:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown' is clicked on
+
+2020-09-21 12:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/stateFiscalYearOption")): Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/stateFiscalYearOption' is clicked on
+
+2020-09-21 12:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/stateFiscalYearOption' is clicked on
+
+2020-09-21 12:55:41 - [TEST_STEP][PASSED] - commonFunctions.logout(): Browser is closed
+
+2020-09-21 12:55:42 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Default: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FDR_Production_SmokeTest/FDR-Reports-Dashboard" time="17.501" classname="Test Cases/FDR_Production_SmokeTest/FDR-Reports-Dashboard" status="PASSED">
+         <system-out><![CDATA[2020-09-21 12:55:42 - [TEST_CASE][PASSED] - Test Cases/FDR_Production_SmokeTest/FDR-Reports-Dashboard: Test Cases/FDR_Production_SmokeTest/FDR-Reports-Dashboard
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Default: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - Start listener action : executeRows: null
+
+2020-09-21 12:55:42 - [TEST_STEP][PASSED] - commonFunctions.login(superUserAccnt, superUserPwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-21 12:55:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-21 12:55:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-21 12:55:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov'
+
+2020-09-21 12:55:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-21 12:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-21 12:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on
+
+2020-09-21 12:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present
+
+2020-09-21 12:55:49 - [MESSAGE][PASSED] - Text 'fdr.test11@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'
+
+2020-09-21 12:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible
+
+2020-09-21 12:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on
+
+2020-09-21 12:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible
+
+2020-09-21 12:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on
+
+2020-09-21 12:55:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'
+
+2020-09-21 12:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on
+
+2020-09-21 12:55:55 - [TEST_STEP][PASSED] - taskName = "Reports": null
+
+2020-09-21 12:55:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtnText"), taskName): Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtnText' are matched.
+
+2020-09-21 12:55:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtnText' are matched.
+
+2020-09-21 12:55:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtn"), 3): Object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtn' is present
+
+2020-09-21 12:55:57 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtn' is present
+
+2020-09-21 12:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtn")): Object: 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtn' is clicked on
+
+2020-09-21 12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/reportBtn' is clicked on
+
+2020-09-21 12:55:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/mbesReportBtn"), 3): Object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/mbesReportBtn' is present
+
+2020-09-21 12:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/mbesReportBtn' is present
+
+2020-09-21 12:55:58 - [TEST_STEP][PASSED] - mbesReportTaskName = "MBES Reports": null
+
+2020-09-21 12:55:58 - [TEST_STEP][PASSED] - customReportTaskName = "Custom Reports": null
+
+2020-09-21 12:55:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/mbesReportText"), mbesReportTaskName): Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/mbesReportText' are matched.
+
+2020-09-21 12:55:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/mbesReportText' are matched.
+
+2020-09-21 12:55:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/customReportsText"), customReportTaskName): Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/customReportsText' are matched.
+
+2020-09-21 12:55:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FDR-System-Admin/FDR-Reports/FDR-Report-Dashboard/customReportsText' are matched.
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - commonFunctions.logout(): Browser is closed
+
+2020-09-21 12:55:59 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - case "superUser":: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - switch (profileName): null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - Default: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - return null: null
+
+2020-09-21 12:55:59 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-21 12:55:20 - [TEST_SUITE][PASSED] - FDR_ProductionSmokeTest: Test Cases/FDR_Production_SmokeTest/FDR-Reports-Dashboard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

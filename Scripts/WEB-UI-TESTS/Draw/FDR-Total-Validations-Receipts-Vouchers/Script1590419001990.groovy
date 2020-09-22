@@ -5,7 +5,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.functions.Uifunctions as Uifunctions
 
-def drawDate = '09/30/2020'
+def drawDate = '10/07/2020'
 
 KeywordLogger logger = new KeywordLogger()
 WebUI.delay(10)

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Resume')]</value>
+         <value>//*[text()='Resume']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

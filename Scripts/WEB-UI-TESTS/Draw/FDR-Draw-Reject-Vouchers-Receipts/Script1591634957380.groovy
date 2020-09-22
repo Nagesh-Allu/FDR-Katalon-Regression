@@ -8,7 +8,7 @@ import com.functions.Uifunctions as Uifunctions
 
 WebUI.waitForElementPresent(findTestObject('FDR-Dashboard/createNewVoucherButton'), 2)
 
-def drawDate = '09/30/2020'
+def drawDate = '10/07/2020'
 
 Uifunctions.clickOnReconcileButton(drawDate)
 

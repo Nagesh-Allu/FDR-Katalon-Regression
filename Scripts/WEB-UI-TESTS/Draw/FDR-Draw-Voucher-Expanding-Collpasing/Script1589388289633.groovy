@@ -18,7 +18,7 @@ import com.functions.Uifunctions as Uifunctions
 
 
 
-def drawDate = '09/30/2020'
+def drawDate = '10/07/2020'
 
 Uifunctions.clickOnReconcileButton(drawDate)
 

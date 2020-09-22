@@ -8,65 +8,66 @@
    <dataFileGUID>4413c98e-5b76-4724-8d92-f9d7976454e9</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>09%2F30%2F2020 10%2F02%2F2020 Medical+Assistance+%28MA%29 CAP Health+Care+Deposit+Fund+%280912%29 0000007954 01 07-65707 This+message+will+print+on+the+Remittance+Advice Aung+Lin Vivian+Ly</data>
-   <data>09%2F30%2F2020 10%2F02%2F2020 Medical+Assistance+%28MA%29 CAP Health+Care+Deposit+Fund+%280912%29 0000008024 02 11-88291 This+message+will+print+on+the+Remittance+Advice James+Mowrer Angela+Kazaryan</data>
-   <data>09%2F30%2F2020 10%2F02%2F2020 Medical+Assistance+%28MA%29 CAP lth+Care+Deposit+Fund+%280912%29 0000008170 02 13-90186 null Baoson+Dang Angela+Kazaryan</data>
-   <data>09%2F30%2F2020 10%2F02%2F2020 Medical+Assistance+%28MA%29 CAP Healthy+Families+Fund+%280555%29 0000007954 01 07-65707 This+message+will+print+on+the+Remittance+Advice Aung+Lin Vivian+Ly</data>
-   <data>09%2F30%2F2020 10%2F02%2F2020 Medical+Assistance+%28MA%29 CAP lth+Care+Deposit+Fund+%280912%29 0000007954 01 07-65707 This+message+will+print+on+the+Remittance+Advice Aung+Lin Vivian+Ly</data>
+   <data>10%2F07%2F2020 10%2F09%2F2020 Medical+Assistance+%28MA%29 CAP Health+Care+Deposit+Fund+%280912%29 0000007954 01 07-65707 This+message+will+print+on+the+Remittance+Advice Aung+Lin Vivian+Ly</data>
+   <data>10%2F07%2F2020 10%2F09%2F2020 Medical+Assistance+%28MA%29 CAP Health+Care+Deposit+Fund+%280912%29 0000008024 02 11-88291 This+message+will+print+on+the+Remittance+Advice James+Mowrer Angela+Kazaryan</data>
+   <data>10%2F07%2F2020 10%2F09%2F2020 Medical+Assistance+%28MA%29 CAP lth+Care+Deposit+Fund+%280912%29 0000008170 02 13-90186 null Baoson+Dang Angela+Kazaryan</data>
+   <data>10%2F07%2F2020 10%2F09%2F2020 Medical+Assistance+%28MA%29 CAP Healthy+Families+Fund+%280555%29 0000007954 01 07-65707 This+message+will+print+on+the+Remittance+Advice Aung+Lin Vivian+Ly</data>
+   <data>10%2F07%2F2020 10%2F09%2F2020 Medical+Assistance+%28MA%29 CAP lth+Care+Deposit+Fund+%280912%29 0000007954 01 07-65707 This+message+will+print+on+the+Remittance+Advice Aung+Lin Vivian+Ly</data>
+   <data>null null null null null null null null null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>drawDate</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>payDate</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>programType</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>invoiceType</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>fundCode</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>supplierID</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>6</columnIndex>
       <name>seqNum</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>7</columnIndex>
       <name>contractNum</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>8</columnIndex>
       <name>vMessage</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>9</columnIndex>
       <name>primaryContact</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>10</columnIndex>
       <name>secondaryContact</name>
-      <size>5</size>
+      <size>6</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

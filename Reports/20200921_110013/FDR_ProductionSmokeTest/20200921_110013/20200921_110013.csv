@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FDR_ProductionSmokeTest,Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:01:30,1m - 15.601s,FAILED
+,,,,,,,
+Test Cases/FDR_Production_SmokeTest/FDR-Calendar-Dashboard,Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:00:37,21.548s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:00:15,0.006s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:00:15,0.008s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:00:15,0.014s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:00:15,0.024s,PASSED
+"commonFunctions.login(superUserAccnt, superUserPwd)",Chrome 85.0.4183.102,,,2020-09-21 11:00:15,2020-09-21 11:00:31,15.072s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn""), 3)",Chrome 85.0.4183.102,,,2020-09-21 11:00:31,2020-09-21 11:00:32,1.408s,PASSED
+"taskName = ""Calendar""",Chrome 85.0.4183.102,,,2020-09-21 11:00:32,2020-09-21 11:00:32,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtnText""), taskName)",Chrome 85.0.4183.102,,,2020-09-21 11:00:32,2020-09-21 11:00:32,0.392s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarBtn""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:32,2020-09-21 11:00:33,0.371s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDataTypeDropdown""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:33,2020-09-21 11:00:33,0.538s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/drawDateOption""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:33,2020-09-21 11:00:34,0.540s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:34,2020-09-21 11:00:34,0.635s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/federalFiscalYearOption""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:34,2020-09-21 11:00:35,0.526s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/calendarDropdown""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:35,2020-09-21 11:00:35,0.514s,PASSED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-Calendar/FDR-Calendar-Dashboard/stateFiscalYearOption""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:35,2020-09-21 11:00:36,0.529s,PASSED
+commonFunctions.logout(),Chrome 85.0.4183.102,,,2020-09-21 11:00:36,2020-09-21 11:00:37,0.611s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+,,,,,,,
+Test Cases/FDR_Production_SmokeTest/FDR-Generate-Reports,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:01:30,53.740s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.002s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:37,0.001s,PASSED
+"commonFunctions.login(superUserAccnt, superUserPwd)",Chrome 85.0.4183.102,,,2020-09-21 11:00:37,2020-09-21 11:00:51,14.519s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/reportButton""), 2)",Chrome 85.0.4183.102,,,2020-09-21 11:00:51,2020-09-21 11:00:55,3.240s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Receipt-Dashboard/reportButton""))",Chrome 85.0.4183.102,,,2020-09-21 11:00:55,2020-09-21 11:00:59,4.419s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/receiptTransactionRequests""), 5, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-21 11:00:59,2020-09-21 11:01:05,6.053s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/receiptTransactionRequests""))",Chrome 85.0.4183.102,,,2020-09-21 11:01:05,2020-09-21 11:01:09,4.431s,FAILED
+"waitForElementPresent(findTestObject(""FDR-Receipt/FDR-Receipt-Header/View/inputDrawDate""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-21 11:01:09,2020-09-21 11:01:14,4.054s,PASSED
+"waitForElementClickable(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_Cancel""), 3, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-21 11:01:14,2020-09-21 11:01:18,4.096s,PASSED
+"click(findTestObject(""FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_Cancel""))",Chrome 85.0.4183.102,,,2020-09-21 11:01:18,2020-09-21 11:01:22,4.341s,FAILED
+"waitForElementPresent(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptLabel""), 3)",Chrome 85.0.4183.102,,,2020-09-21 11:01:22,2020-09-21 11:01:26,4.053s,PASSED
+"monthlyReceiptLabel = getText(findTestObject(""Object Repository/FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/FDR-Monthly-Receipts/monthlyReceiptLabel""))",Chrome 85.0.4183.102,,,2020-09-21 11:01:26,2020-09-21 11:01:30,4.365s,FAILED
+"assert monthlyReceiptLabel == ""Monthly Receipt Report for Federal Reporting (Defined by Draw Date)""",Chrome 85.0.4183.102,,,2020-09-21 11:01:30,2020-09-21 11:01:30,0.009s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:01:30,2020-09-21 11:01:30,0.003s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:01:30,2020-09-21 11:01:30,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.102,,,2020-09-21 11:01:30,2020-09-21 11:01:30,0.000s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.102,,,2020-09-21 11:01:30,2020-09-21 11:01:30,0.000s,PASSED
