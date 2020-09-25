@@ -20,6 +20,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 CF.login(GlobalVariable.superUserAccnt, GlobalVariable.superUserPwd)
+CF.selectRole('cashieringProcessorRole')
 
 WebUI.waitForElementPresent(findTestObject('FDR-Receipt/FDR-Receipt-Dashboard/reportButton'), 2)
 
@@ -76,7 +77,6 @@ WebUI.waitForElementPresent(findTestObject('FDR-Receipt/FDR-Report-Generation/FD
 WebUI.click(findTestObject('FDR-Receipt/FDR-Report-Generation/FDR-Report-Dashboard/button_backToDashboard'))
 
 WebUI.delay(2)
-
 CF.logout()
 
 

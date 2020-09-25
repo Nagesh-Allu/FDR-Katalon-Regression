@@ -6,6 +6,7 @@
    <UUID>c2164530-6678-4277-bffb-d515971f96e6</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\GitHub\FDR-Katalon-Regression\FDR-Katalon-Regression.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

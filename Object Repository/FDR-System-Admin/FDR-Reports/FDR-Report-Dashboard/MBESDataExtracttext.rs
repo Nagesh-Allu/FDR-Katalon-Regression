@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[contains(text(),'MBES Data Extract')]</value>
+         <value>//*[contains(text(),'MBES Data Extract')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

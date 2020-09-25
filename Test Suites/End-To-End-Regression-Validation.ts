@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>b8f494a4-948a-437a-9e6b-d3912bd63681</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/End-To-End Regression Validation/FDR-Validation-Voucher</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -26,13 +26,13 @@
    <testCaseLink>
       <guid>7015cfd1-a473-4fa0-add6-d9fa2a3cbaf4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/End-To-End Regression Validation/FDR-Validation-Draw</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b0f1b1ff-0fef-4cad-a6ce-17a75e74e0c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/End-To-End Regression Validation/FDR-Integration-e2e</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

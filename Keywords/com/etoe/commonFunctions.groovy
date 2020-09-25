@@ -42,7 +42,8 @@ public class commonFunctions {
 				break
 			case 'cashieringProcessorRole':
 				WebUI.click(findTestObject('FDR-SuperUser-Dashboard/cashieringProcessorRole'))
-				break
+				break					
+				
 		}
 		WebUI.waitForElementPresent(findTestObject('FDR-VoucherEntry/VoucherHeader/reviewButton'), 2)
 	}

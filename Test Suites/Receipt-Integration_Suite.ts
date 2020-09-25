@@ -53,7 +53,7 @@
    <testCaseLink>
       <guid>c94e5289-7114-4468-9bb3-3946b86e9db6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Display-Receipt-Header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -92,7 +92,7 @@
    <testCaseLink>
       <guid>19824084-5200-4311-826a-d0c671682156</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Edit-Receipt-Header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -164,7 +164,7 @@
    <testCaseLink>
       <guid>120bc370-1035-49b7-96c1-dfcf611cfb03</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Create-Receipt-CheckLine</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -230,7 +230,7 @@
    <testCaseLink>
       <guid>8f4762c0-277d-4f22-bee8-b7e3e185bac4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Edit-Receipt_Line</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -311,7 +311,7 @@
    <testCaseLink>
       <guid>46b8af28-348e-4fbe-8f5b-54bc8393ed09</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Delete-Undo-Receipt-Header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -383,7 +383,7 @@
    <testCaseLink>
       <guid>09e9962e-fbb1-4e89-9a5a-204fdc2d0c71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Review Receipt</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -434,7 +434,7 @@
    <testCaseLink>
       <guid>9baf8484-a1c3-4d16-b956-c60c66b962c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Receipts-FixStateReasons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -515,7 +515,7 @@
    <testCaseLink>
       <guid>0e26ddc2-5cd4-408c-be1b-75cf3bc44724</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-Receipt-RA-CR-checkMarked</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -560,7 +560,7 @@
    <testCaseLink>
       <guid>7277f1fa-faff-4bec-bce9-5f27743cedff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-Updated-Receipt-DistributionLine</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -713,7 +713,7 @@
    <testCaseLink>
       <guid>4ad51fca-605d-4e89-bcbb-b7f260d03b39</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Review-Preview-Forms-Prior-Approval</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -884,7 +884,7 @@
    <testCaseLink>
       <guid>39fb595f-8434-42d3-84b5-c5ca5c540c70</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Review-Print-Forms</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1055,7 +1055,7 @@
    <testCaseLink>
       <guid>548bb5f8-a897-4873-9caf-10abf6deb5aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Delete-Undo-Receipt-Line</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1136,7 +1136,7 @@
    <testCaseLink>
       <guid>29e2588a-cefe-49de-a39b-2b3ef0d79b1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-ReceiptHeader-RA-CR</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1181,7 +1181,7 @@
    <testCaseLink>
       <guid>be09be20-7c78-4269-9131-d25de4d35279</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Create-Receipt-DistributionLine</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1352,7 +1352,7 @@
    <testCaseLink>
       <guid>b3a4661d-dbc5-43f2-8d8a-6aff92b1136f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Delete-Receipt-Distribution-Line</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1523,7 +1523,7 @@
    <testCaseLink>
       <guid>7661d6e7-b37c-40b4-a883-5b4d115bbc19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Validate-Account-AltAccount-0555</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1604,13 +1604,13 @@
    <testCaseLink>
       <guid>0c3d9a5f-98da-4dcc-a18e-0a5817127f46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Generate-Reports</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0e24fff9-4dc9-433b-80b9-f21ee95f55f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WEB-UI-TESTS/Receipt/FDR-Search-Receipt</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

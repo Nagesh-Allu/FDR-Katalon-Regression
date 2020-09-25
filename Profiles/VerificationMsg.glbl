@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>VerificationMsg</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Must be a valid draw date'</initValue>
+      <name>DrawWarning</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'The draw is closed'</initValue>
+      <name>DrawWarning1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Must be a future date'</initValue>
+      <name>DrawWarning2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

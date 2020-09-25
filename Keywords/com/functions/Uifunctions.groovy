@@ -1,20 +1,16 @@
 package com.functions
-
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
-
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable
 
 public class Uifunctions {
@@ -140,6 +136,7 @@ public class Uifunctions {
 		WebUI.sendKeys(findTestObject('FDR-VoucherEntry/Voucher/secondaryContact'), Keys.chord(Keys.DOWN, Keys.ENTER))
 		WebUI.click(findTestObject('FDR-VoucherEntry/Voucher/buttonNext'))
 		WebUI.delay(3)
+
 		WebUI.waitForElementPresent(findTestObject('FDR-VoucherEntry/VoucherHeader/reviewButton'), 4)
 	}
 	/*public static void createVoucherHeader(payDate, drawDate, program, invoiceType, fundCode, supplier, contract,  sequence, vMessage = true, primaryContact, secondaryContact) {
