@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Contracts.xlsx File</description>
+   <name>SEED_Contracts_DATA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b9dd6a4a-ef84-45ac-9c42-fb019be25c6a</dataFileGUID>
+   <dataSourceUrl>C:\GitHub\FDR-Katalon-Regression\Data Files\FDR-SEED-DATA\Contracts.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Contracts</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

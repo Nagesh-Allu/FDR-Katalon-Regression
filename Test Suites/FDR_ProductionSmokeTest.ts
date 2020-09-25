@@ -12,159 +12,39 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0336cdb4-74de-4760-a0d2-5f7ec97223cc</testSuiteGuid>
    <testCaseLink>
-      <guid>6b08a680-5c12-4666-a4c7-0ddeece7fa08</guid>
+      <guid>bee7739c-ed92-4082-aa63-a581cd59b914</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Calendar-Dashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc001648-9831-4500-8f60-081b620dd985</guid>
+      <guid>4eb57115-04a0-4fad-834a-e5d29f4ae93e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Dashboard-Filters</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c68a8262-bd00-42c6-b807-f7356154b20b</guid>
+      <guid>318f2b7d-8a73-4d8e-9c6e-bfa11851c0cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Draw-Dashboard</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>15132a34-5ff2-4ca2-8e93-1221d73ee73e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4d70363f-5ea8-4705-b934-094172430604</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f4d883dd-4a91-494a-a7c6-12d8e53cc7fc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2513f23e-9c17-483e-9b3b-8a3e665ce36c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0a65f0ec-ec21-4616-9b0e-ceb51501460b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f0dd935c-d490-4569-a92c-383972e9b495</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>944f0bf1-abb8-46af-a22b-68b786531ae8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>94a674d2-d85e-4e0a-b5bc-e31343dfb185</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>898d3809-cbf5-466b-b60e-3c06f16d574b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>928c1a98-90c6-4b0a-9d14-3631dc74a58c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>74d3b97f-fdd2-4be6-8e76-68161e4bcab6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d149ab6f-3eb9-4ea5-ac98-8b7086d057fa</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>85cc214f-5350-40b5-b8d6-b7140be414a9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1f837a98-3fd6-4687-b382-8737a6685d99</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4891959b-a85a-4eb8-b0b6-3d84bc94019c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fd987aca-fc4b-4f79-8646-4d269d2e0ee0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>10886e39-a09f-415f-a7d6-d0961a01408b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>edb48ead-ddac-4681-9a22-4f01bc5951da</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>521b1368-6f62-4c3f-84cc-acb1aefd95c9</variableId>
-      </variableLink>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Draw-Tabs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8451ee46-f0f8-4427-91e3-76d38ef70d24</guid>
+      <guid>7fc64e63-b11c-443d-9c46-1de57cb4740c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Generate-Reports</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0542007a-cbc9-42a0-b9a1-ac99853458c8</guid>
+      <guid>74235180-efe5-4331-aa51-59b0191a5bcf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Reports-Dashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e54ad3d-7ea7-447d-b4b6-2da765c98e8a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Sample-Reference Data</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c0ef86c1-fa52-438e-b9af-f2335d7d208e</guid>
+      <guid>f8a9a3f1-01b4-4b5c-b19e-a8505c9ad9b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FDR_Production_SmokeTest/SystemAdmin-Login</testCaseId>
+      <testCaseId>Test Cases/FDR_Production_SmokeTest/FDR-Sample-Reference Data</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

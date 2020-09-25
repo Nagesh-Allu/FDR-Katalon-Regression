@@ -51,12 +51,12 @@
       <guid>3fb65f09-b77f-42dc-ab09-0e991507428e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FDR_E2E-REGRESSION-TESTS/FDR-E2E-FDR-8119-VOUCHER-REJECT</testCaseId>
+      <testCaseId>Test Cases/FDR_E2E-REGRESSION-TESTS/TC_2-FDR-E2E-FDR-8119-VOUCHER-REJECT</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ba9dc25a-d9d6-4eec-ad4b-454cb0cf326a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FDR_E2E-REGRESSION-TESTS/FDR_E2E_FDR-8209-VOUCHER-APPROVAL</testCaseId>
+      <testCaseId>Test Cases/FDR_E2E-REGRESSION-TESTS/TC_9-FDR_E2E_FDR-8209-EDIT_VOUCHER</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-
 WebUI.waitForElementPresent(findTestObject('FDR-Dashboard/createNewVoucherButton'), 2)
 
 WebUI.click(findTestObject('FDR-Draw/CompletedTabs/completedTab'))

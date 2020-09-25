@@ -20,7 +20,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/FDR-System-Admin/SysAd
 
 WebUI.click(findTestObject('Object Repository/FDR-System-Admin/SysAdmin-Dashboard/maintainReferenceDataBtn'))
 
-WebUI.callTestCase(findTestCase('WEB-UI-TESTS/SysAdmin/SystemAdmin-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB-UI-TESTS/SysAdmin/ReportsPage/SystemAdmin-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput'), '')
 

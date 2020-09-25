@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDRPM-2938
+
+TC-5 - End to End FDR User Flow - System Admin Reference Data - Katalon Scripts</description>
+   <name>TC_5-FDR_E2E-FDR-2938-SYSTEM ADMIN REFERENCE DATA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ce946ef-9018-4f0d-a33a-efc49968ed48</testCaseGuid>
+</TestCaseEntity>

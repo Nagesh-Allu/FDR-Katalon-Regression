@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class, 'MuiButton-outlinedPrimary')])[1]</value>
+         <value>(//button[contains(@class, 'MuiButton-outlinedPrimary')])[1]//span[text()='Print']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

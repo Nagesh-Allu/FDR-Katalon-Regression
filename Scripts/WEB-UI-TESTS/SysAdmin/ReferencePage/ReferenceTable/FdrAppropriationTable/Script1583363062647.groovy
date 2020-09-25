@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('WEB-UI-TESTS/SysAdmin/SystemAdmin-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('WEB-UI-TESTS/SysAdmin/ReportsPage/SystemAdmin-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 String taskName = 'Reference Data'
 

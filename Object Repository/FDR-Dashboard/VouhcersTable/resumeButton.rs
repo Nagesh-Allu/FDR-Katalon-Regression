@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()='Resume']</value>
+         <value>//*[contains(@aria-label,'Resume Voucher 1')]//*[text()='Resume']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

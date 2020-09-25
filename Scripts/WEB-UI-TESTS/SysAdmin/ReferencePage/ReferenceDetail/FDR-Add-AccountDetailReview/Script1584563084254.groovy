@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('WEB-UI-TESTS/SysAdmin/SystemAdmin-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('WEB-UI-TESTS/SysAdmin/ReportsPage/SystemAdmin-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/FDR-System-Admin/SysAdmin-Dashboard/maintainReferenceDataBtn'))
 
