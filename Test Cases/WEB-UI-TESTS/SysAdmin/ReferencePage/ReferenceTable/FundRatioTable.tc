@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>FundRatioTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>412dd4d6-e2b6-4b96-95a1-91371b8b94fa</testCaseGuid>
+</TestCaseEntity>

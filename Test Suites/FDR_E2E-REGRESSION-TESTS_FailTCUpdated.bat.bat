@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\GitHub\FDR-Katalon-Regression\FDR-Katalon-Regression.prj" -retry=0 -testSuitePath="Test Suites/FDR_E2E-REGRESSION-TESTS_20200927_091349" -executionProfile="superUser" -browserType="Chrome (headless)"

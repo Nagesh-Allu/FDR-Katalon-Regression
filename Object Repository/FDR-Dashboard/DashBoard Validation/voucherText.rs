@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>voucherText</name>
+   <tag></tag>
+   <elementGuidId>b755690d-e588-4a61-97f6-d67d6b01d199</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[text()='Voucher'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root MuiPaper-elevation1 WithStyles(ForwardRef(Paper))-root-223 WithStyles(ForwardRef(Paper))-root-224 MuiPaper-rounded</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Assign to meHigh priorityVoucherPrint voucherFix voucherReview voucherClear VoucherSubmit immediatelyCAP00000007FDR Voucher #11/18/2019Draw Date11/20/2019Pay Date0000002345Supplier03-75794ContractResume VoucherSubmit immediatelyCAP00000008FDR Voucher #11/18/2019Draw Date11/20/2019Pay Date0000002345Supplier03-75794ContractResume VoucherSubmit immediatelyCAP00000009FDR Voucher #11/18/2019Draw Date11/20/2019Pay Date0000003456Supplier03-75794ContractResume VoucherSubmit immediatelyCAP00000010FDR Voucher #11/18/2019Draw Date11/20/2019Pay Date0000002345Supplier03-75794ContractResume Fix voucherResubmit by MM/DD/YYYYCAP00000005FDR Voucher #01/07/2019Draw Date01/09/2019Pay Date0000004567Supplier13-90115ContractFix</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;div-root-1&quot;]/div[@class=&quot;div-root-55&quot;]/main[@class=&quot;main-root-58&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthLg&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation1 WithStyles(ForwardRef(Paper))-root-223 WithStyles(ForwardRef(Paper))-root-224 MuiPaper-rounded&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//*[text()='Voucher'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new voucher'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tasks'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

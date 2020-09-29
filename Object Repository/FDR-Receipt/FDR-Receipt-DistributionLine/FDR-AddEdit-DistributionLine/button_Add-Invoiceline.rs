@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add-Invoiceline</name>
+   <tag></tag>
+   <elementGuidId>64691822-c749-4cf3-9358-3c069c2e568b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(text(),'Add Invoice line')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-id = 'button' and (text() = 'Add Invoice line' or . = 'Add Invoice line')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root-2413 MuiButton-root-2384 MuiButton-outlined-2389 jss1590 jss1591 MuiButton-outlinedPrimary-2390</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Invoice line</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;jss70&quot;]/div[@class=&quot;jss138&quot;]/main[@class=&quot;jss1374 jss1375&quot;]/div[@class=&quot;MuiContainer-root-292 MuiContainer-maxWidthLg-298&quot;]/div[@class=&quot;jss1388 jss1389&quot;]/div[@class=&quot;jss1488 jss1489&quot;]/div[@class=&quot;MuiPaper-root-80 MuiExpansionPanel-root-1502 Mui-expanded MuiPaper-elevation1-84&quot;]/div[@class=&quot;MuiCollapse-container-1365 MuiCollapse-entered-1366&quot;]/div[@class=&quot;MuiCollapse-wrapper-1368&quot;]/div[@class=&quot;MuiCollapse-wrapperInner-1369&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root-1530 jss1528 jss1529&quot;]/button[@class=&quot;MuiButtonBase-root-2413 MuiButton-root-2384 MuiButton-outlined-2389 jss1590 jss1591 MuiButton-outlinedPrimary-2390&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[contains(text(),'Add another line')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/main/div/div[2]/div/div[2]/div[2]/div/div/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='($170.26)'])[3]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Line total'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='($955,187.82)'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/button</value>
+   </webElementXpaths>
+</WebElementEntity>

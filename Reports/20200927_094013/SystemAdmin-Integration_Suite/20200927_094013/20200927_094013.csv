@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SystemAdmin-Integration_Suite,,,,2020-09-27 09:40:16,2020-09-27 09:40:19,3.712s,FAILED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/SysAdmin/ReferencePage/FDR-SystemAdmin-Populate-Details,,https://ca-mmisds.atlassian.net/browse/FDR-2569,,2020-09-27 09:40:16,2020-09-27 09:40:19,3.381s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2020-09-27 09:40:16,2020-09-27 09:40:16,0.004s,PASSED
+Start listener action : beforeTestCase,,,,2020-09-27 09:40:16,2020-09-27 09:40:16,0.023s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2020-09-27 09:40:16,2020-09-27 09:40:16,0.011s,PASSED
+Start listener action : executeRows,,,,2020-09-27 09:40:16,2020-09-27 09:40:16,0.020s,PASSED
+"taskName = ""Reference Data""",,,,2020-09-27 09:40:16,2020-09-27 09:40:16,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FDR-System-Admin/SysAdmin-Dashboard/maintainReferenceDataTxt""), taskName)",,,,2020-09-27 09:40:16,2020-09-27 09:40:17,0.357s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/SysAdmin-Dashboard/maintainReferenceDataBtn""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.094s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/reference-data""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.067s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/account""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.073s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.059s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.070s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/altAccount""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.072s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.055s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.056s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/contact""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.056s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.059s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.046s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/contract""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.058s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.055s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.053s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/fdrAppropriationReference""))",,,,2020-09-27 09:40:17,2020-09-27 09:40:17,0.063s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:17,2020-09-27 09:40:18,0.056s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.063s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/fundCode""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.078s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.068s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.076s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/fund""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.071s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.044s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.069s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/fundRatio""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.058s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.052s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.034s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/fundingSource""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.088s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.050s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.057s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/increaseDecreaseLineNumber""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.057s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.035s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:18,0.037s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/invoiceType""))",,,,2020-09-27 09:40:18,2020-09-27 09:40:19,0.047s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.040s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.047s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/programType""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.052s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.039s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.041s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/serviceCategory""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.044s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.051s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.049s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/supplier""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.066s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.038s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.036s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/waiverName""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.049s,FAILED
+"setText(findTestObject(""FDR-System-Admin/FDR-ReferencePage/referenceDataNameInput""), """")",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.041s,FAILED
+"click(findTestObject(""Object Repository/FDR-System-Admin/FDR-ReferencePage/referenceDataDropdown""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.039s,FAILED
+"click(findTestObject(""FDR-System-Admin/FDR-ReferencePage/waiverTypes""))",,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.040s,FAILED
+Start listener action : sampleAfterTestCase,,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.001s,PASSED
+Start listener action : afterTestCase,,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.010s,PASSED
+Start listener action : sampleAfterTestCase,,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.001s,PASSED
+Start listener action : addFailedTCToList,,,,2020-09-27 09:40:19,2020-09-27 09:40:19,0.001s,PASSED

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>maintainReferenceDataBtn</name>
+   <tag></tag>
+   <elementGuidId>bbdcbe81-b15a-45d5-8053-138ccbb7cf02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wrapper']/div/div/main/div/div[2]/div/div/div/a/span/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root-472 jss470 jss471 MuiPaper-elevation1-476 MuiPaper-rounded-473</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maintain Reference Data</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;jss70&quot;]/div[@class=&quot;jss138&quot;]/main[@class=&quot;jss291&quot;]/div[@class=&quot;MuiContainer-root-292 MuiContainer-maxWidthLg-298&quot;]/div[@class=&quot;MuiBox-root-403 jss435&quot;]/div[@class=&quot;MuiGrid-root-300 MuiGrid-container-301 MuiGrid-align-items-xs-center-309&quot;]/div[@class=&quot;jss436 jss437&quot;]/div[@class=&quot;MuiGrid-root-300&quot;]/a[@class=&quot;MuiButtonBase-root-467 MuiButton-root-438 MuiButton-text-440&quot;]/span[@class=&quot;MuiButton-label-439&quot;]/div[@class=&quot;MuiPaper-root-472 jss470 jss471 MuiPaper-elevation1-476 MuiPaper-rounded-473&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/main/div/div[2]/div/div/div/a/span/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome, test10! What would you like to do?'])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div</value>
+   </webElementXpaths>
+</WebElementEntity>

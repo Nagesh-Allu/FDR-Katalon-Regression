@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\fdr-automation-develop_08_25_2020\FederalDrawReporting.prj" -retry=0 -testSuitePath="Test Suites/SystemAdmin-Regression-Suite_20200828_124614" -executionProfile="SysAdmin" -browserType="Chrome"

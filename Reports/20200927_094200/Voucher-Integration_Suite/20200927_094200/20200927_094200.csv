@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Voucher-Integration_Suite,Chrome 85.0.4183.121,,,2020-09-27 09:42:03,2020-09-27 09:42:56,52.727s,PASSED
+,,,,,,,
+Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Pagination,Chrome 85.0.4183.121,,,2020-09-27 09:42:03,2020-09-27 09:42:56,52.348s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:03,2020-09-27 09:42:03,0.005s,PASSED
+Start listener action : beforeTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:03,2020-09-27 09:42:03,0.004s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:03,2020-09-27 09:42:24,20.195s,PASSED
+Start listener action : executeRows,Chrome 85.0.4183.121,,,2020-09-27 09:42:24,2020-09-27 09:42:24,0.016s,PASSED
+Start setup action : setupTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:24,2020-09-27 09:42:24,0.190s,PASSED
+"waitForElementPresent(findTestObject(""FDR-VoucherEntry/Voucher/voucherText""), 3)",Chrome 85.0.4183.121,,,2020-09-27 09:42:24,2020-09-27 09:42:28,4.109s,PASSED
+"scrollToPosition(99999, 99999, STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-27 09:42:28,2020-09-27 09:42:28,0.019s,PASSED
+"verifyElementVisible(findTestObject(""FDR-Dashboard/Pagination/rowsPerPage""), STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-27 09:42:28,2020-09-27 09:42:28,0.283s,PASSED
+"verifyElementText(findTestObject(""FDR-Dashboard/Pagination/listBox""), ""10"")",Chrome 85.0.4183.121,,,2020-09-27 09:42:28,2020-09-27 09:42:29,0.289s,PASSED
+"paginationIndicatorText = getText(findTestObject(""FDR-Dashboard/Pagination/paginationIndicator""))",Chrome 85.0.4183.121,,,2020-09-27 09:42:29,2020-09-27 09:42:29,0.273s,PASSED
+"totalVouchers = paginationIndicatorText.split(""of "")[1]",Chrome 85.0.4183.121,,,2020-09-27 09:42:29,2020-09-27 09:42:29,0.002s,PASSED
+"rowsPerPage = getText(findTestObject(""FDR-Dashboard/Pagination/listBox""))",Chrome 85.0.4183.121,,,2020-09-27 09:42:29,2020-09-27 09:42:29,0.257s,PASSED
+"assert validators.validateDashboardPagination(totalVouchers, rowsPerPage) == true",Chrome 85.0.4183.121,,,2020-09-27 09:42:29,2020-09-27 09:42:29,0.251s,PASSED
+"waitForElementPresent(findTestObject(""FDR-VoucherEntry/Voucher/voucherText""), 2)",Chrome 85.0.4183.121,,,2020-09-27 09:42:29,2020-09-27 09:42:33,3.134s,PASSED
+if (totalVouchers > 10),Chrome 85.0.4183.121,,,2020-09-27 09:42:33,2020-09-27 09:42:40,7.159s,PASSED
+"markPassed(""Pagination Validation for 10 rows per page"")",Chrome 85.0.4183.121,,,2020-09-27 09:42:40,2020-09-27 09:42:40,0.001s,PASSED
+"scrollToElement(findTestObject(""FDR-Dashboard/Pagination/listBox""), 3)",Chrome 85.0.4183.121,,,2020-09-27 09:42:40,2020-09-27 09:42:40,0.264s,PASSED
+"click(findTestObject(""FDR-Dashboard/Pagination/listBox""))",Chrome 85.0.4183.121,,,2020-09-27 09:42:40,2020-09-27 09:42:40,0.293s,PASSED
+"waitForElementPresent(findTestObject(""FDR-Dashboard/Pagination/listBox""), 2)",Chrome 85.0.4183.121,,,2020-09-27 09:42:40,2020-09-27 09:42:41,0.469s,PASSED
+"click(findTestObject(""FDR-Dashboard/Pagination/listbox25""), STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-27 09:42:41,2020-09-27 09:42:41,0.356s,PASSED
+"waitForElementPresent(findTestObject(""FDR-VoucherEntry/Voucher/voucherText""), 2)",Chrome 85.0.4183.121,,,2020-09-27 09:42:41,2020-09-27 09:42:44,3.227s,PASSED
+"rowsPerPage = getText(findTestObject(""FDR-Dashboard/Pagination/listBox""))",Chrome 85.0.4183.121,,,2020-09-27 09:42:44,2020-09-27 09:42:45,0.261s,PASSED
+"assert validators.validateDashboardPagination(totalVouchers, rowsPerPage) == true",Chrome 85.0.4183.121,,,2020-09-27 09:42:45,2020-09-27 09:42:45,0.226s,PASSED
+"waitForElementPresent(findTestObject(""FDR-VoucherEntry/Voucher/voucherText""), 2)",Chrome 85.0.4183.121,,,2020-09-27 09:42:45,2020-09-27 09:42:48,3.152s,PASSED
+if (totalVouchers > 25),Chrome 85.0.4183.121,,,2020-09-27 09:42:48,2020-09-27 09:42:55,7.147s,PASSED
+"markPassed(""Pagination Validation for 25 rows per page"")",Chrome 85.0.4183.121,,,2020-09-27 09:42:55,2020-09-27 09:42:55,0.000s,PASSED
+Start tear down : tearDownTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:55,2020-09-27 09:42:55,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:55,2020-09-27 09:42:55,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:55,2020-09-27 09:42:55,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 85.0.4183.121,,,2020-09-27 09:42:55,2020-09-27 09:42:56,0.624s,PASSED
+Start listener action : addFailedTCToList,Chrome 85.0.4183.121,,,2020-09-27 09:42:56,2020-09-27 09:42:56,0.001s,PASSED

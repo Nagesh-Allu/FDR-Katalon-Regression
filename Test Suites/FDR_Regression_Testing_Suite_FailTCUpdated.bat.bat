@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\fdr-automation-develop_08_25_2020\FederalDrawReporting.prj" -retry=0 -testSuitePath="Test Suites/FDR_Regression_Testing_Suite_20200915_155446" -executionProfile="superUser" -browserType="Chrome"

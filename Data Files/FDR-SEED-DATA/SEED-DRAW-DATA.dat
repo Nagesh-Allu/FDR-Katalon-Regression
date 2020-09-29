@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>SEED-DRAW-DATA</description>
+   <name>SEED-DRAW-DATA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f3cf3eab-3f0b-412d-b32d-54cfc58714dc</dataFileGUID>
+   <dataSourceUrl>C:\GitHub\FDR-Katalon-Regression\Data Files\FDR-SEED-DATA\Draws.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Draws</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

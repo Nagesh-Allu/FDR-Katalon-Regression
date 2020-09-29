@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FDR-Validate-Receipt-RA-CR-checkMarked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c4fd7e4-dc75-4b0e-acc0-a864910c3b00</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66c4a493-3f59-4fae-ab3f-93ad9257d18f</id>
+      <masked>false</masked>
+      <name>Drawdate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec3dccba-d501-4c5f-9535-d9c6f0514354</id>
+      <masked>false</masked>
+      <name>Paydate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e28ec03a-24ac-415b-8cb1-70f4a0d388c9</id>
+      <masked>false</masked>
+      <name>Receiptnotes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e556617-fcf3-4bd8-aa0a-27cc81c1686a</id>
+      <masked>false</masked>
+      <name>Remittance</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd8f9ba6-4cc1-486a-8bda-ab3b9e5e5144</id>
+      <masked>false</masked>
+      <name>Controller</name>
+   </variable>
+</TestCaseEntity>
