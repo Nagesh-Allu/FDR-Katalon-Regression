@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>AccountTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0ee3532-c9dc-4363-b180-a0ce92c7aa81</testCaseGuid>
+</TestCaseEntity>

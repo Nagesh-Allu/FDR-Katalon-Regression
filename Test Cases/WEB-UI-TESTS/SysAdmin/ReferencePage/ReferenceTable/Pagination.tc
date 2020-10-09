@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2538</description>
+   <name>Pagination</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d36ad17-7894-4c7d-97f8-4ff13666491f</testCaseGuid>
+</TestCaseEntity>

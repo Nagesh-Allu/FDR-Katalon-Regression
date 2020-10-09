@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>superUser</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fdr.test11@dhcs.ca.gov'</initValue>
+      <name>superUserAccnt</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5OQa7trZ1/X2w=='</initValue>
+      <name>superUserPwd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

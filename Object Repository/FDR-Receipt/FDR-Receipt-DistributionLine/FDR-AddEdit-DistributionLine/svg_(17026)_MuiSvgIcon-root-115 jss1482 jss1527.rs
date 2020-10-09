@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_(17026)_MuiSvgIcon-root-115 jss1482 jss1527</name>
+   <tag></tag>
+   <elementGuidId>9703578f-97a1-4602-b696-2f15bd63013c</elementGuidId>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSvgIcon-root-115 jss1482 jss1527</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>vertical-menu-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;jss70&quot;]/div[@class=&quot;jss138&quot;]/main[@class=&quot;jss1374 jss1375&quot;]/div[@class=&quot;MuiContainer-root-292 MuiContainer-maxWidthLg-298&quot;]/div[@class=&quot;jss1388 jss1389&quot;]/div[@class=&quot;jss1488 jss1489&quot;]/div[@class=&quot;MuiPaper-root-80 MuiExpansionPanel-root-1502 MuiPaper-elevation1-84&quot;]/div[@class=&quot;jss1506 jss1507&quot;]/div[@class=&quot;MuiButtonBase-root-135 MuiExpansionPanelSummary-root-1510 jss1508 jss1509&quot;]/div[@class=&quot;MuiExpansionPanelSummary-content-1514&quot;]/div[@class=&quot;MuiGrid-root-149 jss1466 jss1516 MuiGrid-container-150&quot;]/div[@class=&quot;MuiGrid-root-149 jss1466 jss1525 MuiGrid-item-151 MuiGrid-grid-xs-true-183&quot;]/div[@class=&quot;jss1480 jss1526&quot;]/button[@id=&quot;receiptLineActionMenu1&quot;]/span[@class=&quot;MuiIconButton-label-134&quot;]/svg[@class=&quot;MuiSvgIcon-root-115 jss1482 jss1527&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

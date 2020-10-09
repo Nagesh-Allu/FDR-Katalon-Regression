@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>ProgramTypeTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc3b486b-1f0d-4e11-97ff-5c4714fd5f59</testCaseGuid>
+</TestCaseEntity>

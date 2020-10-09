@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>E2E Regression-Data-TC8</description>
+   <name>E2E Regression-Data-TC8</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e7640734-8756-48a4-9ca7-b69c0a14a39a</dataFileGUID>
+   <dataSourceUrl>Data Files/FDR_E2E-REGRESSION-TESTS-DATA/E2E-Regression-Data-TC8.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Global Variables</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

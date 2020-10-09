@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2569</description>
+   <name>FDR-SystemAdmin-Populate-Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7726ba1d-5db2-45be-bf96-e3a1ae9a0729</testCaseGuid>
+</TestCaseEntity>

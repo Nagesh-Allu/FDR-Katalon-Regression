@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FDR-Create-Receipt-Header</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0691500d-e1c2-4a2b-9f2f-72053fe72079</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b4bb3d9-f1e5-4139-ac1d-35fcfc9f8290</id>
+      <masked>false</masked>
+      <name>Drawdate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cdf9062f-7a55-4d3f-a548-e88f6e7cd304</id>
+      <masked>false</masked>
+      <name>Paydate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ae6e4d4-9e52-4971-9bd6-e6c3e899a3af</id>
+      <masked>false</masked>
+      <name>Depositid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>984da693-6baf-4d10-80ad-8506e3272647</id>
+      <masked>false</masked>
+      <name>Receiptnotes</name>
+   </variable>
+</TestCaseEntity>

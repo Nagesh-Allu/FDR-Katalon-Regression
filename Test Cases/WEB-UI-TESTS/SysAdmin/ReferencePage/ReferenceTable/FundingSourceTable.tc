@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>FundingSourceTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19bbe2b6-6771-4d18-8a61-a5300b6451f6</testCaseGuid>
+</TestCaseEntity>

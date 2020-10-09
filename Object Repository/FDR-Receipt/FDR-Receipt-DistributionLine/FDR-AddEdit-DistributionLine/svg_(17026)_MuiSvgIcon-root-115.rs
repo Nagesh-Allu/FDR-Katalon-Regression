@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_(17026)_MuiSvgIcon-root-115</name>
+   <tag></tag>
+   <elementGuidId>0e3b6aba-bf22-4cb6-9db8-bbf48bca3b40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;wrapper&quot;)/div[@class=&quot;jss70&quot;]/div[@class=&quot;jss138&quot;]/main[@class=&quot;jss1374 jss1375&quot;]/div[@class=&quot;MuiContainer-root-292 MuiContainer-maxWidthLg-298&quot;]/div[@class=&quot;jss1388 jss1389&quot;]/div[@class=&quot;jss1488 jss1489&quot;]/div[@class=&quot;MuiPaper-root-80 MuiExpansionPanel-root-1502 MuiPaper-elevation1-84&quot;]/div[@class=&quot;jss1506 jss1507&quot;]/div[@class=&quot;MuiButtonBase-root-135 MuiExpansionPanelSummary-root-1510 jss1508 jss1509&quot;]/div[@class=&quot;MuiButtonBase-root-135 MuiIconButton-root-126 MuiExpansionPanelSummary-expandIcon-1515 MuiIconButton-edgeEnd-128&quot;]/span[@class=&quot;MuiIconButton-label-134&quot;]/svg[@class=&quot;MuiSvgIcon-root-115&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSvgIcon-root-115</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;jss70&quot;]/div[@class=&quot;jss138&quot;]/main[@class=&quot;jss1374 jss1375&quot;]/div[@class=&quot;MuiContainer-root-292 MuiContainer-maxWidthLg-298&quot;]/div[@class=&quot;jss1388 jss1389&quot;]/div[@class=&quot;jss1488 jss1489&quot;]/div[@class=&quot;MuiPaper-root-80 MuiExpansionPanel-root-1502 MuiPaper-elevation1-84&quot;]/div[@class=&quot;jss1506 jss1507&quot;]/div[@class=&quot;MuiButtonBase-root-135 MuiExpansionPanelSummary-root-1510 jss1508 jss1509&quot;]/div[@class=&quot;MuiButtonBase-root-135 MuiIconButton-root-126 MuiExpansionPanelSummary-expandIcon-1515 MuiIconButton-edgeEnd-128&quot;]/span[@class=&quot;MuiIconButton-label-134&quot;]/svg[@class=&quot;MuiSvgIcon-root-115&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
