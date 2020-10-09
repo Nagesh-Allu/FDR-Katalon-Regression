@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\fdr-automation-develop_08_25_2020\FederalDrawReporting.prj" -retry=0 -testSuitePath="Test Suites/Receipt-Regression-Suite_20200827_144102" -executionProfile="Receipt" -browserType="Chrome"

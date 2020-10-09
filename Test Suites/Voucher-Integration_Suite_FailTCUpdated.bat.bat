@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\GitHub\FDR-Katalon-Regression\FDR-Katalon-Regression.prj" -retry=0 -testSuitePath="Test Suites/Voucher-Integration_Suite_20200921_162031" -executionProfile="Voucher" -browserType="Chrome"

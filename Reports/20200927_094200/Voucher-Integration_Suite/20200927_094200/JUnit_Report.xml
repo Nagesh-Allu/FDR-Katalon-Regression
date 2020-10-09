@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Voucher-Integration_Suite" time="52" tests="1" failures="0" errors="0">
+    <testsuite name="Voucher-Integration_Suite" tests="1" failures="0" errors="0" time="52" timestamp="2020-09-27 09:42:03" hostname="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net" id="Test Suites/Voucher-Integration_Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\GitHub\\FDR-Katalon-Regression\\Reports\\20200927_094200\\Voucher-Integration_Suite\\20200927_094200"/>
+            <property name="logFiles" value="C:\\GitHub\\FDR-Katalon-Regression\\Reports\\20200927_094200\\Voucher-Integration_Suite\\20200927_094200\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="nagesh.allu - DESKTOP-9VU7G8T.attlocal.net"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="7.6.6.205"/>
+            <property name="browser" value="Chrome 85.0.4183.121"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="sessionId" value="c442b310f34738d6dd63f2b654f438f3"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Pagination" classname="Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Pagination" status="PASSED">
+            <system-out>2020-09-27 09:42:03 - [TEST_CASE][PASSED] - Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Pagination: Test Cases/WEB-UI-TESTS/Voucher/FDR-Validate-Pagination&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - switch (profileName): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - case "superUser":: null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - return null: null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - switch (profileName): null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - case "Voucher":: null&#xD;
+&#xD;
+2020-09-27 09:42:03 - [TEST_STEP][PASSED] - Uifunctions.loginFDR(accountsApproverAcc2, accountsApproverAcc2Pwd): Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:04 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2020-09-27 09:42:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds&#xD;
+&#xD;
+2020-09-27 09:42:08 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2020-09-27 09:42:10 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2020-09-27 09:42:13 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully&#xD;
+&#xD;
+2020-09-27 09:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present&#xD;
+&#xD;
+2020-09-27 09:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmail' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:15 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmail' is present&#xD;
+&#xD;
+2020-09-27 09:42:15 - [MESSAGE][PASSED] - Text 'fdr.test2@dhcs.ca.gov' is set on object 'Object Repository/FDR-SignIn/SignInEmail'&#xD;
+&#xD;
+2020-09-27 09:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailNext' is visible&#xD;
+&#xD;
+2020-09-27 09:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailNext' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:19 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-SignIn/SignInEmailPassword' is visible&#xD;
+&#xD;
+2020-09-27 09:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInEmailPassword' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FDR-SignIn/SignInEmailPassword'&#xD;
+&#xD;
+2020-09-27 09:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-SignIn/SignInButton' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:23 - [TEST_STEP][PASSED] - break: null&#xD;
+&#xD;
+2020-09-27 09:42:23 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully&#xD;
+&#xD;
+2020-09-27 09:42:24 - [MESSAGE][PASSED] - Navigate to 'https://fdr-katalon.cammis-mod-dev.dhcs.ca.gov' successfully&#xD;
+&#xD;
+2020-09-27 09:42:24 - [TEST_STEP][PASSED] - Start listener action : executeRows: null&#xD;
+&#xD;
+2020-09-27 09:42:24 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully&#xD;
+&#xD;
+2020-09-27 09:42:24 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully&#xD;
+&#xD;
+2020-09-27 09:42:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 3): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 3 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:28 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 3 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:28 - [TEST_STEP][PASSED] - scrollToPosition(99999, 99999, STOP_ON_FAILURE): Browser is scrolled to position x = 99999, y = 99999&#xD;
+&#xD;
+2020-09-27 09:42:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 99999, y = 99999&#xD;
+&#xD;
+2020-09-27 09:42:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FDR-Dashboard/Pagination/rowsPerPage"), STOP_ON_FAILURE): Object 'Object Repository/FDR-Dashboard/Pagination/rowsPerPage' is visible&#xD;
+&#xD;
+2020-09-27 09:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Dashboard/Pagination/rowsPerPage' is visible&#xD;
+&#xD;
+2020-09-27 09:42:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FDR-Dashboard/Pagination/listBox"), "10"): Actual text and expected text of test object 'Object Repository/FDR-Dashboard/Pagination/listBox' are matched.&#xD;
+&#xD;
+2020-09-27 09:42:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FDR-Dashboard/Pagination/listBox' are matched.&#xD;
+&#xD;
+2020-09-27 09:42:29 - [TEST_STEP][PASSED] - paginationIndicatorText = getText(findTestObject("FDR-Dashboard/Pagination/paginationIndicator")): Text of object 'Object Repository/FDR-Dashboard/Pagination/paginationIndicator' is: '1-10 of 156'&#xD;
+&#xD;
+2020-09-27 09:42:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Dashboard/Pagination/paginationIndicator' is: '1-10 of 156'&#xD;
+&#xD;
+2020-09-27 09:42:29 - [TEST_STEP][PASSED] - totalVouchers = paginationIndicatorText.split("of ")[1]: null&#xD;
+&#xD;
+2020-09-27 09:42:29 - [TEST_STEP][PASSED] - rowsPerPage = getText(findTestObject("FDR-Dashboard/Pagination/listBox")): Text of object 'Object Repository/FDR-Dashboard/Pagination/listBox' is: '10'&#xD;
+&#xD;
+2020-09-27 09:42:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Dashboard/Pagination/listBox' is: '10'&#xD;
+&#xD;
+2020-09-27 09:42:29 - [TEST_STEP][PASSED] - assert validators.validateDashboardPagination(totalVouchers, rowsPerPage) == true: null&#xD;
+&#xD;
+2020-09-27 09:42:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:33 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:33 - [TEST_STEP][PASSED] - if (totalVouchers &gt; 10): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:33 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Dashboard/Pagination/paginationRight")): Object: 'Object Repository/FDR-Dashboard/Pagination/paginationRight' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/Pagination/paginationRight' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:36 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:36 - [TEST_STEP][PASSED] - assert validators.validateDashboardPagination(totalVouchers - 10, rowsPerPage) == true: null&#xD;
+&#xD;
+2020-09-27 09:42:36 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Dashboard/Pagination/paginationLeft")): Object: 'Object Repository/FDR-Dashboard/Pagination/paginationLeft' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/Pagination/paginationLeft' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:40 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:40 - [TEST_STEP][PASSED] - markPassed("Pagination Validation for 10 rows per page"): Pagination Validation for 10 rows per page&#xD;
+&#xD;
+2020-09-27 09:42:40 - [MESSAGE][PASSED] - Pagination Validation for 10 rows per page&#xD;
+&#xD;
+2020-09-27 09:42:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("FDR-Dashboard/Pagination/listBox"), 3): Scroll to object 'Object Repository/FDR-Dashboard/Pagination/listBox' successfully&#xD;
+&#xD;
+2020-09-27 09:42:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FDR-Dashboard/Pagination/listBox' successfully&#xD;
+&#xD;
+2020-09-27 09:42:40 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Dashboard/Pagination/listBox")): Object: 'Object Repository/FDR-Dashboard/Pagination/listBox' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/Pagination/listBox' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-Dashboard/Pagination/listBox"), 2): Object 'Object Repository/FDR-Dashboard/Pagination/listBox' is present&#xD;
+&#xD;
+2020-09-27 09:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/FDR-Dashboard/Pagination/listBox' is present&#xD;
+&#xD;
+2020-09-27 09:42:41 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Dashboard/Pagination/listbox25"), STOP_ON_FAILURE): Object: 'Object Repository/FDR-Dashboard/Pagination/listbox25' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/Pagination/listbox25' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:44 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:44 - [TEST_STEP][PASSED] - rowsPerPage = getText(findTestObject("FDR-Dashboard/Pagination/listBox")): Text of object 'Object Repository/FDR-Dashboard/Pagination/listBox' is: '25'&#xD;
+&#xD;
+2020-09-27 09:42:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/FDR-Dashboard/Pagination/listBox' is: '25'&#xD;
+&#xD;
+2020-09-27 09:42:45 - [TEST_STEP][PASSED] - assert validators.validateDashboardPagination(totalVouchers, rowsPerPage) == true: null&#xD;
+&#xD;
+2020-09-27 09:42:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:48 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:48 - [TEST_STEP][PASSED] - if (totalVouchers &gt; 25): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:48 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Dashboard/Pagination/paginationRight")): Object: 'Object Repository/FDR-Dashboard/Pagination/paginationRight' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/Pagination/paginationRight' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:52 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:52 - [TEST_STEP][PASSED] - assert validators.validateDashboardPagination(totalVouchers - 25, rowsPerPage) == true: null&#xD;
+&#xD;
+2020-09-27 09:42:52 - [TEST_STEP][PASSED] - click(findTestObject("FDR-Dashboard/Pagination/paginationLeft")): Object: 'Object Repository/FDR-Dashboard/Pagination/paginationLeft' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FDR-Dashboard/Pagination/paginationLeft' is clicked on&#xD;
+&#xD;
+2020-09-27 09:42:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("FDR-VoucherEntry/Voucher/voucherText"), 2): Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='New Voucher']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-09-27 09:42:55 - [MESSAGE][WARNING] - Object 'Object Repository/FDR-VoucherEntry/Voucher/voucherText' is not present after 2 second(s)&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - markPassed("Pagination Validation for 25 rows per page"): Pagination Validation for 25 rows per page&#xD;
+&#xD;
+2020-09-27 09:42:55 - [MESSAGE][PASSED] - Pagination Validation for 25 rows per page&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully&#xD;
+&#xD;
+2020-09-27 09:42:55 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - switch (profileName): null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - case "superUser":: null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - return null: null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - if (profileName.equalsIgnoreCase("SysAdmin")): null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - profileName = getExecutionProfile(): null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - switch (profileName): null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - case "Voucher":: null&#xD;
+&#xD;
+2020-09-27 09:42:55 - [TEST_STEP][PASSED] - Uifunctions.logoutFDR(): Browser is closed&#xD;
+&#xD;
+2020-09-27 09:42:56 - [MESSAGE][PASSED] - Browser is closed&#xD;
+&#xD;
+2020-09-27 09:42:56 - [TEST_STEP][PASSED] - break: null&#xD;
+&#xD;
+2020-09-27 09:42:56 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-09-27 09:42:03 - [TEST_SUITE][INCOMPLETE] - Voucher-Integration_Suite: null</system-out>
+        <system-err>2020-09-27 09:42:03 - [TEST_SUITE][INCOMPLETE] - Voucher-Integration_Suite: null</system-err>
+    </testsuite>
+</testsuites>

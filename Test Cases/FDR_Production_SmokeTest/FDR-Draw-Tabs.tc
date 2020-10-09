@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to Draw Page
+
+Pre Condition : Should have valid Reconcillation Data in Upcoming and Completed Tabs before run &amp; validate this test case.</description>
+   <name>FDR-Draw-Tabs</name>
+   <tag>Draw Functionality</tag>
+   <comment></comment>
+   <testCaseGuid>9dc99a55-6eeb-4d48-9cc1-325b41e9e393</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FDR_Add_Voucher_Invoice_Distribution_Line</description>
+   <name>FDR-Voucher_Add_Invoice_DistributionLine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9d8c552-34b7-489d-b729-e97d7cb827fe</testCaseGuid>
+</TestCaseEntity>

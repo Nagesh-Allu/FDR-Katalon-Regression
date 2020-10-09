@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>FDR-DL</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3aa29b63-c3b4-44ba-b6ca-3ce8e1036897</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>08%2F04%2F2020 08%2F05%2F2020 100 1115 CBAS Dental 90%2F10 0001 5442000 5442000 18B1 8%3A+Adjustments+and+corrections 1155</data>
+   <data>08%2F04%2F2020 08%2F05%2F2020 350 1115 CBAS Pace 90%2F10 0001 5432000 5432000 22 10b%3A+Receipts+or+any+decrease 1155</data>
+   <data>08%2F04%2F2020 08%2F05%2F2020 500 2020 Non-Waiver Dental 56%2F44 0001 5442000 5442000 18B1 10b%3A+Receipts+or+any+decrease 1155</data>
+   <data>08%2F04%2F2020 08%2F05%2F2020 10.31 ACA Non-Waiver Family+Planning+ 56%2F44 0001 5432000 5432000 18B1 10b%3A+Receipts+or+any+decrease 1155</data>
+   <data>08%2F04%2F2020 08%2F05%2F2020 -12.35 No+Waiver Non-Waiver HQAF 90%2F10 3158 5442000 5442000 1A 10b%3A+Receipts+or+any+decrease 1155</data>
+   <data>08%2F04%2F2020 08%2F05%2F2020 -150 No+Waiver Non-Waiver Family+Planning+ 90%2F10 0001 5432000 5432000 22 7%3A+New+%28service+period+is+prior+quarter+and+never+been+claimed%29 1155</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>serviceDateFrom</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>serviceDateTo</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>amount</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>waiverType</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>waiverName</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>fundSource</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>fundRatio</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>nonFederal</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>account</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>altAccount</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>serviceCategory</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>incDecLine</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>12</columnIndex>
+      <name>index</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

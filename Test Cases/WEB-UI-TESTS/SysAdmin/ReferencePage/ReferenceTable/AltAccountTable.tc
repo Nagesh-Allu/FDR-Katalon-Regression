@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://ca-mmisds.atlassian.net/browse/FDR-2534</description>
+   <name>AltAccountTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec2c30b7-cba6-457b-8c89-5127eed190cc</testCaseGuid>
+</TestCaseEntity>

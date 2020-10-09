@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_300000</name>
+   <tag></tag>
+   <elementGuidId>514942d8-ec1f-40d6-9de6-f98327137131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wrapper']/div/div/main/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div[8]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root-261 MuiTypography-colorInherit-283</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>amount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$3,000.00</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;jss70&quot;]/div[@class=&quot;jss138&quot;]/main[@class=&quot;jss2494 jss2495&quot;]/div[@class=&quot;MuiContainer-root-292 MuiContainer-maxWidthLg-298&quot;]/div[@class=&quot;jss2508 jss2509&quot;]/div[@class=&quot;jss2608 jss2609&quot;]/div[@class=&quot;MuiPaper-root-80 MuiExpansionPanel-root-2622 Mui-expanded MuiPaper-elevation1-84&quot;]/div[@class=&quot;MuiCollapse-container-2485 MuiCollapse-entered-2486&quot;]/div[@class=&quot;MuiCollapse-wrapper-2488&quot;]/div[@class=&quot;MuiCollapse-wrapperInner-2489&quot;]/div[1]/div[@class=&quot;MuiExpansionPanelDetails-root-2650 jss2648 jss2649&quot;]/div[@class=&quot;jss2653 jss2669&quot;]/div[@class=&quot;jss2670 jss2671&quot;]/div[@class=&quot;MuiGrid-root-149 jss2586 jss2672 MuiGrid-container-150&quot;]/div[@class=&quot;MuiGrid-root-149 jss2586 jss2675 MuiGrid-item-151 MuiGrid-grid-xs-true-183&quot;]/div[@class=&quot;jss2676 jss2677&quot;]/div[@class=&quot;jss2678 jss2679&quot;]/div[@class=&quot;MuiGrid-root-149 jss2586 jss2680 MuiGrid-container-150 MuiGrid-align-items-xs-center-158&quot;]/div[@class=&quot;MuiGrid-root-149 jss2586 jss2688 MuiGrid-item-151&quot;]/span[@class=&quot;MuiTypography-root-261 MuiTypography-colorInherit-283&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/main/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div[8]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,500.00'])[2]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,500.00'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,500.00'])[3]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,500.00'])[4]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/span</value>
+   </webElementXpaths>
+</WebElementEntity>
