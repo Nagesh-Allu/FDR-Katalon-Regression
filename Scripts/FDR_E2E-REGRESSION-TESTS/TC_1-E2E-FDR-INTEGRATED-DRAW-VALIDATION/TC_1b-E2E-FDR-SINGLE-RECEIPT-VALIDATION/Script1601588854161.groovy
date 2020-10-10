@@ -1,9 +1,10 @@
 /* Project Name : FDR
- * Test Scenario : END_END_TC_1b_Creating a Single Receipt Creation workflow.
+ * Test Scenario : END_END_TC_1b_Creating a Single Receipt workflow process.
  * 	List of Receipt Functions are used :
  * 	  --> createReceipt,createReceiptline,createReceiptMultipleDistributionLine
-
- * Revision Date:10/08/2020
+ *  Data sheet : Data Files/Regression-Voucher/E2E Regression-Single_Receipt_Data
+ *
+ *Revision Date:10/08/2020
  * 	1) New Pickup Draw Date Logic updated.
  *  2) Updated datasheet for few Receipts
  */
