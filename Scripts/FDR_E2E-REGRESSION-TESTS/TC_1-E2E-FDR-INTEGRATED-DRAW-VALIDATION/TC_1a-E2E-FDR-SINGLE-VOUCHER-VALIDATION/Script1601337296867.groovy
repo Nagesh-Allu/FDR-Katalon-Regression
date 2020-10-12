@@ -1,5 +1,5 @@
 /* Project Name : FDR
- * Test Scenario : END_END_TC_1a: Creating a Single Voucher creation workflow.
+ * Test Scenario : END_END_TC_1a: Creating a Single Voucher  workflow.
  * 	List of Voucher Functions are used :
  * 	  --> createVoucherHeader
  * 	 --> createInvoiceLinesAndDistributionLines

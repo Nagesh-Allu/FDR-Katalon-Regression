@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>FDR_E2E-REGRESSION-TESTS</description>
-   <name>FDR_E2E-REGRESSION-TESTS_20201008_143052</name>
+   <name>FDR_E2E-REGRESSION-TESTS_20201010_112543</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>47f65609-4151-44ad-b3b6-a6d557b05180</testSuiteGuid>
+   <testSuiteGuid>22ec7d3f-ed09-498b-8c61-ed1c48659921</testSuiteGuid>
    
 <testCaseLink>
-      <guid>1a1948c3-81ba-4770-b3ee-75ae9e07b6b5</guid>
+      <guid>cf958651-ff81-441c-a1b3-041dbf618473</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FDR_E2E-REGRESSION-TESTS/TC_8-FDR-E2E-CREATE_VALIDATE_MULTIPLE_VOUCHERS</testCaseId>
+      <testCaseId>Test Cases/FDR_E2E-REGRESSION-TESTS/TC_5-FDR_E2E-INTEGRATED-REFERENCE-DATA-VOUCHER-FLOW</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

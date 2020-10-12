@@ -42,4 +42,20 @@ public class drawFunctions {
 		WebUI.waitForElementPresent(findTestObject('FDR-Draw/reconcileButton'),1)
 		WebUI.click(findTestObject('FDR-Draw/SCOBalances/saveFundBalanceButton'))
 	}
+	public static TestObject ClickReconcillationExpandButton(DrawDate) {
+		def inputTextXpath = "//*[contains(@class,'MuiExpansionPanelSummary-root') and @aria-expanded='false']//p[text()='"+DrawDate+"']//parent::*//parent::*/following-sibling::*//button"
+		TestObject updateFundBalanceInput = new TestObject("ReconcillationExpandButton")
+		updateFundBalanceInput.addProperty("xpath", ConditionType.EQUALS, inputTextXpath)
+		return updateFundBalanceInput
+	}
+	
+/*Reconcillation Button-->	//*[text()='10/28/2020']//ancestor::*[@role="button"]/following-sibling::div//*[@role='button']
+	
+	public static TestObject ClickReconcillationButton(index) {
+		def inputTextXpath = "//*[text()'"+DrawDate+"']//ancestor::*[@role="button"]/following-sibling::div//*[@role='button']"
+		TestObject ReconcillationClickButton = new TestObject("ReconcillationClickButton")
+		ReconcillationClickButton.addProperty("xpath", ConditionType.EQUALS, inputTextXpath)
+		return index
+		*/
+
 }

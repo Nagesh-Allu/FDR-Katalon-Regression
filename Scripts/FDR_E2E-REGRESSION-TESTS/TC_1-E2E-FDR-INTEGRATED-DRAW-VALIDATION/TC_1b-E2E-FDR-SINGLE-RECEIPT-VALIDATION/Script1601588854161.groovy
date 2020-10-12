@@ -37,27 +37,22 @@ CF.selectRole('cashieringProcessorRole')
 
 TestData exceldata = findTestData('Data Files/Regression-Voucher/E2E Regression-Single_Receipt_Data')
 exceldata.changeSheet("Receipt1")
+
 String drawdate =null
 String paydate =null
 
-//String drawdate = exceldata.getValue("Draw Date", 1)
-//String paydate = exceldata.getValue("Pay Date", 1)
-//String depositId = exceldata.getValue("Deposit ID", 1)
 String depositId =  org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
-
+String remittanceAdvice =  org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
+String controllerReceipt =  org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 String receiptNotes = exceldata.getValue("Receipt Notes", 1)
-String remittanceAdvice = exceldata.getValue("Remittance Advise #", 1)
-String controllerReceipt = exceldata.getValue("Controller Receipt #", 1)
 String receiptId = exceldata.getValue("Receipt ID", 1)
 String supplierId = exceldata.getValue("Supplier ID", 1)
 String depositDate = exceldata.getValue("Deposit Date", 1)
 
-int numOfRows = 2
+def numOfRows = exceldata.getRowNumbers()
+println("numOfRows"+numOfRows)
 	
 editors.createReceipt(drawdate, paydate, depositId, receiptNotes, remittanceAdvice, controllerReceipt)
-	
-/*String drawdate=findTestObject('Object Repository/FDR-VoucherEntry/VoucherHeader/drawDate')
-String paydate=findTestObject('Object Repository/FDR-VoucherEntry/VoucherHeader/payDate')*/
 
 editors.createReceiptline(receiptId, supplierId, depositDate)
 	
